@@ -1,8 +1,10 @@
 acct-group/locate
+app-accessibility/at-spi2-atk
 app-admin/entr
 app-admin/stow
 app-admin/sudo
 app-admin/sysklogd
+app-arch/lz4
 app-backup/grub-btrfs
 app-dicts/aspell-en
 app-editors/neovim
@@ -11,9 +13,12 @@ app-eselect/eselect-repository
 app-misc/abook
 app-misc/lf
 app-misc/neofetch
+app-misc/resolve-march-native
+app-office/calcurse
 app-office/gnucash
 app-office/libreoffice-bin
 app-office/sc-im
+app-portage/cpuid2cpuflags
 app-portage/eix
 app-portage/genlop
 app-portage/gentoolkit
@@ -41,8 +46,16 @@ dev-vcs/git
 kde-apps/okular
 lxde-base/lxappearance
 mail-client/mutt-wizard
+media-fonts/artwiz-aleczapka-en
+media-fonts/dejavu
+media-fonts/font-bh-ttf
+media-fonts/font-bh-type1
+media-fonts/freefonts
 media-fonts/joypixels
+media-fonts/libertine
 media-fonts/noto-emoji
+media-fonts/ttf-bitstream-vera
+media-fonts/unifont
 media-gfx/gimp
 media-gfx/imagemagick
 media-gfx/inkscape
@@ -58,7 +71,6 @@ media-sound/pulsemixer
 media-tv/v4l-utils
 media-video/ffmpeg
 media-video/mpv
-media-video/pipewire
 media-video/v4l2loopback
 net-analyzer/mtr
 net-dns/bind-tools
@@ -73,7 +85,9 @@ net-p2p/syncthing
 sys-apps/bat
 sys-apps/exa
 sys-apps/fd
+sys-apps/lm-sensors
 sys-apps/makedev
+sys-apps/mlocate
 sys-apps/moreutils
 sys-apps/pciutils
 sys-apps/ripgrep
@@ -83,7 +97,9 @@ sys-auth/pam-gnupg
 sys-boot/grub
 sys-devel/gcc
 sys-devel/gcc:11
+sys-firmware/intel-microcode
 sys-fs/dosfstools
+sys-fs/fuse:0
 sys-fs/ncdu
 sys-fs/udev
 sys-kernel/gentoo-sources
@@ -120,4 +136,5 @@ x11-misc/xkeycaps
 x11-misc/xsel
 x11-misc/xwallpaper
 x11-terms/alacritty
+x11-terms/kitty
 x11-themes/papirus-icon-theme

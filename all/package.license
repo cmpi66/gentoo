@@ -14,3 +14,10 @@ app-office/upwork ODESK
 # required by media-fonts/joypixels (argument)
 =media-fonts/joypixels-6.5.0-r1 JoyPixels
 
+# required by media-fonts/corefonts (argument)
+>=media-fonts/corefonts-1-r7 MSttfEULA
+# required by media-fonts/freefonts (argument)
+>=media-fonts/freefonts-0.10-r4 all-rights-reserved free-noncomm freedist
+# required by sys-firmware/intel-microcode (argument)
+>=sys-firmware/intel-microcode-20220510_p20220508 intel-ucode
+

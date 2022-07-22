@@ -98,3 +98,4 @@ media-sound/mpd pulseaudio
 # required by media-tv/v4l-utils (argument)
 >=media-libs/libv4l-1.22.1 jpeg qt5 opengl
 media-video/ffmpeg libv4l v4l nvenc pulseaudio
+dev-lang/R png 
