@@ -21,3 +21,6 @@ app-office/upwork ODESK
 # required by sys-firmware/intel-microcode (argument)
 >=sys-firmware/intel-microcode-20220510_p20220508 intel-ucode
 
+# required by games-emulation/desmume-0.9.13::gentoo
+# required by games-emulation/desmume (argument)
+>=x11-libs/agg-2.5-r3 free-noncomm

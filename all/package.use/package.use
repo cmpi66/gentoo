@@ -99,3 +99,21 @@ media-sound/mpd pulseaudio
 >=media-libs/libv4l-1.22.1 jpeg qt5 opengl
 media-video/ffmpeg libv4l v4l nvenc pulseaudio
 dev-lang/R png 
+
+# required by x11-misc/picom-jonaburg (argument)
+=x11-misc/picom-jonaburg-9999 opengl
+
+# package.use# required by games-emulation/desmume-0.9.13::gentoo
+# required by games-emulation/desmume (argument)
+>=media-libs/libsdl2-2.0.20-r1 opengl
+
+# required by net-misc/gns3-gui-2.2.33.1::gentoo
+# required by net-misc/gns3-gui (argument)
+>=dev-python/PyQt5-5.15.6 widgets websockets gui svg network
+# required by dev-python/aiohttp-3.8.1-r1::gentoo
+# required by dev-python/aiohttp-cors-0.7.0-r2::gentoo
+# required by net-misc/gns3-server-2.2.33.1-r2::gentoo
+# required by net-misc/gns3-gui-2.2.33.1::gentoo
+# required by net-misc/gns3-gui (argument)
+>=app-arch/brotli-1.0.9-r3 python
+
