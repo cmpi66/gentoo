@@ -81,3 +81,22 @@ media-sound/mpd ~amd64
 =dev-util/lazygit-0.34 ~amd64
 # required by app-text/pandoc-bin (argument)
 =app-text/pandoc-bin-2.19.2 ~amd64
+# required by app-shells/zoxide (argument)
+=app-shells/zoxide-0.8.3 ~amd64
+# required by media-fonts/iosevka (argument)
+=media-fonts/iosevka-15.0.1 ~amd64
+
+# Neovim 0.8
+=app-editors/neovim-0.8.0-r1
+# required by app-editors/neovim-0.8.0-r1::gentoo
+# required by @selected
+# required by @world (argument)
+=dev-lua/luv-1.44.2.0 ~amd64
+# required by app-editors/neovim-0.8.0-r1::gentoo
+# required by @selected
+# required by @world (argument)
+=dev-libs/libvterm-0.3 ~amd64
+
+# required by dev-util/rustup (argument)
+=dev-util/rustup-1.25.1-r1 ~amd64
+

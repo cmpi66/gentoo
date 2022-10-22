@@ -117,3 +117,35 @@ dev-lang/R png
 # required by net-misc/gns3-gui (argument)
 >=app-arch/brotli-1.0.9-r3 python
 
+
+app-emulation/qemu usbredir spice
+
+
+
+# required by app-text/calibre-5.43.0::gentoo[python_single_target_python3_10]
+# required by calibre (argument)
+>=app-accessibility/speech-dispatcher-0.11.1 python
+# required by dev-python/PyQtWebEngine-5.15.5::gentoo
+# required by app-text/calibre-5.43.0::gentoo[python_single_target_python3_10]
+# required by calibre (argument)
+>=dev-python/PyQt5-5.15.6 printsupport webchannel
+# required by dev-python/PyQtWebEngine-5.15.5::gentoo
+# required by app-text/calibre-5.43.0::gentoo[python_single_target_python3_10]
+# required by calibre (argument)
+>=dev-qt/qtwebengine-5.15.5_p20220618 widgets
+# required by dev-qt/qtwebengine-5.15.5_p20220618::gentoo
+# required by dev-python/PyQtWebEngine-5.15.5::gentoo
+# required by app-text/calibre-5.43.0::gentoo[python_single_target_python3_10]
+# required by calibre (argument)
+>=dev-libs/libxml2-2.9.14-r1 icu
+# required by dev-qt/qtwebengine-5.15.5_p20220618::gentoo
+# required by dev-python/PyQtWebEngine-5.15.5::gentoo
+# required by app-text/calibre-5.43.0::gentoo[python_single_target_python3_10]
+# required by calibre (argument)
+>=dev-qt/qtwebchannel-5.15.5 qml
+
+app-admin/keepassxc browser
+
+media-gfx/imagemagick jpeg svg xml
+
+dev-lang/rust clippy rust-src rustfmt 
