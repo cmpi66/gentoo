@@ -100,3 +100,6 @@ media-sound/mpd ~amd64
 # required by dev-util/rustup (argument)
 =dev-util/rustup-1.25.1-r1 ~amd64
 
+# required by app-misc/glow (argument)
+=app-misc/glow-1.4.1 ~amd64
+

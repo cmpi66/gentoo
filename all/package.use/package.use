@@ -149,3 +149,5 @@ app-admin/keepassxc browser
 media-gfx/imagemagick jpeg svg xml
 
 dev-lang/rust clippy rust-src rustfmt 
+dev-lang/python tk
+

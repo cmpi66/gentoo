@@ -17,6 +17,8 @@ app-emulation/qemu
 app-emulation/virtualbox
 app-eselect/eselect-repository
 app-misc/abook
+app-misc/glow
+app-misc/jq
 app-misc/lf
 app-misc/neofetch
 app-misc/resolve-march-native
@@ -43,6 +45,7 @@ app-text/sdcv
 app-text/texlive
 app-text/zathura-pdf-mupdf
 dev-lang/R
+dev-lang/python
 dev-lang/rust
 dev-lang/tk
 dev-python/flake8
