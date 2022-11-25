@@ -24,3 +24,5 @@ app-office/upwork ODESK
 # required by games-emulation/desmume-0.9.13::gentoo
 # required by games-emulation/desmume (argument)
 >=x11-libs/agg-2.5-r3 free-noncomm
+
+sys-apps/man-pages-posix freedist

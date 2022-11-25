@@ -103,3 +103,30 @@ media-sound/mpd ~amd64
 # required by app-misc/glow (argument)
 =app-misc/glow-1.4.1 ~amd64
 
+# required by app-shells/fzf-fish (argument)
+=app-shells/fzf-fish-9.0 ~amd64
+# required by app-shells/fzf-fish-9.0::guru
+# required by app-shells/fzf-fish (argument)
+=sys-apps/fd-8.4.0 ~amd64
+
+# required by app-text/tldr (argument)
+=app-text/tldr-2.0.0-r1 ~amd64
+
+# required by www-misc/buku (argument)
+=www-misc/buku-4.7-r1 ~amd64
+
+# required by librewolf (argument)
+=www-client/librewolf-106.0.1_p1 ~amd64
+# required by app-text/poppler-22.09.0::gentoo[nss]
+# required by app-text/calibre-5.43.0::gentoo
+# required by @selected
+# required by @world (argument)
+=dev-libs/nss-3.84-r1 ~amd64
+
+
+# required by hugo (argument)
+=www-apps/hugo-0.104.3 ~amd64
+
+# required by www-client/librewolf (argument)
+=www-client/librewolf-107.0_p1 ~amd64
+

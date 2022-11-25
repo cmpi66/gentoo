@@ -149,5 +149,19 @@ app-admin/keepassxc browser
 media-gfx/imagemagick jpeg svg xml
 
 dev-lang/rust clippy rust-src rustfmt 
-dev-lang/python tk
+dev-lang/python tk  
+
+www-client/ungoogled-chromium pulseaudio
+# required by www-client/ungoogled-chromium-107.0.5304.87_p1::pf4public
+# required by www-client/ungoogled-chromium (argument)
+>=net-libs/nodejs-18.9.1 inspector
+
+www-client/librewolf pulseaudio
+# required by www-client/librewolf-106.0.1_p1::librewolf[system-libvpx]
+# required by librewolf (argument)
+>=media-libs/libvpx-1.12.0 postproc
+
+net-firewall/iptables netlink
+
+net-misc/remmina rdp
 
