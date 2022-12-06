@@ -130,3 +130,9 @@ media-sound/mpd ~amd64
 # required by www-client/librewolf (argument)
 =www-client/librewolf-107.0_p1 ~amd64
 
+
+# required by anki (argument)
+=app-misc/anki-2.1.15-r1 ~amd64
+
+# required by x11-misc/screenkey (argument)
+=x11-misc/screenkey-1.5-r2 ~amd64

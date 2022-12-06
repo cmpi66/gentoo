@@ -1,2 +1,4 @@
 ## dont update neovim
+
 ##>=app-editors/neovim-0.7.0
+#>media-video/ffmpeg-4.2.7
