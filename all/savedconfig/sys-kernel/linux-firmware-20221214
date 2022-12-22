@@ -36,6 +36,7 @@ amdgpu/sienna_cichlid_mec2.bin
 amdgpu/verde_k_smc.bin
 amdgpu/carrizo_mec2.bin
 amdgpu/navi14_mec2.bin
+amdgpu/smu_13_0_0.bin
 amdgpu/picasso_mec.bin
 amdgpu/dimgrey_cavefish_vcn.bin
 amdgpu/psp_13_0_8_toc.bin
@@ -107,7 +108,9 @@ amdgpu/raven_asd.bin
 amdgpu/hawaii_pfp.bin
 amdgpu/navi10_me.bin
 amdgpu/raven_kicker_rlc.bin
+amdgpu/vcn_4_0_0.bin
 amdgpu/sienna_cichlid_smc.bin
+amdgpu/psp_13_0_0_ta.bin
 amdgpu/polaris11_ce_2.bin
 amdgpu/navi10_vcn.bin
 amdgpu/navi10_pfp.bin
@@ -186,6 +189,7 @@ amdgpu/bonaire_uvd.bin
 amdgpu/tonga_uvd.bin
 amdgpu/polaris10_uvd.bin
 amdgpu/gc_10_3_7_me.bin
+amdgpu/aldebaran_sjt_mec2.bin
 amdgpu/pitcairn_me.bin
 amdgpu/raven2_mec.bin
 amdgpu/tahiti_k_smc.bin
@@ -195,6 +199,7 @@ amdgpu/stoney_uvd.bin
 amdgpu/navi10_asd.bin
 amdgpu/tahiti_me.bin
 amdgpu/kaveri_pfp.bin
+amdgpu/gc_11_0_0_pfp.bin
 amdgpu/stoney_mec.bin
 amdgpu/polaris12_smc.bin
 amdgpu/dimgrey_cavefish_ce.bin
@@ -236,6 +241,7 @@ amdgpu/polaris11_ce.bin
 amdgpu/vega10_mec.bin
 amdgpu/hainan_me.bin
 amdgpu/dimgrey_cavefish_sdma.bin
+amdgpu/gc_11_0_0_mes.bin
 amdgpu/polaris10_mec2.bin
 amdgpu/navy_flounder_rlc.bin
 amdgpu/raven_dmcu.bin
@@ -256,6 +262,8 @@ amdgpu/kaveri_me.bin
 amdgpu/verde_me.bin
 amdgpu/gc_10_3_7_rlc.bin
 amdgpu/vega20_asd.bin
+amdgpu/gc_11_0_0_imu.bin
+amdgpu/gc_11_0_0_mec.bin
 amdgpu/green_sardine_dmcub.bin
 amdgpu/cyan_skillfish2_ce.bin
 amdgpu/polaris10_sdma1.bin
@@ -276,6 +284,7 @@ amdgpu/topaz_me.bin
 amdgpu/navi10_sdma1.bin
 amdgpu/polaris10_k2_smc.bin
 amdgpu/navi14_me.bin
+amdgpu/dcn_3_2_0_dmcub.bin
 amdgpu/yellow_carp_pfp.bin
 amdgpu/beige_goby_sos.bin
 amdgpu/polaris11_mec2.bin
@@ -298,6 +307,7 @@ amdgpu/gc_10_3_7_pfp.bin
 amdgpu/verde_mc.bin
 amdgpu/picasso_rlc_am4.bin
 amdgpu/renoir_ta.bin
+amdgpu/aldebaran_sjt_mec.bin
 amdgpu/topaz_sdma1.bin
 amdgpu/navy_flounder_mec2.bin
 amdgpu/bonaire_k_smc.bin
@@ -305,6 +315,7 @@ amdgpu/vega12_me.bin
 amdgpu/pitcairn_rlc.bin
 amdgpu/polaris10_pfp.bin
 amdgpu/picasso_gpu_info.bin
+amdgpu/gc_11_0_0_rlc.bin
 amdgpu/tahiti_smc.bin
 amdgpu/polaris11_pfp_2.bin
 amdgpu/vangogh_rlc.bin
@@ -333,6 +344,7 @@ amdgpu/green_sardine_pfp.bin
 amdgpu/vega10_vce.bin
 amdgpu/beige_goby_mec2.bin
 amdgpu/aldebaran_smc.bin
+amdgpu/psp_13_0_0_sos.bin
 amdgpu/raven2_mec2.bin
 amdgpu/carrizo_uvd.bin
 amdgpu/yellow_carp_toc.bin
@@ -347,6 +359,7 @@ amdgpu/mullins_me.bin
 amdgpu/bonaire_sdma.bin
 amdgpu/polaris12_mec_2.bin
 amdgpu/polaris12_uvd.bin
+amdgpu/sdma_6_0_0.bin
 amdgpu/vangogh_ce.bin
 amdgpu/raven2_gpu_info.bin
 amdgpu/navi12_me.bin
@@ -447,6 +460,7 @@ amdgpu/banks_k_2_smc.bin
 amdgpu/kaveri_rlc.bin
 amdgpu/navi14_sdma.bin
 amdgpu/vangogh_sdma.bin
+amdgpu/gc_11_0_0_mes1.bin
 amdgpu/stoney_rlc.bin
 amdgpu/fiji_pfp.bin
 amdgpu/polaris10_smc_sk.bin
@@ -494,6 +508,7 @@ amdgpu/yellow_carp_asd.bin
 amdgpu/navy_flounder_vcn.bin
 amdgpu/raven2_ce.bin
 amdgpu/yellow_carp_sdma.bin
+amdgpu/gc_11_0_0_me.bin
 amdgpu/dimgrey_cavefish_ta.bin
 amdgpu/navi12_sdma.bin
 amdgpu/beige_goby_mec.bin
@@ -1134,6 +1149,7 @@ i915/kbl_guc_62.0.0.bin
 i915/bxt_dmc_ver1_07.bin
 i915/skl_guc_70.1.1.bin
 i915/dg1_guc_69.0.3.bin
+i915/dg2_dmc_ver2_08.bin
 i915/dg1_guc_70.bin
 i915/dg1_guc_49.0.1.bin
 i915/icl_guc_32.0.3.bin
@@ -1174,6 +1190,7 @@ i915/tgl_dmc_ver2_06.bin
 i915/adlp_guc_69.0.3.bin
 i915/cnl_dmc_ver1_06.bin
 i915/glk_huc_ver03_01_2893.bin
+i915/mtl_dmc_ver2_10.bin
 i915/icl_huc_9.0.0.bin
 i915/dg2_guc_70.1.2.bin
 i915/dg1_guc_70.1.1.bin
@@ -1592,6 +1609,7 @@ mediatek/BT_RAM_CODE_MT7961_1_2_hdr.bin
 mediatek/mt7622_rom_patch.bin
 mediatek/mt7610u.bin
 mediatek/mt7662u_rom_patch.bin
+mediatek/mt7986_wo_0.bin
 mediatek/mt7663pr2h.bin
 mediatek/mt7986_eeprom_mt7976.bin
 mediatek/mt7916_wa.bin
@@ -1613,6 +1631,7 @@ mediatek/mt7986_wm.bin
 mediatek/mt7986_rom_patch.bin
 mediatek/mt8186/scp.img
 mediatek/mt8195/scp.img
+mediatek/mt7986_wo_1.bin
 mediatek/mt7916_rom_patch.bin
 mediatek/mt7610e.bin
 mediatek/mt7663_n9_v3.bin
@@ -2289,6 +2308,7 @@ nvidia/gm204/gr/fecs_data.bin
 nvidia/gm204/gr/gpccs_inst.bin
 nvidia/gm204/gr/fecs_inst.bin
 nvidia/gm204/gr/fecs_sig.bin
+nxp/sr150_fw.bin
 phanfw.bin
 qat_895xcc.bin
 qat_895xcc_mmp.bin
@@ -2303,6 +2323,7 @@ qca/nvm_usb_00130200_0105.bin
 qca/rampatch_usb_00000300.bin
 qca/crbtfw32.tlv
 qca/rampatch_00230302.bin
+qca/nvm_usb_00190200.bin
 qca/msbtfw11.mbn
 qca/nvm_usb_00130200.bin
 qca/nvm_00440302_eu.bin
@@ -2336,6 +2357,7 @@ qca/rampatch_usb_00000200.bin
 qca/crnv21.bin
 qca/nvm_usb_00000300.bin
 qca/rampatch_00130302.bin
+qca/rampatch_usb_00190200.bin
 qca/msnv11.bin
 qca/nvm_usb_00130201_gf_0303.bin
 qca/nvm_usb_00000302_eu.bin

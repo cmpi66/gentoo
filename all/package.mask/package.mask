@@ -1,4 +1,5 @@
 ## dont update neovim
 
-##>=app-editors/neovim-0.7.0
+>app-editors/neovim-0.8.0-r1
 #>media-video/ffmpeg-4.2.7
+>x11-libs/libXft-2.3.4

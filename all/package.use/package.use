@@ -118,7 +118,7 @@ dev-lang/R png
 >=app-arch/brotli-1.0.9-r3 python
 
 
-app-emulation/qemu usbredir spice
+app-emulation/qemu usbredir spice gtk
 
 
 
@@ -164,4 +164,21 @@ www-client/librewolf pulseaudio
 net-firewall/iptables netlink
 
 net-misc/remmina rdp
+
+# required by app-emulation/libvirt-8.7.0-r1::gentoo[virt-network]
+# required by app-emulation/libvirt-glib-4.0.0::gentoo
+# required by app-emulation/virt-manager-4.0.0::gentoo[-test]
+# required by virt-manager (argument)
+>=net-dns/dnsmasq-2.86-r1 ipv6 script
+
+
+app-emulation/libvirt pcap virt-network numa fuse macvtap vepa qemu
+
+app-emulation/virt-manager gtk
+
+
+# required by app-emulation/virt-manager-4.0.0::gentoo[gtk,-test]
+# required by @selected
+# required by @world (argument)
+>=net-misc/spice-gtk-0.41 usbredir
 

@@ -136,3 +136,7 @@ media-sound/mpd ~amd64
 
 # required by x11-misc/screenkey (argument)
 =x11-misc/screenkey-1.5-r2 ~amd64
+
+# required by app-text/ltex-ls (argument)
+=app-text/ltex-ls-15.2.0 ~amd64
+
