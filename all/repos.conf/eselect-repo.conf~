@@ -55,3 +55,7 @@ location = /var/db/repos/ppfeufer-gentoo-overlay
 sync-type = git
 sync-uri = https://github.com/gentoo-mirror/ppfeufer-gentoo-overlay.git
 
+[mva]
+location = /var/db/repos/mva
+sync-type = git
+sync-uri = https://github.com/gentoo-mirror/mva.git

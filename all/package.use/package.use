@@ -182,3 +182,12 @@ app-emulation/virt-manager gtk
 # required by @world (argument)
 >=net-misc/spice-gtk-0.41 usbredir
 
+net-misc/networkmanager wext wifi
+
+# required by net-misc/networkmanager-1.40.6::gentoo[ppp]
+# required by net-misc/networkmanager (argument)
+>=net-dialup/ppp-2.4.9-r8 ipv6
+# required by net-misc/networkmanager-1.40.6::gentoo[-iwd,wifi]
+# required by net-misc/networkmanager (argument)
+>=net-wireless/wpa_supplicant-2.10-r1 dbus
+

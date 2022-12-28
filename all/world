@@ -114,6 +114,7 @@ net-analyzer/traceroute
 net-analyzer/wireshark
 net-dns/bind-tools
 net-firewall/iptables
+net-fs/cifs-utils
 net-fs/nfs-utils
 net-fs/sshfs
 net-mail/urlscan
@@ -125,6 +126,7 @@ net-misc/gns3-server
 net-misc/iperf
 net-misc/netifrc
 net-misc/netkit-telnetd
+net-misc/networkmanager
 net-misc/remmina
 net-misc/ubridge
 net-misc/x11-ssh-askpass
@@ -144,6 +146,7 @@ sys-apps/mlocate
 sys-apps/moreutils
 sys-apps/pciutils
 sys-apps/ripgrep
+sys-apps/smartmontools
 sys-apps/the_silver_searcher
 sys-apps/usbutils
 sys-auth/pam-gnupg
@@ -156,6 +159,8 @@ sys-fs/fuse-exfat
 sys-fs/fuse:0
 sys-fs/ncdu
 sys-fs/udev
+sys-fs/zfs
+sys-fs/zfs-auto-snapshot
 sys-kernel/gentoo-sources
 sys-kernel/linux-firmware
 sys-power/powertop
