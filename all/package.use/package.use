@@ -97,7 +97,7 @@ media-sound/mpd pulseaudio
 # required by media-tv/v4l-utils-1.22.1::gentoo
 # required by media-tv/v4l-utils (argument)
 >=media-libs/libv4l-1.22.1 jpeg qt5 opengl
-media-video/ffmpeg libv4l v4l nvenc pulseaudio encode x264 
+media-video/ffmpeg libv4l v4l nvenc pulseaudio encode x264 sdl
 dev-lang/R png 
 
 # required by x11-misc/picom-jonaburg (argument)
@@ -191,3 +191,4 @@ net-misc/networkmanager wext wifi
 # required by net-misc/networkmanager (argument)
 >=net-wireless/wpa_supplicant-2.10-r1 dbus
 
+kde-apps/okular epub

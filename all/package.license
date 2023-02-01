@@ -26,3 +26,7 @@ app-office/upwork ODESK
 >=x11-libs/agg-2.5-r3 free-noncomm
 
 sys-apps/man-pages-posix freedist
+net-analyzer/nmap NPSL-0.94
+#
+# required by net-im/discord (argument)
+>=net-im/discord-0.0.24 all-rights-reserved

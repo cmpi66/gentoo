@@ -60,6 +60,7 @@ dev-lang/R
 dev-lang/python
 dev-lang/rust
 dev-lang/tk
+dev-lua/luarocks
 dev-python/flake8
 dev-python/pip
 dev-python/pynvim
@@ -70,7 +71,6 @@ dev-util/ctags
 dev-util/lazygit
 dev-util/pkgcheck
 dev-util/pkgdev
-dev-util/rustup
 dev-util/shellcheck-bin
 dev-util/shfmt
 dev-vcs/git
@@ -90,6 +90,7 @@ media-fonts/libertine
 media-fonts/noto-emoji
 media-fonts/ttf-bitstream-vera
 media-fonts/unifont
+media-gfx/feh
 media-gfx/gifsicle
 media-gfx/gimp
 media-gfx/imagemagick
@@ -117,7 +118,9 @@ net-firewall/iptables
 net-fs/cifs-utils
 net-fs/nfs-utils
 net-fs/sshfs
+net-im/discord
 net-mail/urlscan
+net-misc/axel
 net-misc/bridge-utils
 net-misc/chrony
 net-misc/dhcpcd
@@ -129,6 +132,7 @@ net-misc/netkit-telnetd
 net-misc/networkmanager
 net-misc/remmina
 net-misc/ubridge
+net-misc/urlview
 net-misc/x11-ssh-askpass
 net-misc/yt-dlp
 net-news/newsboat
@@ -151,6 +155,7 @@ sys-apps/the_silver_searcher
 sys-apps/usbutils
 sys-auth/pam-gnupg
 sys-boot/grub
+sys-cluster/kubectl
 sys-devel/gcc
 sys-devel/gcc:11
 sys-firmware/intel-microcode
@@ -170,7 +175,6 @@ sys-process/parallel
 sys-process/task-spooler
 www-client/brave-bin
 www-client/firefox-bin
-www-client/librewolf
 www-client/lynx
 www-client/w3m
 www-misc/buku
@@ -196,7 +200,10 @@ x11-misc/redshift
 x11-misc/rofi
 x11-misc/rofi-calc
 x11-misc/screenkey
+x11-misc/trayer
+x11-misc/trayer-srg
 x11-misc/unclutter-xfixes
+x11-misc/wmname
 x11-misc/xclip
 x11-misc/xdotool
 x11-misc/xkeycaps
@@ -205,3 +212,4 @@ x11-misc/xwallpaper
 x11-terms/alacritty
 x11-terms/kitty
 x11-themes/papirus-icon-theme
+x11-wm/awesome

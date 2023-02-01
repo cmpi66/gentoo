@@ -140,3 +140,21 @@ media-sound/mpd ~amd64
 # required by app-text/ltex-ls (argument)
 =app-text/ltex-ls-15.2.0 ~amd64
 
+# required by app-text/extract_url-1.6.2::gentoo
+# required by app-text/extract_url (argument)
+=dev-perl/URI-Find-20160806.0.0-r1 ~amd64
+# required by app-text/extract_url (argument)
+=app-text/extract_url-1.6.2 ~amd64
+
+# required by urlview (argument)
+=net-misc/urlview-0.9_p21 ~amd64
+
+
+# required by app-text/poppler-22.11.0-r1::gentoo[nss]
+# required by app-text/calibre-5.43.0::gentoo
+# required by @selected
+# required by @world (argument)
+=dev-libs/nss-3.87 ~amd64
+# required by librewolf (argument)
+=www-client/librewolf-109.0_p1 ~amd64	
+
