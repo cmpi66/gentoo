@@ -192,3 +192,7 @@ net-misc/networkmanager wext wifi
 >=net-wireless/wpa_supplicant-2.10-r1 dbus
 
 kde-apps/okular epub
+
+dev-libs/libusb udev
+virtual/libusb udev
+

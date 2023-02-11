@@ -158,3 +158,12 @@ media-sound/mpd ~amd64
 # required by librewolf (argument)
 =www-client/librewolf-109.0_p1 ~amd64	
 
+
+# required by rmlint (argument)
+=app-misc/rmlint-2.10.1 ~amd64
+
+# required by xcape (argument)
+=x11-misc/xcape-1.2 ~amd64
+
+# required by tremc (argument)
+=net-p2p/tremc-0.9.3 ~amd64

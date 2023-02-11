@@ -2,9 +2,10 @@
 
 >app-editors/neovim-0.8.0-r1
 #>media-video/ffmpeg-4.2.7
+## This is for bgra
 >x11-libs/libXft-2.3.4
 
 ### THESE TWO CAUSE DEPENDECY CONFLICTS AS OF 1-19-23. I'LL COME BACK AND CHECK TO SEE IF IT WAS FIXED.###
 
->media-libs/harfbuzz-5.3.1-r1
->dev-libs/boost-1.80.0-r1
+#>media-libs/harfbuzz-5.3.1-r1
+#>dev-libs/boost-1.80.0-r1
