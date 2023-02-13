@@ -196,3 +196,10 @@ kde-apps/okular epub
 dev-libs/libusb udev
 virtual/libusb udev
 
+## THIS IS FOR TOR: gives an error without wayland flag
+x11-libs/gtk+ wayland
+# required by x11-libs/gtk+-3.24.35::mv[wayland]
+# required by x11-libs/gtk+ (argument)
+>=media-libs/mesa-22.2.5 wayland
+
+app-crypt/pinentry gtk qt5 
