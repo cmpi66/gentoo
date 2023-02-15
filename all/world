@@ -220,5 +220,6 @@ x11-misc/xsel
 x11-misc/xwallpaper
 x11-terms/alacritty
 x11-terms/kitty
+x11-terms/xfce4-terminal
 x11-themes/papirus-icon-theme
 x11-wm/awesome
