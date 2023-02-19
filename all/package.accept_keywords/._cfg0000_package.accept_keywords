@@ -167,6 +167,5 @@ media-sound/mpd ~amd64
 
 # required by tremc (argument)
 =net-p2p/tremc-0.9.3 ~amd64
-
 # required by rustup (argument)
 =dev-util/rustup-1.25.2 ~amd64
