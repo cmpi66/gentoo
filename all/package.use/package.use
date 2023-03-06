@@ -203,9 +203,16 @@ x11-libs/gtk+ wayland
 >=media-libs/mesa-22.2.5 wayland
 
 ## Now im able to get the gpg password prompt no matter what, i just needed gtk flag, the ncurses only flag couldnt give me the popup since it needed an open terminal. And it also didnt give me the password promtp with ncurses when i ran 'mailsync', now i get the popup for all the commands.
-app-crypt/pinentry gtk qt5 
+app-crypt/pinentry gtk -ncurses
 
 #required by kde-frameworks/kded-5.102.0-r1::gentoo
 # required by kde-frameworks/kio-5.102.0-r1::gentoo
 # required by kde-frameworks/kinit-5.102.0::gentoo
 >=kde-frameworks/kconfig-5.102.0 dbus
+## REMOVING XCLIP FROM THSESE AND SEE IF THEY STILL WORK: NEOVIM GIVES ME PROBLEMS WITH XCLIP
+app-office/sc-im tmux -X
+app-admin/pass -X
+
+# required by www-servers/nginx-1.23.3::gentoo
+# required by nginx (argument)
+>=app-misc/mime-types-2.1.53 nginx
