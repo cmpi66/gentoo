@@ -185,6 +185,7 @@ sys-process/task-spooler
 virtual/libusb
 www-client/brave-bin
 www-client/firefox-bin
+www-client/librewolf-bin
 www-client/lynx
 www-client/w3m
 www-misc/buku
