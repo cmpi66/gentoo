@@ -216,3 +216,5 @@ app-admin/pass -X
 # required by www-servers/nginx-1.23.3::gentoo
 # required by nginx (argument)
 >=app-misc/mime-types-2.1.53 nginx
+
+x11-misc/picom opengl

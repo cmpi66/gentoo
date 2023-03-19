@@ -170,3 +170,6 @@ media-sound/mpd ~amd64
 
 # required by rustup (argument)
 =dev-util/rustup-1.25.2 ~amd64
+
+# required by stig (argument)
+=net-p2p/stig-0.12.1-r1 ~amd64

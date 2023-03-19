@@ -144,9 +144,9 @@ net-misc/ubridge
 net-misc/x11-ssh-askpass
 net-misc/yt-dlp
 net-news/newsboat
+net-p2p/stig
 net-p2p/syncthing
 net-p2p/transmission
-net-p2p/tremc
 net-vpn/openvpn
 net-vpn/wireguard-tools
 sys-apps/bat
@@ -208,7 +208,7 @@ x11-misc/clipnotify
 x11-misc/dunst
 x11-misc/i3lock-color
 x11-misc/pcmanfm
-x11-misc/picom-jonaburg
+x11-misc/picom
 x11-misc/redshift
 x11-misc/rofi
 x11-misc/rofi-calc
@@ -219,6 +219,7 @@ x11-misc/unclutter-xfixes
 x11-misc/wmctrl
 x11-misc/wmname
 x11-misc/xcape
+x11-misc/xcompmgr
 x11-misc/xdotool
 x11-misc/xkeycaps
 x11-misc/xsel
