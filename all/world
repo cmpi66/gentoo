@@ -29,12 +29,15 @@ app-misc/broot
 app-misc/glow
 app-misc/jq
 app-misc/lf
+app-misc/navi
 app-misc/neofetch
 app-misc/ranger
 app-misc/resolve-march-native
 app-misc/rlwrap
 app-misc/rmlint
+app-misc/task
 app-misc/tmux
+app-misc/vit
 app-office/calcurse
 app-office/gnucash
 app-office/libreoffice
@@ -60,7 +63,6 @@ app-text/sdcv
 app-text/texlive
 app-text/tldr
 app-text/zathura-pdf-mupdf
-dev-embedded/dfu-programmer
 dev-lang/R
 dev-lang/python
 dev-lang/rust
@@ -99,6 +101,7 @@ media-fonts/libertine
 media-fonts/noto-emoji
 media-fonts/ttf-bitstream-vera
 media-fonts/unifont
+media-gfx/chafa
 media-gfx/feh
 media-gfx/gifsicle
 media-gfx/gimp
@@ -142,6 +145,7 @@ net-misc/networkmanager
 net-misc/remmina
 net-misc/ubridge
 net-misc/x11-ssh-askpass
+net-misc/youtube-viewer
 net-misc/yt-dlp
 net-news/newsboat
 net-p2p/stig

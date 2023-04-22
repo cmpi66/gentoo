@@ -173,3 +173,20 @@ media-sound/mpd ~amd64
 
 # required by stig (argument)
 =net-p2p/stig-0.12.1-r1 ~amd64
+
+# required by zellij (argument)
+=app-misc/zellij-0.35.2 ~amd64
+
+# required by youtube-viewer (argument)
+=net-misc/youtube-viewer-3.10.1 ~amd64
+
+# required by navi (argument)
+=app-misc/navi-2.20.1 ~amd64
+
+# required by nushell (argument)
+=app-shells/nushell-0.78.0 ~amd64
+
+=dev-python/tasklib-2.5.1 ~amd64
+# required by vit (argument)
+=app-misc/vit-2.3.0 ~amd64
+
