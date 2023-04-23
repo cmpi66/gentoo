@@ -192,15 +192,3 @@ media-sound/mpd ~amd64
 
 # required by pipenv (argument)
 =dev-python/pipenv-2022.12.19 ~amd64
-
-# required by thefuck (argument)
-=app-shells/thefuck-3.32 ~amd64
-
-# required by bandwhich (argument)
-=net-analyzer/bandwhich-0.7.0 ~amd64
-
-# required by timew (argument)
-=app-misc/timew-1.4.3-r1 ~amd64
-
-# required by ecryptfs-utils (argument)
-=sys-fs/ecryptfs-utils-111_p20170609-r1 ~amd64

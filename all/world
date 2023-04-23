@@ -36,6 +36,7 @@ app-misc/resolve-march-native
 app-misc/rlwrap
 app-misc/rmlint
 app-misc/task
+app-misc/timew
 app-misc/tmux
 app-misc/vit
 app-office/calcurse
@@ -173,6 +174,7 @@ sys-devel/gcc
 sys-devel/gcc:11
 sys-firmware/intel-microcode
 sys-fs/dosfstools
+sys-fs/ecryptfs-utils
 sys-fs/fuse-exfat
 sys-fs/fuse:0
 sys-fs/ncdu
