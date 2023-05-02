@@ -78,6 +78,7 @@ dev-texlive/texlive-latexextra
 dev-util/ccache
 dev-util/codespell
 dev-util/ctags
+dev-util/git-delta
 dev-util/lazygit
 dev-util/pkgcheck
 dev-util/pkgdev
@@ -144,6 +145,7 @@ net-misc/netifrc
 net-misc/netkit-telnetd
 net-misc/networkmanager
 net-misc/remmina
+net-misc/socat
 net-misc/ubridge
 net-misc/x11-ssh-askpass
 net-misc/youtube-viewer
@@ -155,6 +157,7 @@ net-p2p/transmission
 net-vpn/openvpn
 net-vpn/wireguard-tools
 sys-apps/bat
+sys-apps/dog
 sys-apps/exa
 sys-apps/fd
 sys-apps/lm-sensors
@@ -172,6 +175,7 @@ sys-boot/grub
 sys-cluster/kubectl
 sys-devel/gcc
 sys-devel/gcc:11
+sys-devel/just
 sys-firmware/intel-microcode
 sys-fs/dosfstools
 sys-fs/ecryptfs-utils
@@ -184,6 +188,7 @@ sys-fs/zfs-auto-snapshot
 sys-kernel/gentoo-sources
 sys-kernel/linux-firmware
 sys-power/powertop
+sys-process/at
 sys-process/cronie
 sys-process/htop-vim
 sys-process/parallel

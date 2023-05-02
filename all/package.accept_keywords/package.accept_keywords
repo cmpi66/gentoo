@@ -204,3 +204,10 @@ media-sound/mpd ~amd64
 
 # required by ecryptfs-utils (argument)
 =sys-fs/ecryptfs-utils-111_p20170609-r1 ~amd64
+
+# required by just (argument)
+=sys-devel/just-1.13.0 ~amd64
+
+# required by ouch (argument)
+=app-arch/ouch-0.4.1 ~amd64
+
