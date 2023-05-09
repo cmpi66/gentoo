@@ -211,3 +211,14 @@ media-sound/mpd ~amd64
 # required by ouch (argument)
 =app-arch/ouch-0.4.1 ~amd64
 
+=sys-fs/archivemount-0.9.1 ~amd64
+
+# required by games-misc/lolcat-100.0.1-r1::gentoo[ruby_targets_ruby30]
+# required by lolcat (argument)
+=dev-ruby/paint-2.3.0 ~amd64
+# required by lolcat (argument)
+=games-misc/lolcat-100.0.1-r1 ~amd64
+# required by games-misc/lolcat-100.0.1-r1::gentoo[ruby_targets_ruby30]
+# required by lolcat (argument)
+=dev-ruby/optimist-3.0.1 ~amd64
+

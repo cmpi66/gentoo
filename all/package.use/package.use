@@ -218,3 +218,14 @@ app-admin/pass -X
 >=app-misc/mime-types-2.1.53 nginx
 
 x11-misc/picom opengl
+
+
+
+app-misc/anki python_single_target_python3_10 
+
+x11-misc/barrier gui
+
+# required by x11-misc/barrier-2.4.0::gentoo[gui]
+# required by @selected
+# required by @world (argument)
+>=net-dns/avahi-0.8-r7 mdnsresponder-compat
