@@ -222,3 +222,18 @@ media-sound/mpd ~amd64
 # required by lolcat (argument)
 =dev-ruby/optimist-3.0.1 ~amd64
 
+# so yubikey can work
+dev-libs/libfido2 ~amd64
+
+# required by monero (argument)
+=net-p2p/monero-0.18.2.2 ~amd64
+# required by net-p2p/monero-0.18.2.2::guru
+# required by monero (argument)
+=dev-libs/supercop-0_p20200827 ~amd64
+# required by net-p2p/monero-0.18.2.2::guru
+# required by monero (argument)
+=dev-libs/randomx-1.1.9 ~amd64
+
+# required by mpop (argument)
+=net-mail/mpop-1.4.7 ~amd64
+

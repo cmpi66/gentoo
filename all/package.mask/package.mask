@@ -1,6 +1,6 @@
 ## dont update neovim
 
-#>app-editors/neovim-0.8.0-r1
+>app-editors/neovim-0.8.3
 #>media-video/ffmpeg-4.2.7
 ## This is for bgra
 >x11-libs/libXft-2.3.4
