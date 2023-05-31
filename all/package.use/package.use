@@ -174,7 +174,7 @@ net-misc/remmina rdp
 
 app-emulation/libvirt pcap virt-network numa fuse macvtap vepa qemu
 
-app-emulation/virt-manager gtk
+app-emulation/virt-manager gui
 
 
 # required by app-emulation/virt-manager-4.0.0::gentoo[gtk,-test]
@@ -239,3 +239,85 @@ app-admin/keepassxc yubikey autotype
 
 ## Without these gpg encryption doesnt work 
 mail-client/neomutt gpgme pgp-classic
+
+## THESE are what portage spit out 
+# required by dev-python/poetry-core-1.5.2::gentoo[-test]
+# required by dev-python/zeroconf-0.62.0::gentoo
+# required by app-text/calibre-5.44.0-r1::gentoo[python_single_target_python3_11]
+# required by @selected
+# required by @world (argument)
+>=dev-python/packaging-23.1 python_targets_python3_10
+# required by dev-python/urllib3-1.26.15::gentoo
+# required by dev-python/sentry-sdk-1.20.0::gentoo
+# required by net-misc/gns3-gui-2.2.33.1::gentoo
+# required by @selected
+# required by @world (argument)
+>=dev-python/setuptools-67.7.2 python_targets_python3_10
+# required by dev-python/jsonschema-4.17.3::gentoo
+# required by app-misc/anki-2.1.15-r1::gentoo[python_single_target_python3_10]
+# required by @selected
+# required by @world (argument)
+>=dev-python/attrs-23.1.0 python_targets_python3_10
+# required by dev-python/aiohttp-3.8.4::gentoo
+# required by dev-python/aiohttp-cors-0.7.0-r2::gentoo
+# required by net-misc/gns3-server-2.2.33.1-r2::gentoo
+# required by @selected
+# required by @world (argument)
+>=dev-python/yarl-1.9.2 python_targets_python3_10
+# required by dev-python/attrs-23.1.0::gentoo
+# required by media-gfx/ueberzug-18.2.0::gentoo
+# required by @selected
+# required by @world (argument)
+>=dev-python/hatchling-1.17.0 python_targets_python3_10
+# required by net-misc/gns3-gui-2.2.33.1::gentoo
+# required by @selected
+# required by @world (argument)
+>=dev-python/sentry-sdk-1.20.0 python_targets_python3_10
+# required by dev-python/poetry-core-1.5.2::gentoo[-test]
+# required by dev-python/zeroconf-0.62.0::gentoo
+# required by app-text/calibre-5.44.0-r1::gentoo[python_single_target_python3_11]
+# required by @selected
+# required by @world (argument)
+>=dev-python/tomlkit-0.11.8 python_targets_python3_10
+# required by app-misc/anki-2.1.15-r1::gentoo[python_single_target_python3_10]
+# required by @selected
+# required by @world (argument)
+>=dev-python/markdown-3.4.3 python_targets_python3_10
+# required by app-misc/anki-2.1.15-r1::gentoo[python_single_target_python3_10]
+# required by @selected
+# required by @world (argument)
+>=dev-python/requests-2.31.0 python_targets_python3_10
+# required by app-misc/anki-2.1.15-r1::gentoo[python_single_target_python3_10]
+# required by @selected
+# required by @world (argument)
+>=dev-python/send2trash-1.8.2 python_targets_python3_10
+# required by dev-python/beautifulsoup4-4.12.2::gentoo
+# required by app-misc/anki-2.1.15-r1::gentoo[python_single_target_python3_10]
+# required by @selected
+# required by @world (argument)
+>=dev-python/soupsieve-2.4.1 python_targets_python3_10
+
+# required by dev-python/setuptools-67.7.2::gentoo
+# required by dev-python/pyasn1-0.5.0::gentoo
+# required by dev-python/paramiko-3.2.0::gentoo
+# required by app-admin/ansible-core-2.14.5::gentoo
+# required by app-admin/ansible-7.5.0::gentoo
+# required by @selected
+# required by @world (argument)
+>=dev-python/platformdirs-3.5.1 python_targets_python3_10
+# required by dev-python/jaraco-text-3.11.1::gentoo[python_targets_python3_10,python_targets_python3_11]
+# required by dev-python/setuptools-67.7.2::gentoo
+# required by dev-python/pyasn1-0.5.0::gentoo
+# required by dev-python/paramiko-3.2.0::gentoo
+# required by app-admin/ansible-core-2.14.5::gentoo
+# required by app-admin/ansible-7.5.0::gentoo
+# required by @selected
+# required by @world (argument)
+>=dev-python/inflect-6.0.4 python_targets_python3_10
+# required by dev-python/hatchling-1.17.0::gentoo[-test]
+# required by dev-python/attrs-23.1.0::gentoo
+# required by media-gfx/ueberzug-18.2.0::gentoo
+# required by @selected
+# required by @world (argument)
+>=dev-python/trove-classifiers-2023.5.2 python_targets_python3_10
+
