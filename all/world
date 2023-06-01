@@ -52,7 +52,6 @@ app-portage/cpuid2cpuflags
 app-portage/eix
 app-portage/genlop
 app-portage/gentoolkit
-app-portage/layman
 app-portage/mirrorselect
 app-portage/portage-utils
 app-shells/fish
