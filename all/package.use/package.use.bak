@@ -43,7 +43,7 @@
 # required by media-sound/pulseaudio-16.0::gentoo[daemon]
 # required by www-client/firefox-bin-102.0::gentoo[pulseaudio]
 # required by www-client/firefox-bin (argument)
-#>=media-plugins/alsa-plugins-1.2.6 pulseaudio
+>=media-plugins/alsa-plugins-1.2.6 pulseaudio
 # required by app-text/texlive-core-2021-r1::gentoo
 # required by virtual/tex-base-0::gentoo
 # required by app-text/lcdf-typetools-2.108-r1::gentoo[kpathsea]
@@ -93,8 +93,7 @@ media-video/pipewire -aac -aptx -bluetooth
 # required for gentoos "AUR"
 app-portage/layman sync-plugin-portage git
 # pulse for mpd
-#media-sound/mpd pulseaudio 
-media-sound/mpd pipewire
+media-sound/mpd pulseaudio 
 # required by media-tv/v4l-utils-1.22.1::gentoo
 # required by media-tv/v4l-utils (argument)
 >=media-libs/libv4l-1.22.1 jpeg qt5 opengl
@@ -151,6 +150,11 @@ media-gfx/imagemagick jpeg svg xml
 
 dev-lang/rust clippy rust-src rustfmt 
 dev-lang/python tk  
+
+www-client/ungoogled-chromium pulseaudio
+# required by www-client/ungoogled-chromium-107.0.5304.87_p1::pf4public
+# required by www-client/ungoogled-chromium (argument)
+>=net-libs/nodejs-18.9.1 inspector
 
 www-client/librewolf pulseaudio
 # required by www-client/librewolf-106.0.1_p1::librewolf[system-libvpx]
@@ -320,11 +324,4 @@ mail-client/neomutt gpgme
 #Pipewire
 media-video/pipewire sound-server 
 media-sound/pulseaudio -daemon
-
-# required by dev-python/PyQt-builder-1.15.0::gentoo
-# required by dev-python/PyQtWebEngine-5.15.6::gentoo
-# required by app-text/calibre-5.44.0-r1::gentoo[python_single_target_python3_11]
-# required by @selected
-# required by @world (argument)
->=dev-python/sip-6.7.9 python_targets_python3_10
 

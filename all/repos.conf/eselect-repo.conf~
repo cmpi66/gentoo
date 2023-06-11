@@ -55,7 +55,33 @@ location = /var/db/repos/ppfeufer-gentoo-overlay
 sync-type = git
 sync-uri = https://github.com/gentoo-mirror/ppfeufer-gentoo-overlay.git
 
-[mva]
-location = /var/db/repos/mva
+
+[SwordArMor]
+location = /var/db/repos/SwordArMor
 sync-type = git
-sync-uri = https://github.com/gentoo-mirror/mva.git
+sync-uri = https://github.com/gentoo-mirror/SwordArMor.git
+
+[amano-kenji]
+location = /var/db/repos/amano-kenji
+sync-type = git
+sync-uri = https://github.com/gentoo-mirror/amano-kenji.git
+
+[oxen-overlay]
+location = /var/db/repos/oxen-overlay
+sync-type = git
+sync-uri = https://github.com/gentoo-mirror/oxen-overlay.git
+
+[stefantalpalaru]
+location = /var/db/repos/stefantalpalaru
+sync-type = git
+sync-uri = https://github.com/gentoo-mirror/stefantalpalaru.git
+
+[dinolay]
+location = /var/db/repos/dinolay
+sync-type = git
+sync-uri = https://github.com/gentoo-mirror/dinolay.git
+
+[gentoo]
+location = /var/db/repos/gentoo
+sync-type = git
+sync-uri = https://github.com/gentoo-mirror/gentoo.git

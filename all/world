@@ -67,6 +67,7 @@ app-text/pandoc-bin
 app-text/sdcv
 app-text/texlive
 app-text/zathura-pdf-mupdf
+dev-db/postgresql
 dev-lang/R
 dev-lang/python
 dev-lang/rust
@@ -129,6 +130,7 @@ media-sound/pulsemixer
 media-tv/v4l-utils
 media-video/ffmpeg
 media-video/mpv
+media-video/pipewire
 media-video/v4l2loopback
 net-analyzer/mtr
 net-analyzer/nmap
