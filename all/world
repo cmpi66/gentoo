@@ -5,13 +5,14 @@ app-admin/doas
 app-admin/eclean-kernel
 app-admin/entr
 app-admin/keepassxc
+app-admin/logrotate
 app-admin/monit
 app-admin/pass
 app-admin/pass-otp
 app-admin/pydf
 app-admin/stow
 app-admin/sudo
-app-admin/sysklogd
+app-admin/syslog-ng
 app-arch/lz4
 app-arch/p7zip
 app-containers/docker
@@ -102,6 +103,7 @@ dev-vcs/git
 games-emulation/desmume
 gnome-extra/gnome-calculator
 gui-apps/grim
+gui-apps/hyprpicker
 gui-apps/slurp
 gui-apps/swaybg
 gui-apps/swayidle
@@ -250,6 +252,7 @@ www-client/w3m
 www-misc/buku
 www-servers/nginx
 x11-apps/mesa-progs
+x11-apps/xeyes
 x11-apps/xinit
 x11-apps/xrandr
 x11-apps/xrdb
