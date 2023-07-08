@@ -58,6 +58,7 @@ app-portage/genlop
 app-portage/gentoolkit
 app-portage/mirrorselect
 app-portage/portage-utils
+app-shells/dash
 app-shells/fish
 app-shells/fzf
 app-shells/zoxide
@@ -102,6 +103,7 @@ dev-util/shfmt
 dev-vcs/git
 games-emulation/desmume
 gnome-extra/gnome-calculator
+gui-apps/foot
 gui-apps/grim
 gui-apps/hyprpicker
 gui-apps/slurp

@@ -562,3 +562,11 @@ media-libs/libva opengl
 >=virtual/ruby-ssl-12 ruby_targets_ruby30
 
 gui-apps/swaybg gdk-pixbuf 
+
+# required by dev-python/nspektr-0.4.0::gentoo
+# required by dev-python/setuptools-67.8.0::gentoo
+# required by dev-util/gdbus-codegen-2.76.3::gentoo[python_single_target_python3_11]
+# required by app-text/evince-44.2::gentoo
+# required by @selected
+# required by @world (argument)
+>=dev-python/jaraco-functools-3.8.0 python_targets_python3_10
