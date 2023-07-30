@@ -47,7 +47,6 @@ app-misc/tmux
 app-misc/trash-cli
 app-misc/vit
 app-office/calcurse
-app-office/gnucash
 app-office/libreoffice
 app-office/sc-im
 app-pda/ifuse
@@ -102,6 +101,7 @@ dev-util/shellcheck-bin
 dev-util/shfmt
 dev-vcs/git
 games-emulation/desmume
+games-emulation/vbam
 gnome-extra/gnome-calculator
 gui-apps/foot
 gui-apps/grim
@@ -112,6 +112,8 @@ gui-apps/swayidle
 gui-apps/swaylock
 gui-apps/wf-recorder
 gui-apps/wofi
+gui-libs/gtk-layer-shell
+gui-libs/wlroots
 gui-libs/xdg-desktop-portal-hyprland
 gui-libs/xdg-desktop-portal-lxqt
 gui-wm/hyprland
@@ -143,8 +145,10 @@ media-gfx/sxiv
 media-gfx/ueberzug
 media-gfx/zbar
 media-libs/harfbuzz
+media-libs/libsdl2
 media-libs/libva
 media-libs/mutagen
+media-libs/openal
 media-libs/portaudio
 media-sound/jack2
 media-sound/mpc
@@ -212,6 +216,7 @@ sys-apps/pciutils
 sys-apps/pcsc-lite
 sys-apps/ripgrep
 sys-apps/smartmontools
+sys-apps/systemd-utils
 sys-apps/the_silver_searcher
 sys-apps/usbutils
 sys-apps/xdg-desktop-portal
@@ -233,7 +238,6 @@ sys-fs/fuse:0
 sys-fs/mtpfs
 sys-fs/ncdu
 sys-fs/simple-mtpfs
-sys-fs/udev
 sys-fs/zfs
 sys-fs/zfs-auto-snapshot
 sys-kernel/gentoo-sources
@@ -259,9 +263,9 @@ x11-apps/xinit
 x11-apps/xrandr
 x11-apps/xrdb
 x11-apps/xset
+x11-base/xorg-drivers
 x11-base/xorg-server
 x11-base/xorg-x11
-x11-drivers/nvidia-drivers
 x11-libs/gtk+
 x11-libs/libX11
 x11-libs/libXft
@@ -269,6 +273,7 @@ x11-libs/libXft-bgra-patch
 x11-libs/libXinerama
 x11-libs/libXrandr
 x11-libs/libdrm
+x11-misc/arandr
 x11-misc/barrier
 x11-misc/clipnotify
 x11-misc/dunst
@@ -297,4 +302,3 @@ x11-terms/alacritty
 x11-terms/kitty
 x11-terms/xfce4-terminal
 x11-themes/papirus-icon-theme
-x11-wm/awesome

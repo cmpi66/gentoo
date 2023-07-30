@@ -243,9 +243,9 @@ gui-libs/wlroots **
 dev-libs/wayland **
 dev-util/wayland-scanner **
 dev-libs/wayland-protocols **
-media-libs/mesa **
-gui-wm/hyprland ** # (Right now you can't build hyprland 9999 because of an update. But normally I advise using 9999. Check again later. I normally update daily as it's a very frequntly developing software)
-x11-libs/libdrm **
+#media-libs/mesa **
+#gui-wm/hyprland ** # (Right now you can't build hyprland 9999 because of an update. But normally I advise using 9999. Check again later. I normally update daily as it's a very frequntly developing software)
+#x11-libs/libdrm **
 
 # required by gui-wm/hyprland-0.26.0::gentoo
 # required by gui-wm/hyprland (argument)
@@ -293,10 +293,15 @@ x11-libs/libdrm **
 # required by dev-qt/qtshadertools-6.5.1::gentoo
 # required by dev-qt/qtdeclarative-6.5.1::gentoo
 =dev-qt/qtwayland-6.5.1-r1 ~amd64
-# required by wlsunset (argument)
-=gui-apps/wlsunset-0.3.0 ~amd64
-#x11-drivers/nvidia-drivers ~amd64
-=sys-kernel/gentoo-sources-6.1.35 
 # required by gui-apps/hyprpicker (argument)
 =gui-apps/hyprpicker-0.1.1 ~amd64
+
+# required by hyprland (argument)
+=gui-wm/hyprland-0.27.2 ~amd64
+
+# required by vbam (argument)
+=games-emulation/vbam-2.1.5 ~amd64
+
+# required by desmume (argument)
+=games-emulation/desmume-0.9.13-r1 ~amd64
 

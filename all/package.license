@@ -33,3 +33,6 @@ net-analyzer/nmap NPSL-0.94
 
 # required by media-fonts/joypixels (argument)
 =media-fonts/joypixels-6.6.0 JoyPixels
+
+# required by games-emulation/vgba (argument)
+>=games-emulation/vgba-4.8-r1 VGBA
