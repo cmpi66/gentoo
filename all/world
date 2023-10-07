@@ -10,11 +10,13 @@ app-admin/monit
 app-admin/pass
 app-admin/pass-otp
 app-admin/pydf
+app-admin/s-tui
 app-admin/stow
 app-admin/sudo
 app-admin/syslog-ng
 app-arch/lz4
 app-arch/p7zip
+app-benchmarks/stress
 app-containers/docker
 app-crypt/pinentry
 app-crypt/yubikey-manager
@@ -41,6 +43,7 @@ app-misc/nwg-look
 app-misc/resolve-march-native
 app-misc/rlwrap
 app-misc/rmlint
+app-misc/solaar
 app-misc/task
 app-misc/timew
 app-misc/tmux
@@ -75,6 +78,7 @@ dev-cpp/catch
 dev-db/postgresql
 dev-lang/R
 dev-lang/python
+dev-lang/ruby
 dev-lang/rust
 dev-lang/tk
 dev-libs/bemenu
@@ -83,6 +87,7 @@ dev-libs/libappindicator
 dev-libs/libfido2
 dev-libs/libusb
 dev-libs/spdlog
+dev-libs/wayland-protocols
 dev-lua/luarocks
 dev-python/flake8
 dev-python/pip
@@ -101,7 +106,9 @@ dev-util/shellcheck-bin
 dev-util/shfmt
 dev-vcs/git
 games-emulation/desmume
+games-emulation/mgba
 games-emulation/vbam
+games-util/xboxdrv
 gnome-extra/gnome-calculator
 gui-apps/foot
 gui-apps/grim
@@ -205,7 +212,7 @@ net-vpn/wireguard-tools
 sci-libs/fftw
 sys-apps/bat
 sys-apps/dog
-sys-apps/exa
+sys-apps/eza
 sys-apps/fd
 sys-apps/lm-sensors
 sys-apps/makedev

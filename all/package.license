@@ -36,3 +36,7 @@ net-analyzer/nmap NPSL-0.94
 
 # required by games-emulation/vgba (argument)
 >=games-emulation/vgba-4.8-r1 VGBA
+# required by packettracer (argument)
+
+>=gui-apps/packettracer-8.2.0 Cisco
+
