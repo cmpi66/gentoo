@@ -1,9 +1,14 @@
 ## dont update neovim
 
->app-editors/neovim-0.8.3
-#>media-video/ffmpeg-4.2.7
+#>app-editors/neovim-0.8.3
+
+#>gui-wm/hyprland-0.29.1
+#>media-video/ffmpeg-4.3.7
 ## This is for bgra
->x11-libs/libXft-2.3.4
+#>x11-libs/libXft-2.3.4
+#Test to see if dracut crypt-gpg module installed, it didnt
+#>sys-kernel/dracut-057-r3
+# >sys-kernel/gentoo-sources-6.1.58
 
 ### THESE TWO CAUSE DEPENDECY CONFLICTS AS OF 1-19-23. I'LL COME BACK AND CHECK TO SEE IF IT WAS FIXED.###
 

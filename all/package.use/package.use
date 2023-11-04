@@ -119,7 +119,7 @@ dev-lang/R png
 >=app-arch/brotli-1.0.9-r3 python
 
 
-app-emulation/qemu usbredir spice gtk
+app-emulation/qemu usb spice gtk usbredir
 
 
 
@@ -771,3 +771,222 @@ app-office/libreoffice pdfimport
 # required by @world (argument)
 >=dev-python/gpep517-15 python_targets_python3_10
 
+sys-boot/grub device-mapper
+# required by media-libs/mesa-23.1.8::gentoo[-video_cards_r600,video_cards_radeonsi,-video_cards_r300,-video_cards_radeon]
+# required by x11-apps/mesa-progs-8.5.0::gentoo
+# required by @selected
+# required by @world (argument)
+>=x11-libs/libdrm-2.4.116 video_cards_radeon
+# required by dev-python/setuptools-68.2.2::gentoo
+# required by dev-python/urwid-2.1.2-r1::gentoo
+# required by app-admin/s-tui-1.1.3-r1::guru
+# required by @selected
+# required by @world (argument)
+>=dev-python/ordered-set-4.1.0 python_targets_python3_10
+# required by dev-python/setuptools-68.2.2::gentoo
+# required by dev-python/urwid-2.1.2-r1::gentoo
+# required by app-admin/s-tui-1.1.3-r1::guru
+# required by @selected
+# required by @world (argument)
+>=dev-python/tomli-2.0.1-r1 python_targets_python3_10
+# required by dev-python/requests-2.31.0::gentoo
+# required by app-misc/anki-2.1.15-r1::gentoo[python_single_target_python3_10]
+# required by @selected
+# required by @world (argument)
+>=dev-python/certifi-3021.3.16-r3:0 python_targets_python3_10
+# required by dev-python/hatch-vcs-0.3.0::gentoo
+# required by dev-python/black-23.9.1::gentoo
+# required by dev-python/python-lsp-black-1.3.0::gentoo
+# required by @selected
+# required by @world (argument)
+>=dev-python/setuptools-scm-7.1.0 python_targets_python3_10
+# required by dev-python/nspektr-0.5.0::gentoo
+# required by dev-python/setuptools-68.2.2::gentoo
+# required by dev-python/urwid-2.1.2-r1::gentoo
+# required by app-admin/s-tui-1.1.3-r1::guru
+# required by @selected
+# required by @world (argument)
+>=dev-python/jaraco-context-4.3.0 python_targets_python3_10
+# required by dev-python/gpep517-15::gentoo
+# required by dev-python/urwid-2.1.2-r1::gentoo
+# required by app-admin/s-tui-1.1.3-r1::guru
+# required by @selected
+# required by @world (argument)
+>=dev-python/installer-0.7.0 python_targets_python3_10
+# required by dev-python/trove-classifiers-2023.8.7::gentoo
+# required by dev-python/hatchling-1.18.0::gentoo[-test]
+# required by dev-python/urllib3-2.0.4::gentoo
+# required by dev-python/requests-2.31.0::gentoo
+# required by app-misc/anki-2.1.15-r1::gentoo[python_single_target_python3_10]
+# required by @selected
+# required by @world (argument)
+>=dev-python/calver-2022.06.26 python_targets_python3_10
+# required by dev-python/aiohttp-3.8.5::gentoo
+# required by dev-python/aiohttp-socks-0.8.3::gentoo
+# required by net-misc/electrum-4.4.6::gentoo
+# required by @selected
+# required by @world (argument)
+>=dev-python/aiosignal-1.3.1 python_targets_python3_10
+# required by dev-python/requests-2.31.0::gentoo
+# required by app-misc/anki-2.1.15-r1::gentoo[python_single_target_python3_10]
+# required by @selected
+# required by @world (argument)
+>=dev-python/idna-3.4 python_targets_python3_10
+# required by dev-python/attrs-23.1.0::gentoo
+# required by media-gfx/ueberzug-18.2.2::gentoo
+# required by @selected
+# required by @world (argument)
+>=dev-python/hatch-fancy-pypi-readme-23.1.0 python_targets_python3_10
+# required by dev-python/attrs-23.1.0::gentoo
+# required by media-gfx/ueberzug-18.2.2::gentoo
+# required by @selected
+# required by @world (argument)
+>=dev-python/hatch-vcs-0.3.0 python_targets_python3_10
+# required by dev-python/sip-6.7.11::gentoo
+# required by dev-python/PyQtWebEngine-5.15.6-r1::gentoo
+# required by app-misc/anki-2.1.15-r1::gentoo[python_single_target_python3_10]
+# required by @selected
+# required by @world (argument)
+>=dev-python/ply-3.11-r2:0 python_targets_python3_10
+# required by games-emulation/vbam-2.1.5::gentoo[wxwidgets]
+# required by @selected
+# required by @world (argument)
+>=x11-libs/wxGTK-3.0.5.1-r1:3.0-gtk3 opengl
+# required by app-misc/anki-2.1.15-r1::gentoo[python_single_target_python3_10]
+# required by @selected
+# required by @world (argument)
+>=dev-python/httplib2-0.22.0 python_targets_python3_10
+# required by app-misc/anki-2.1.15-r1::gentoo[python_single_target_python3_10]
+# required by @selected
+# required by @world (argument)
+>=dev-python/beautifulsoup4-4.12.2 python_targets_python3_10
+# required by app-misc/anki-2.1.15-r1::gentoo[python_single_target_python3_10]
+# required by @selected
+# required by @world (argument)
+>=dev-python/decorator-5.1.1-r1 python_targets_python3_10
+# required by app-misc/anki-2.1.15-r1::gentoo[python_single_target_python3_10]
+# required by @selected
+# required by @world (argument)
+>=dev-python/jsonschema-4.19.1 python_targets_python3_10
+# required by dev-python/urllib3-2.0.4::gentoo
+# required by dev-python/requests-2.31.0::gentoo
+# required by app-misc/anki-2.1.15-r1::gentoo[python_single_target_python3_10]
+# required by @selected
+# required by @world (argument)
+>=dev-python/PySocks-1.7.1-r2:0 python_targets_python3_10
+# required by dev-python/beautifulsoup4-4.12.2::gentoo
+# required by app-misc/anki-2.1.15-r1::gentoo[python_single_target_python3_10]
+# required by @selected
+# required by @world (argument)
+>=dev-python/html5lib-1.1-r1 python_targets_python3_10
+# required by dev-python/jsonschema-4.19.1::gentoo
+# required by app-misc/anki-2.1.15-r1::gentoo[python_single_target_python3_10]
+# required by @selected
+# required by @world (argument)
+>=dev-python/jsonschema-specifications-2023.7.1 python_targets_python3_10
+# required by dev-python/jsonschema-4.19.1::gentoo
+# required by app-misc/anki-2.1.15-r1::gentoo[python_single_target_python3_10]
+# required by @selected
+# required by @world (argument)
+>=dev-python/referencing-0.30.2 python_targets_python3_10
+# required by dev-python/jsonschema-4.19.1::gentoo
+# required by app-misc/anki-2.1.15-r1::gentoo[python_single_target_python3_10]
+# required by @selected
+# required by @world (argument)
+>=dev-python/rpds-py-0.10.3 python_targets_python3_10
+# required by dev-python/jsonschema-4.19.1::gentoo
+# required by app-misc/anki-2.1.15-r1::gentoo[python_single_target_python3_10]
+# required by @selected
+# required by @world (argument)
+>=dev-python/fqdn-1.5.1-r2 python_targets_python3_10
+# required by dev-python/jsonschema-4.19.1::gentoo
+# required by app-misc/anki-2.1.15-r1::gentoo[python_single_target_python3_10]
+# required by @selected
+# required by @world (argument)
+>=dev-python/isoduration-20.11.0-r1 python_targets_python3_10
+# required by dev-python/jsonschema-4.19.1::gentoo
+# required by app-misc/anki-2.1.15-r1::gentoo[python_single_target_python3_10]
+# required by @selected
+# required by @world (argument)
+>=dev-python/rfc3339-validator-0.1.4-r1 python_targets_python3_10
+# required by dev-python/jsonschema-4.19.1::gentoo
+# required by app-misc/anki-2.1.15-r1::gentoo[python_single_target_python3_10]
+# required by @selected
+# required by @world (argument)
+>=dev-python/rfc3986-validator-0.1.1-r1:0 python_targets_python3_10
+# required by dev-python/jsonschema-4.19.1::gentoo
+# required by app-misc/anki-2.1.15-r1::gentoo[python_single_target_python3_10]
+# required by @selected
+# required by @world (argument)
+>=dev-python/rfc3987-1.3.8-r2:0 python_targets_python3_10
+# required by dev-python/jsonschema-4.19.1::gentoo
+# required by app-misc/anki-2.1.15-r1::gentoo[python_single_target_python3_10]
+# required by @selected
+# required by @world (argument)
+>=dev-python/webcolors-1.13 python_targets_python3_10
+# required by dev-python/python-dateutil-2.8.2-r1::gentoo
+# required by app-text/calibre-5.44.0-r1::gentoo[python_single_target_python3_11]
+# required by @selected
+# required by @world (argument)
+>=dev-python/six-1.16.0-r1 python_targets_python3_10
+# required by dev-python/rfc3339-validator-0.1.4-r1::gentoo
+# required by dev-python/jsonschema-4.19.1::gentoo
+# required by app-misc/anki-2.1.15-r1::gentoo[python_single_target_python3_10]
+# required by @selected
+# required by @world (argument)
+>=dev-python/strict-rfc3339-0.7-r2:0 python_targets_python3_10
+# required by dev-python/isoduration-20.11.0-r1::gentoo
+# required by dev-python/jsonschema-4.19.1::gentoo
+# required by app-misc/anki-2.1.15-r1::gentoo[python_single_target_python3_10]
+# required by @selected
+# required by @world (argument)
+>=dev-python/arrow-1.2.3 python_targets_python3_10
+# required by dev-python/arrow-1.2.3::gentoo
+# required by dev-python/isoduration-20.11.0-r1::gentoo
+# required by dev-python/jsonschema-4.19.1::gentoo
+# required by app-misc/anki-2.1.15-r1::gentoo[python_single_target_python3_10]
+# required by @selected
+# required by @world (argument)
+>=dev-python/python-dateutil-2.8.2-r1 python_targets_python3_10
+# required by dev-python/rpds-py-0.10.3::gentoo
+# required by dev-python/referencing-0.30.2::gentoo
+# required by dev-python/jsonschema-specifications-2023.7.1::gentoo
+# required by dev-python/jsonschema-4.19.1::gentoo
+# required by app-misc/anki-2.1.15-r1::gentoo[python_single_target_python3_10]
+# required by @selected
+# required by @world (argument)
+>=dev-util/maturin-1.2.3 python_targets_python3_10
+# required by dev-util/maturin-1.2.3::gentoo
+# required by dev-python/rpds-py-0.10.3::gentoo
+# required by dev-python/referencing-0.30.2::gentoo
+# required by dev-python/jsonschema-specifications-2023.7.1::gentoo
+# required by dev-python/jsonschema-4.19.1::gentoo
+# required by app-misc/anki-2.1.15-r1::gentoo[python_single_target_python3_10]
+# required by @selected
+# required by @world (argument)
+>=dev-python/setuptools-rust-1.7.0 python_targets_python3_10
+# required by dev-python/html5lib-1.1-r1::gentoo
+# required by dev-python/mechanize-0.4.8::gentoo
+# required by app-text/calibre-5.44.0-r1::gentoo[python_single_target_python3_11]
+# required by @selected
+# required by @world (argument)
+>=dev-python/webencodings-0.5.1-r2:0 python_targets_python3_10
+# required by dev-python/setuptools-rust-1.7.0::gentoo
+# required by dev-python/bcrypt-4.0.1::gentoo
+# required by dev-python/paramiko-3.3.1::gentoo
+# required by app-admin/ansible-core-2.15.4::gentoo
+# required by app-admin/ansible-8.4.0::gentoo
+# required by @selected
+# required by @world (argument)
+>=dev-python/semantic-version-2.10.0 python_targets_python3_10
+dev-python/appdirs python_targets_python2_7
+
+gui-apps/waybar experimental
+gui-apps/waypipe lz4
+
+app-crypt/gnupg usb
+media-gfx/ueberzugpp pango wayland
+
+# required by app-benchmarks/kdiskmark-3.1.4::guru
+# required by app-benchmarks/kdiskmark (argument)
+>=sys-block/fio-3.34 aio
