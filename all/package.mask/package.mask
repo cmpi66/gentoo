@@ -14,3 +14,5 @@
 
 #>media-libs/harfbuzz-5.3.1-r1
 #>dev-libs/boost-1.80.0-r1
+#
+#>x11-terms/alacritty-0.12.1

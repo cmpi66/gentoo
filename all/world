@@ -95,6 +95,7 @@ dev-libs/wayland-protocols
 dev-lua/luarocks
 dev-python/flake8
 dev-python/pip
+dev-python/pipx
 dev-python/pynvim
 dev-python/python-lsp-black
 dev-ruby/asciidoctor
@@ -112,6 +113,7 @@ dev-util/shfmt
 dev-vcs/git
 games-util/xboxdrv
 gnome-extra/gnome-calculator
+gnome-extra/gnome-clocks
 gui-apps/foot
 gui-apps/grim
 gui-apps/hyprpicker
@@ -204,7 +206,6 @@ net-misc/x11-ssh-askpass
 net-misc/youtube-viewer
 net-misc/yt-dlp
 net-misc/ytfzf
-net-p2p/stig
 net-p2p/syncthing
 net-p2p/transmission
 net-proxy/torsocks
@@ -260,9 +261,11 @@ sys-process/htop-vim
 sys-process/parallel
 sys-process/task-spooler
 virtual/libusb
+www-client/brave-bin
 www-client/firefox-bin
 www-client/librewolf-bin
 www-client/lynx
+www-client/ungoogled-chromium-bin
 www-client/w3m
 www-servers/nginx
 x11-apps/mesa-progs
