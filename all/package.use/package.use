@@ -1079,3 +1079,4 @@ app-office/sc-im plots xls xlsx
 # required by @world (argument)
 >=dev-qt/qtdeclarative-6.6.1 opengl
 
+app-misc/anki-bin qt6

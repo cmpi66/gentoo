@@ -30,7 +30,8 @@ app-emulation/virt-manager
 app-emulation/virt-viewer
 app-eselect/eselect-repository
 app-misc/abook
-app-misc/anki
+app-misc/ani-cli
+app-misc/anki-bin
 app-misc/asciinema
 app-misc/broot
 app-misc/evtest

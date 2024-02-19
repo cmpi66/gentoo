@@ -425,3 +425,11 @@ sys-kernel/linux-firmware ~amd64
 =dev-python/userpath-1.9.1 ~amd64
 
 x11-terms/alacritty ** # This is temporarily until alacritty error gets fixed 12-25-23
+
+# required by ani-cli (argument)
+=app-misc/ani-cli-4.7 ~amd64
+
+
+# required by anki-bin (argument)
+=app-misc/anki-bin-23.12.1 ~amd64
+
