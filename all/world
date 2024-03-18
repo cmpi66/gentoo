@@ -19,6 +19,8 @@ app-arch/lz4
 app-arch/p7zip
 app-benchmarks/kdiskmark
 app-benchmarks/stress
+app-containers/docker
+app-containers/docker-compose
 app-crypt/gnupg
 app-crypt/pinentry
 app-crypt/yubikey-manager
@@ -34,6 +36,7 @@ app-misc/ani-cli
 app-misc/anki-bin
 app-misc/asciinema
 app-misc/broot
+app-misc/cmatrix
 app-misc/evtest
 app-misc/fdupes
 app-misc/geoclue
@@ -45,7 +48,6 @@ app-misc/neofetch
 app-misc/nwg-look
 app-misc/resolve-march-native
 app-misc/rlwrap
-app-misc/rmlint
 app-misc/solaar
 app-misc/task
 app-misc/timew
@@ -108,6 +110,8 @@ dev-util/ctags
 dev-util/git-delta
 dev-util/pkgcheck
 dev-util/pkgdev
+dev-util/rocm-smi
+dev-util/rocminfo
 dev-util/rustup
 dev-util/shellcheck-bin
 dev-util/shfmt
@@ -207,6 +211,7 @@ net-misc/x11-ssh-askpass
 net-misc/youtube-viewer
 net-misc/yt-dlp
 net-misc/ytfzf
+net-p2p/monero
 net-p2p/syncthing
 net-p2p/transmission
 net-proxy/torsocks
@@ -236,6 +241,7 @@ sys-auth/pam-gnupg
 sys-auth/pam_u2f
 sys-block/io-scheduler-udev-rules
 sys-boot/grub
+sys-boot/rpi-imager
 sys-cluster/kubectl
 sys-devel/gcc
 sys-devel/gcc:11
@@ -254,6 +260,7 @@ sys-fs/zfs-auto-snapshot
 sys-kernel/dracut
 sys-kernel/gentoo-sources
 sys-kernel/linux-firmware
+sys-libs/libstdc++-v3
 sys-power/powertop
 sys-power/upower
 sys-process/at

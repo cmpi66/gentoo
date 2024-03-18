@@ -226,14 +226,6 @@ media-sound/mpd ~amd64
 # so yubikey can work
 dev-libs/libfido2 ~amd64
 
-# required by monero (argument)
-=net-p2p/monero-0.18.2.2 ~amd64
-# required by net-p2p/monero-0.18.2.2::guru
-# required by monero (argument)
-=dev-libs/supercop-0_p20200827 ~amd64
-# required by net-p2p/monero-0.18.2.2::guru
-# required by monero (argument)
-=dev-libs/randomx-1.1.9 ~amd64
 
 # required by mpop (argument)
 =net-mail/mpop-1.4.7 ~amd64
@@ -432,4 +424,33 @@ x11-terms/alacritty ** # This is temporarily until alacritty error gets fixed 12
 
 # required by anki-bin (argument)
 =app-misc/anki-bin-23.12.1 ~amd64
+
+# required by monero (argument)
+=net-p2p/monero-0.18.3.1 ~amd64
+# required by net-p2p/monero-0.18.3.1::guru
+# required by monero (argument)
+=dev-libs/randomx-1.2.1 ~amd64
+
+# required by dev-libs/rocr-runtime-5.7.1-r1::gentoo
+# required by dev-util/rocminfo-5.7.1::gentoo
+# required by dev-util/rocminfo (argument)
+=dev-libs/rocm-device-libs-5.7.1 ~amd64
+# required by dev-libs/rocr-runtime-5.7.1-r1::gentoo
+# required by dev-util/rocminfo-5.7.1::gentoo
+# required by dev-util/rocminfo (argument)
+=dev-libs/roct-thunk-interface-5.7.1 ~amd64
+# required by dev-util/rocminfo (argument)
+=dev-util/rocminfo-5.7.1 ~amd64
+# required by dev-util/rocminfo-5.7.1::gentoo
+# required by dev-util/rocminfo (argument)
+=dev-libs/rocr-runtime-5.7.1-r1 ~amd64
+
+# required by dev-util/rocm-smi (argument)
+=dev-util/rocm-smi-5.4.2 ~amd64
+
+# required by sys-libs/libstdc++-v3 (argument)
+=sys-libs/libstdc++-v3-3.3.6-r4 ~amd64
+
+# required by rpi-imager (argument)
+=sys-boot/rpi-imager-1.8.5 ~amd64
 
