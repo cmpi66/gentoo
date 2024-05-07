@@ -30,6 +30,7 @@ app-emulation/libvirt
 app-emulation/qemu
 app-emulation/virt-manager
 app-emulation/virt-viewer
+app-emulation/virtualbox
 app-eselect/eselect-repository
 app-misc/abook
 app-misc/ani-cli
@@ -182,6 +183,7 @@ media-video/pipewire
 media-video/v4l2loopback
 net-analyzer/mtr
 net-analyzer/nmap
+net-analyzer/tcpdump
 net-analyzer/traceroute
 net-analyzer/wireshark
 net-dns/bind-tools
@@ -198,6 +200,8 @@ net-misc/bridge-utils
 net-misc/chrony
 net-misc/dhcpcd
 net-misc/electrum
+net-misc/gns3-gui
+net-misc/gns3-server
 net-misc/iperf
 net-misc/netifrc
 net-misc/netkit-telnetd
@@ -214,6 +218,7 @@ net-misc/ytfzf
 net-p2p/monero
 net-p2p/syncthing
 net-p2p/transmission
+net-print/cups-meta
 net-proxy/torsocks
 net-vpn/openvpn
 net-vpn/tor
@@ -257,6 +262,7 @@ sys-fs/ncdu
 sys-fs/simple-mtpfs
 sys-fs/zfs
 sys-fs/zfs-auto-snapshot
+sys-fs/zfs-kmod
 sys-kernel/dracut
 sys-kernel/gentoo-sources
 sys-kernel/linux-firmware

@@ -39,4 +39,3 @@ net-analyzer/nmap NPSL-0.94
 # required by packettracer (argument)
 
 >=gui-apps/packettracer-8.2.0 Cisco
-

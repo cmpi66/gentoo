@@ -454,3 +454,16 @@ x11-terms/alacritty ** # This is temporarily until alacritty error gets fixed 12
 # required by rpi-imager (argument)
 =sys-boot/rpi-imager-1.8.5 ~amd64
 
+# required by @module-rebuild (argument)
+=media-video/v4l2loopback-0.13.1 ~amd64
+# required by gns3-gui (argument)
+=net-misc/gns3-gui-2.2.45 ~amd64
+# required by gns3-server (argument)
+=net-misc/gns3-server-2.2.45 ~amd64
+
+
+# required by net-misc/gns3-gui-2.2.45::gentoo
+# required by gns3-gui (argument)
+=dev-python/truststore-0.8.0 ~amd64
+
+

@@ -1080,3 +1080,28 @@ app-office/sc-im plots xls xlsx
 >=dev-qt/qtdeclarative-6.6.1 opengl
 
 app-misc/anki-bin qt6
+
+
+# required by net-misc/gns3-server-2.2.45::gentoo
+# required by gns3-server (argument)
+>=sys-apps/busybox-1.36.1-r1 static -pam
+
+
+# required by sys-apps/busybox-1.36.1-r1::gentoo[static]
+# required by net-misc/gns3-server-2.2.45::gentoo
+# required by net-misc/gns3-gui-2.2.45::gentoo
+# required by gns3-gui (argument)
+>=virtual/libcrypt-2-r1 static-libs
+# required by virtual/libcrypt-2-r1::gentoo
+# required by sys-apps/busybox-1.36.1-r1::gentoo[static]
+# required by net-misc/gns3-server-2.2.45::gentoo
+# required by net-misc/gns3-gui-2.2.45::gentoo
+# required by gns3-gui (argument)
+>=sys-libs/libxcrypt-4.4.36-r3 static-libs
+# required by dev-python/jaraco-context-5.3.0::gentoo[python_targets_python3_11,python_targets_python3_10]
+# required by dev-python/keyring-25.1.0::gentoo
+# required by app-crypt/yubikey-manager-5.2.0::gentoo
+# required by @selected
+# required by @world (argument)
+>=dev-python/backports-tarfile-1.1.1 python_targets_python3_10
+

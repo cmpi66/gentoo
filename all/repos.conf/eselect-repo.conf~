@@ -45,6 +45,11 @@ location = /var/db/repos/brave-overlay
 sync-type = git
 sync-uri = https://github.com/gentoo-mirror/brave-overlay.git
 
+[librewolf]
+location = /var/db/repos/librewolf
+sync-type = git
+sync-uri = https://gitlab.com/librewolf-community/browser/gentoo.git
+
 [ppfeufer-gentoo-overlay]
 location = /var/db/repos/ppfeufer-gentoo-overlay
 sync-type = git
@@ -96,8 +101,3 @@ sync-uri = https://github.com/gentoo-mirror/thegreatmcpain.git
 location = /var/db/repos/steam-overlay
 sync-type = git
 sync-uri = https://github.com/gentoo-mirror/steam-overlay.git
-
-[librewolf]
-location = /var/db/repos/librewolf
-sync-type = git
-sync-uri = https://codeberg.org/librewolf/gentoo.git
