@@ -55,6 +55,7 @@ app-misc/timew
 app-misc/tmux
 app-misc/trash-cli
 app-misc/vit
+app-misc/yazi
 app-office/libreoffice
 app-office/sc-im
 app-pda/ifuse
@@ -117,7 +118,6 @@ dev-util/rustup
 dev-util/shellcheck-bin
 dev-util/shfmt
 dev-vcs/git
-games-util/xboxdrv
 gnome-extra/gnome-calculator
 gnome-extra/gnome-clocks
 gui-apps/foot
@@ -127,6 +127,7 @@ gui-apps/slurp
 gui-apps/swaybg
 gui-apps/swayidle
 gui-apps/swaylock
+gui-apps/waybar
 gui-apps/waypipe
 gui-apps/wf-recorder
 gui-apps/wofi
@@ -136,7 +137,6 @@ gui-libs/xdg-desktop-portal-hyprland
 gui-libs/xdg-desktop-portal-lxqt
 gui-wm/hyprland
 kde-apps/kdialog
-kde-apps/okular
 lxde-base/lxappearance
 mail-client/mutt-wizard
 media-fonts/artwiz-aleczapka-en
@@ -166,6 +166,7 @@ media-libs/libva
 media-libs/mutagen
 media-libs/openal
 media-libs/portaudio
+media-sound/easyeffects
 media-sound/jack2
 media-sound/mpc
 media-sound/mpd
@@ -181,6 +182,7 @@ media-video/mediainfo
 media-video/mpv
 media-video/pipewire
 media-video/v4l2loopback
+net-analyzer/arp-scan
 net-analyzer/mtr
 net-analyzer/nmap
 net-analyzer/tcpdump

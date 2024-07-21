@@ -1105,3 +1105,74 @@ app-misc/anki-bin qt6
 # required by @world (argument)
 >=dev-python/backports-tarfile-1.1.1 python_targets_python3_10
 
+
+
+# required by @selected
+# required by @world (argument)
+# >=net-misc/electrum-4.5.4 -python_targets_python3_12
+>=dev-util/rocm-smi-5.4.2::gentoo python_targets_python3_11
+>=net-misc/electrum-4.5.4::gentoo python_targets_python3_12
+# required by net-libs/webkit-gtk-2.44.1-r410::gentoo[gstreamer]
+# required by gnome-extra/yelp-42.2-r1::gentoo
+# required by media-sound/easyeffects-7.1.3-r1::gentoo[doc]
+# required by easyeffects (argument)
+>=media-libs/gst-plugins-base-1.22.11-r1 opengl
+
+# required by dev-python/jaraco-context-5.3.0::gentoo[python_targets_python3_11,python_targets_python3_10]
+# required by dev-python/keyring-25.2.1::gentoo
+# required by app-crypt/yubikey-manager-5.2.0::gentoo
+# required by @selected
+# required by @world (argument)
+>=dev-python/backports-tarfile-1.2.0 python_targets_python3_11
+
+# required by net-mail/urlscan-1.0.1::holgersson-overlay
+# required by @selected
+# required by @world (argument)
+>=dev-python/urwid-2.6.13 python_targets_python3_11
+# required by dev-python/urwid-2.6.13::gentoo
+# required by app-admin/s-tui-1.1.6::guru
+# required by @selected
+# required by @world (argument)
+>=dev-python/typing-extensions-4.12.2 python_targets_python3_11
+
+
+# required by dev-python/setuptools-70.0.0::gentoo
+# required by dev-python/pyyaml-6.0.2_rc1::gentoo
+# required by app-admin/ansible-core-2.16.6::gentoo
+# required by app-admin/ansible-9.4.0::gentoo
+# required by @selected
+# required by @world (argument)
+>=dev-python/packaging-24.1 python_targets_python3_11
+# required by dev-python/setuptools-70.0.0::gentoo
+# required by dev-python/pyyaml-6.0.2_rc1::gentoo
+# required by app-admin/ansible-core-2.16.6::gentoo
+# required by app-admin/ansible-9.4.0::gentoo
+# required by @selected
+# required by @world (argument)
+>=dev-python/more-itertools-10.3.0 python_targets_python3_11
+
+gui-apps/waybar mpd tray sndio
+# required by dev-python/setuptools-70.0.0::gentoo
+# required by dev-python/pycairo-1.26.1::gentoo
+# required by dev-python/pygobject-3.46.0-r1::gentoo[cairo]
+# required by net-misc/networkmanager-1.46.0-r1::gentoo[-test,introspection]
+# required by @selected
+# required by @world (argument)
+>=dev-python/jaraco-text-3.12.1 python_targets_python3_11
+
+# required by dev-python/wcwidth-0.2.13::gentoo
+# required by dev-python/urwid-2.6.15::gentoo
+# required by app-admin/s-tui-1.1.6::guru
+# required by @selected
+# required by @world (argument)
+>=dev-python/setuptools-70.2.0-r1 python_targets_python3_11
+
+
+
+# required by dev-python/setuptools-70.2.0-r1::gentoo
+# required by dev-python/apsw-3.46.0.1::gentoo
+# required by app-text/calibre-7.12.0::gentoo[python_single_target_python3_12]
+# required by @selected
+# required by @world (argument)
+>=dev-python/trove-classifiers-2024.7.2 python_targets_python3_11
+
