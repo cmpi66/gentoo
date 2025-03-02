@@ -476,7 +476,8 @@ x11-terms/alacritty ** # This is temporarily until alacritty error gets fixed 12
 # required by net-misc/gns3-gui-2.2.47::gentoo
 # required by @selected
 # required by @world (argument)
-=dev-python/jinja-3.1.4 ~amd64
+# move dev-python/jinja dev-python/jinja2
+=dev-python/jinja2-3.1.4 ~amd64
 # required by @selected
 # required by @world (argument)
 =app-misc/navi-2.23.0 ~amd64

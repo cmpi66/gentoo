@@ -110,7 +110,8 @@ dev-lang/R png
 
 # required by net-misc/gns3-gui-2.2.33.1::gentoo
 # required by net-misc/gns3-gui (argument)
->=dev-python/PyQt5-5.15.6 widgets websockets gui svg network
+# move dev-python/PyQt5 dev-python/pyqt5
+>=dev-python/pyqt5-5.15.6 widgets websockets gui svg network
 # required by dev-python/aiohttp-3.8.1-r1::gentoo
 # required by dev-python/aiohttp-cors-0.7.0-r2::gentoo
 # required by net-misc/gns3-server-2.2.33.1-r2::gentoo
@@ -129,7 +130,8 @@ app-emulation/qemu usb spice gtk usbredir
 # required by dev-python/PyQtWebEngine-5.15.5::gentoo
 # required by app-text/calibre-5.43.0::gentoo[python_single_target_python3_10]
 # required by calibre (argument)
->=dev-python/PyQt5-5.15.6 printsupport webchannel
+# move dev-python/PyQt5 dev-python/pyqt5
+>=dev-python/pyqt5-5.15.6 printsupport webchannel
 # required by dev-python/PyQtWebEngine-5.15.5::gentoo
 # required by app-text/calibre-5.43.0::gentoo[python_single_target_python3_10]
 # required by calibre (argument)
@@ -345,7 +347,8 @@ media-sound/pulseaudio -daemon
 # required by app-text/calibre-5.44.0-r1::gentoo[python_single_target_python3_11]
 # required by @selected
 # required by @world (argument)
->=dev-python/PyQt5-sip-12.12.1 python_targets_python3_10
+# move dev-python/PyQt5-sip dev-python/pyqt5-sip
+>=dev-python/pyqt5-sip-12.12.1 python_targets_python3_10
 
 
 media-video/mpv pipewire
@@ -708,13 +711,15 @@ app-office/libreoffice pdfimport
 # required by app-misc/anki-2.1.15-r1::gentoo[python_single_target_python3_10]
 # required by @selected
 # required by @world (argument)
->=dev-python/PyQt5-5.15.9-r1 python_targets_python3_10
+# move dev-python/PyQt5 dev-python/pyqt5
+>=dev-python/pyqt5-5.15.9-r1 python_targets_python3_10
 # required by dev-python/PyQt5-5.15.9-r1::gentoo
 # required by dev-python/PyQtWebEngine-5.15.6-r1::gentoo
 # required by app-misc/anki-2.1.15-r1::gentoo[python_single_target_python3_10]
 # required by @selected
 # required by @world (argument)
->=dev-python/PyQt-builder-1.15.2 python_targets_python3_10
+# move dev-python/PyQt-builder dev-python/pyqt-builder
+>=dev-python/pyqt-builder-1.15.2 python_targets_python3_10
 # required by app-misc/anki-2.1.15-r1::gentoo[python_single_target_python3_10]
 # required by @selected
 # required by @world (argument)
@@ -873,7 +878,8 @@ sys-boot/grub device-mapper
 # required by app-misc/anki-2.1.15-r1::gentoo[python_single_target_python3_10]
 # required by @selected
 # required by @world (argument)
->=dev-python/PySocks-1.7.1-r2:0 python_targets_python3_10
+# move dev-python/PySocks dev-python/pysocks
+>=dev-python/pysocks-1.7.1-r2:0 python_targets_python3_10
 # required by dev-python/beautifulsoup4-4.12.2::gentoo
 # required by app-misc/anki-2.1.15-r1::gentoo[python_single_target_python3_10]
 # required by @selected
@@ -1051,7 +1057,8 @@ app-office/sc-im plots xls xlsx
 # required by app-text/calibre-6.29.0::gentoo[python_single_target_python3_11]
 # required by @selected
 # required by @world (argument)
->=dev-python/PyQt6-6.6.1 quick svg opengl qml
+# move dev-python/PyQt6 dev-python/pyqt6
+>=dev-python/pyqt6-6.6.1 quick svg opengl qml
 
 
 
@@ -1059,7 +1066,8 @@ app-office/sc-im plots xls xlsx
 # required by app-text/calibre-6.29.0::gentoo[python_single_target_python3_11]
 # required by @selected
 # required by @world (argument)
->=dev-python/PyQt6-6.6.1 webchannel
+# move dev-python/PyQt6 dev-python/pyqt6
+>=dev-python/pyqt6-6.6.1 webchannel
 # required by dev-python/PyQt6-WebEngine-6.6.0::gentoo
 # required by app-text/calibre-6.29.0::gentoo[python_single_target_python3_11]
 # required by @selected
@@ -1071,7 +1079,8 @@ app-office/sc-im plots xls xlsx
 # required by app-text/calibre-6.29.0::gentoo[python_single_target_python3_11]
 # required by @selected
 # required by @world (argument)
->=dev-python/PyQt6-6.6.1 opengl
+# move dev-python/PyQt6 dev-python/pyqt6
+>=dev-python/pyqt6-6.6.1 opengl
 # required by dev-qt/qtwebengine-6.6.1::gentoo[widgets]
 # required by dev-python/PyQt6-WebEngine-6.6.0::gentoo
 # required by app-text/calibre-6.29.0::gentoo[python_single_target_python3_11]
