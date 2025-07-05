@@ -235,7 +235,7 @@ dev-libs/libfido2 ~amd64
 gui-libs/wlroots **
 dev-libs/wayland **
 dev-util/wayland-scanner **
-dev-libs/wayland-protocols **
+#dev-libs/wayland-protocols **
 #media-libs/mesa **
 #gui-wm/hyprland ** # (Right now you can't build hyprland 9999 because of an update. But normally I advise using 9999. Check again later. I normally update daily as it's a very frequntly developing software)
 #x11-libs/libdrm **
@@ -565,4 +565,133 @@ app-misc/task ~amd64
 
 # required by yazi (argument)
 =app-misc/yazi-0.3.3 ~amd64
+
+# required by anki (argument)
+=app-misc/anki-24.11 ~amd64
+
+app-emulation/virtualbox ~amd64
+app-emulation/virtualbox-additions ~amd64
+app-emulation/virtualbox-extpack-oracle ~amd64
+app-emulation/virtualbox-guest-additions ~amd64
+app-emulation/virtualbox-modules ~amd64
+app-emulation/virtualbox-guest-modules ~amd64
+
+# required by zk (argument)
+=app-misc/zk-0.15.0 ~amd64
+
+=sci-ml/ollama-0.6.6 ~amd64
+# required by sci-ml/ollama-0.6.6::guru
+# required by ollama (argument)
+=acct-user/ollama-3 ~amd64
+
+# required by sci-libs/hipBLAS-6.3.3::gentoo
+# required by sci-ml/ollama-0.6.6::guru[rocm]
+# required by ollama (argument)
+=sci-libs/rocSOLVER-6.3.3 ~amd64
+# required by sci-libs/rocSPARSE-6.3.3::gentoo
+# required by sci-libs/rocSOLVER-6.3.3::gentoo
+# required by sci-libs/hipBLAS-6.3.3::gentoo
+# required by sci-ml/ollama-0.6.6::guru[rocm]
+# required by ollama (argument)
+=sci-libs/rocPRIM-6.3.3 ~amd64
+# required by sci-libs/rocBLAS-6.3.3::gentoo
+# required by sci-libs/rocSOLVER-6.3.3::gentoo
+# required by sci-libs/hipBLAS-6.3.3::gentoo
+# required by sci-ml/ollama-0.6.6::guru[rocm]
+# required by ollama (argument)
+=dev-build/rocm-cmake-6.3.3 ~amd64
+# required by sci-libs/rocSOLVER-6.3.3::gentoo
+# required by sci-libs/hipBLAS-6.3.3::gentoo
+# required by sci-ml/ollama-0.6.6::guru[rocm]
+# required by ollama (argument)
+=sci-libs/rocBLAS-6.3.3 ~amd64
+# required by sci-libs/rocSOLVER-6.3.3::gentoo
+# required by sci-libs/hipBLAS-6.3.3::gentoo
+# required by sci-ml/ollama-0.6.6::guru[rocm]
+# required by ollama (argument)
+=sci-libs/rocSPARSE-6.3.3 ~amd64
+# required by sci-libs/hipBLAS-6.3.3::gentoo
+# required by sci-ml/ollama-0.6.6::guru[rocm]
+# required by ollama (argument)
+=sci-libs/hipBLAS-common-6.3.3 ~amd64
+# required by sci-ml/ollama-0.6.6::guru[rocm]
+# required by ollama (argument)
+=sci-libs/hipBLAS-6.3.3 ~amd64
+# required by dev-util/Tensile-6.3.3::gentoo
+# required by sci-libs/rocBLAS-6.3.3::gentoo[video_cards_amdgpu]
+# required by sci-libs/rocSOLVER-6.3.3::gentoo
+# required by sci-libs/hipBLAS-6.3.3::gentoo
+# required by sci-ml/ollama-0.6.6::guru[rocm]
+# required by ollama (argument)
+=dev-util/rocm-smi-6.3.3 ~amd64
+# required by sci-libs/rocSPARSE-6.3.3::gentoo
+# required by sci-libs/rocSOLVER-6.3.3::gentoo
+# required by sci-libs/hipBLAS-6.3.3::gentoo
+# required by sci-ml/ollama-0.6.6::guru[rocm]
+# required by ollama (argument)
+=dev-util/hip-6.3.3 ~amd64
+# required by sci-libs/rocBLAS-6.3.3::gentoo[video_cards_amdgpu]
+# required by sci-libs/rocSOLVER-6.3.3::gentoo
+# required by sci-libs/hipBLAS-6.3.3::gentoo
+# required by sci-ml/ollama-0.6.6::guru[rocm]
+# required by ollama (argument)
+=dev-util/Tensile-6.3.3 ~amd64
+
+# required by dev-util/hip-6.3.3::gentoo[video_cards_amdgpu]
+# required by dev-util/Tensile-6.3.3::gentoo[-test]
+# required by sci-libs/rocBLAS-6.3.3::gentoo[video_cards_amdgpu]
+# required by sci-libs/rocSOLVER-6.3.3::gentoo
+# required by sci-libs/hipBLAS-6.3.3::gentoo
+# required by sci-ml/ollama-0.6.6::guru[rocm]
+# required by ollama (argument)
+=dev-libs/rocm-comgr-6.3.3 ~amd64
+# required by dev-util/hip-6.3.3::gentoo[video_cards_amdgpu]
+# required by dev-util/Tensile-6.3.3::gentoo[-test]
+# required by sci-libs/rocBLAS-6.3.3::gentoo[video_cards_amdgpu]
+# required by sci-libs/rocSOLVER-6.3.3::gentoo
+# required by sci-libs/hipBLAS-6.3.3::gentoo
+# required by sci-ml/ollama-0.6.6::guru[rocm]
+# required by ollama (argument)
+=dev-libs/rocr-runtime-6.3.3 ~amd64
+# required by dev-util/hip-6.3.3::gentoo[video_cards_amdgpu]
+# required by dev-util/Tensile-6.3.3::gentoo[-test]
+# required by sci-libs/rocBLAS-6.3.3::gentoo[video_cards_amdgpu]
+# required by sci-libs/rocSOLVER-6.3.3::gentoo
+# required by sci-libs/hipBLAS-6.3.3::gentoo
+# required by sci-ml/ollama-0.6.6::guru[rocm]
+# required by ollama (argument)
+=dev-libs/rocm-device-libs-6.3.3 ~amd64
+# required by dev-libs/rocr-runtime-6.3.3::gentoo
+# required by dev-util/rocminfo-6.3.3::gentoo
+# required by dev-util/hip-6.3.3::gentoo[video_cards_amdgpu]
+# required by dev-util/Tensile-6.3.3::gentoo[-test]
+# required by sci-libs/rocBLAS-6.3.3::gentoo[video_cards_amdgpu]
+# required by sci-libs/rocSOLVER-6.3.3::gentoo
+# required by sci-libs/hipBLAS-6.3.3::gentoo
+# required by sci-ml/ollama-0.6.6::guru[rocm]
+# required by ollama (argument)
+=dev-libs/roct-thunk-interface-6.3.3 ~amd64
+# required by dev-libs/rocm-comgr-6.3.3::gentoo
+# required by dev-util/hip-6.3.3::gentoo[video_cards_amdgpu]
+# required by dev-util/Tensile-6.3.3::gentoo[-test]
+# required by sci-libs/rocBLAS-6.3.3::gentoo[video_cards_amdgpu]
+# required by sci-libs/rocSOLVER-6.3.3::gentoo
+# required by sci-libs/hipBLAS-6.3.3::gentoo
+# required by sci-ml/ollama-0.6.6::guru[rocm]
+# required by ollama (argument)
+=dev-util/hipcc-6.3.3 ~amd64
+# required by dev-util/hip-6.3.3::gentoo[video_cards_amdgpu]
+# required by dev-util/Tensile-6.3.3::gentoo[-test]
+# required by sci-libs/rocBLAS-6.3.3::gentoo[video_cards_amdgpu]
+# required by sci-libs/rocSOLVER-6.3.3::gentoo
+# required by sci-libs/hipBLAS-6.3.3::gentoo
+# required by sci-ml/ollama-0.6.6::guru[rocm]
+# required by ollama (argument)
+=dev-util/rocminfo-6.3.3 ~amd64
+
+# required by x11-themes/catppuccin-cursors (argument)
+=x11-themes/catppuccin-cursors-2.0.0 ~amd64
+
+# required by espanso (argument)
+=gui-apps/espanso-2.2.3 ~amd64
 

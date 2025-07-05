@@ -110,7 +110,8 @@ dev-lang/R png
 
 # required by net-misc/gns3-gui-2.2.33.1::gentoo
 # required by net-misc/gns3-gui (argument)
->=dev-python/PyQt5-5.15.6 widgets websockets gui svg network
+# move dev-python/PyQt5 dev-python/pyqt5
+>=dev-python/pyqt5-5.15.6 widgets websockets gui svg network
 # required by dev-python/aiohttp-3.8.1-r1::gentoo
 # required by dev-python/aiohttp-cors-0.7.0-r2::gentoo
 # required by net-misc/gns3-server-2.2.33.1-r2::gentoo
@@ -129,7 +130,8 @@ app-emulation/qemu usb spice gtk usbredir
 # required by dev-python/PyQtWebEngine-5.15.5::gentoo
 # required by app-text/calibre-5.43.0::gentoo[python_single_target_python3_10]
 # required by calibre (argument)
->=dev-python/PyQt5-5.15.6 printsupport webchannel
+# move dev-python/PyQt5 dev-python/pyqt5
+>=dev-python/pyqt5-5.15.6 printsupport webchannel
 # required by dev-python/PyQtWebEngine-5.15.5::gentoo
 # required by app-text/calibre-5.43.0::gentoo[python_single_target_python3_10]
 # required by calibre (argument)
@@ -341,7 +343,8 @@ media-sound/pulseaudio -daemon
 # required by app-text/calibre-5.44.0-r1::gentoo[python_single_target_python3_11]
 # required by @selected
 # required by @world (argument)
->=dev-python/PyQt5-sip-12.12.1 python_targets_python3_10
+# move dev-python/PyQt5-sip dev-python/pyqt5-sip
+>=dev-python/pyqt5-sip-12.12.1 python_targets_python3_10
 
 
 media-video/mpv pipewire
@@ -704,13 +707,15 @@ app-office/libreoffice pdfimport
 # required by app-misc/anki-2.1.15-r1::gentoo[python_single_target_python3_10]
 # required by @selected
 # required by @world (argument)
->=dev-python/PyQt5-5.15.9-r1 python_targets_python3_10
+# move dev-python/PyQt5 dev-python/pyqt5
+>=dev-python/pyqt5-5.15.9-r1 python_targets_python3_10
 # required by dev-python/PyQt5-5.15.9-r1::gentoo
 # required by dev-python/PyQtWebEngine-5.15.6-r1::gentoo
 # required by app-misc/anki-2.1.15-r1::gentoo[python_single_target_python3_10]
 # required by @selected
 # required by @world (argument)
->=dev-python/PyQt-builder-1.15.2 python_targets_python3_10
+# move dev-python/PyQt-builder dev-python/pyqt-builder
+>=dev-python/pyqt-builder-1.15.2 python_targets_python3_10
 # required by app-misc/anki-2.1.15-r1::gentoo[python_single_target_python3_10]
 # required by @selected
 # required by @world (argument)
@@ -869,7 +874,8 @@ sys-boot/grub device-mapper
 # required by app-misc/anki-2.1.15-r1::gentoo[python_single_target_python3_10]
 # required by @selected
 # required by @world (argument)
->=dev-python/PySocks-1.7.1-r2:0 python_targets_python3_10
+# move dev-python/PySocks dev-python/pysocks
+>=dev-python/pysocks-1.7.1-r2:0 python_targets_python3_10
 # required by dev-python/beautifulsoup4-4.12.2::gentoo
 # required by app-misc/anki-2.1.15-r1::gentoo[python_single_target_python3_10]
 # required by @selected
@@ -1047,7 +1053,8 @@ app-office/sc-im plots xls xlsx
 # required by app-text/calibre-6.29.0::gentoo[python_single_target_python3_11]
 # required by @selected
 # required by @world (argument)
->=dev-python/PyQt6-6.6.1 quick svg opengl qml
+# move dev-python/PyQt6 dev-python/pyqt6
+>=dev-python/pyqt6-6.6.1 quick svg opengl qml
 
 
 
@@ -1055,7 +1062,8 @@ app-office/sc-im plots xls xlsx
 # required by app-text/calibre-6.29.0::gentoo[python_single_target_python3_11]
 # required by @selected
 # required by @world (argument)
->=dev-python/PyQt6-6.6.1 webchannel
+# move dev-python/PyQt6 dev-python/pyqt6
+>=dev-python/pyqt6-6.6.1 webchannel
 # required by dev-python/PyQt6-WebEngine-6.6.0::gentoo
 # required by app-text/calibre-6.29.0::gentoo[python_single_target_python3_11]
 # required by @selected
@@ -1067,7 +1075,8 @@ app-office/sc-im plots xls xlsx
 # required by app-text/calibre-6.29.0::gentoo[python_single_target_python3_11]
 # required by @selected
 # required by @world (argument)
->=dev-python/PyQt6-6.6.1 opengl
+# move dev-python/PyQt6 dev-python/pyqt6
+>=dev-python/pyqt6-6.6.1 opengl
 # required by dev-qt/qtwebengine-6.6.1::gentoo[widgets]
 # required by dev-python/PyQt6-WebEngine-6.6.0::gentoo
 # required by app-text/calibre-6.29.0::gentoo[python_single_target_python3_11]
@@ -1330,280 +1339,3 @@ net-libs/nodejs npm
 # required by @selected
 # required by @world (argument)
 >=dev-python/gpep517-17 python_targets_python3_11
-
-
-# required by dev-python/gpep517-17::gentoo
-# required by dev-python/sphinxcontrib-jquery-4.1::gentoo
-# required by dev-python/sphinx-rtd-theme-3.0.2::gentoo
-# required by sys-fs/btrfs-progs-6.13::gentoo[man]
-# required by @selected
-# required by @world (argument)
->=dev-python/installer-0.7.0 python_targets_python3_11
-# required by net-misc/electrum-4.5.8-r2::gentoo[qt5]
-# required by @selected
-# required by @world (argument)
->=dev-python/pyqt5-5.15.11 gui widgets
-# required by dev-python/urwid-2.6.16::gentoo
-# required by app-admin/s-tui-1.1.6::guru
-# required by @selected
-# required by @world (argument)
->=dev-python/wcwidth-0.2.13 python_targets_python3_11
-
-# required by net-misc/gns3-gui-2.2.47::gentoo
-# required by @selected
-# required by @world (argument)
->=dev-python/pyqt5-5.15.11 websockets network svg
-
-
-# llvm-core/clang python_single_target_python3_12 
-media-gfx/img2pdf python_targets_python3_12
-
-
-# required by dev-python/aiohttp-3.11.16::gentoo
-# required by dev-python/aiohttp-socks-0.10.1::gentoo
-# required by net-misc/electrum-4.5.8-r2::gentoo
-# required by @selected
-# required by @world (argument)
->=dev-python/frozenlist-1.6.0 python_targets_python3_12
-# required by dev-python/aiohttp-3.11.16::gentoo
-# required by dev-python/aiohttp-socks-0.10.1::gentoo
-# required by net-misc/electrum-4.5.8-r2::gentoo
-# required by @selected
-# required by @world (argument)
->=dev-python/yarl-1.20.0 python_targets_python3_12
-# required by dev-python/pikepdf-9.7.0::gentoo
-# required by media-gfx/img2pdf-0.5.1::gentoo
-# required by @selected
-# required by @world (argument)
->=dev-python/lxml-5.3.2-r1 python_targets_python3_12
-# required by dev-python/pikepdf-9.7.0::gentoo
-# required by media-gfx/img2pdf-0.5.1::gentoo
-# required by @selected
-# required by @world (argument)
->=dev-python/pillow-11.2.1 python_targets_python3_12
-# required by app-misc/anki-24.11::gentoo
-# required by @selected
-# required by @world (argument)
->=dev-python/beautifulsoup4-4.13.4 python_targets_python3_12
-# required by app-misc/anki-24.11::gentoo
-# required by @selected
-# required by @world (argument)
->=dev-python/markdown-3.8 python_targets_python3_12
-
-# required by dev-python/aiohttp-socks-0.10.1::gentoo
-# required by net-misc/electrum-4.5.8-r2::gentoo
-# required by @selected
-# required by @world (argument)
->=dev-python/aiohttp-3.11.18 python_targets_python3_12
-# required by dev-python/hatchling-1.27.0::gentoo[-test]
-# required by dev-python/soupsieve-2.7::gentoo
-# required by dev-python/beautifulsoup4-4.13.4::gentoo
-# required by app-misc/anki-24.11::gentoo
-# required by @selected
-# required by @world (argument)
->=dev-python/trove-classifiers-2025.5.9.12 python_targets_python3_12
-# required by dev-python/flask-cors-5.0.1::gentoo
-# required by app-misc/anki-24.11::gentoo
-# required by @selected
-# required by @world (argument)
->=dev-python/setuptools-79.0.1 python_targets_python3_12
-# required by dev-python/jsonschema-4.23.0::gentoo
-# required by app-misc/anki-24.11::gentoo
-# required by @selected
-# required by @world (argument)
->=dev-python/jsonschema-specifications-2025.4.1 python_targets_python3_12
-# required by dev-python/aiohttp-3.11.18::gentoo
-# required by dev-python/aiohttp-socks-0.10.1::gentoo
-# required by net-misc/electrum-4.5.8-r2::gentoo
-# required by @selected
-# required by @world (argument)
->=dev-python/multidict-6.4.3 python_targets_python3_12
-# required by dev-python/aiodns-3.2.0::gentoo[-test]
-# required by dev-python/aiohttp-3.11.18::gentoo
-# required by dev-python/aiohttp-socks-0.10.1::gentoo
-# required by net-misc/electrum-4.5.8-r2::gentoo
-# required by @selected
-# required by @world (argument)
->=dev-python/pycares-4.6.1 python_targets_python3_12
-# required by dev-python/beautifulsoup4-4.13.4::gentoo
-# required by app-misc/anki-24.11::gentoo
-# required by @selected
-# required by @world (argument)
->=dev-python/soupsieve-2.7 python_targets_python3_12
-
-# required by dev-python/aiodns-3.3.0::gentoo
-# required by dev-python/aiohttp-3.11.18::gentoo
-# required by dev-python/aiohttp-socks-0.10.1::gentoo
-# required by net-misc/electrum-4.5.8-r2::gentoo
-# required by @selected
-# required by @world (argument)
->=dev-python/gpep517-19 python_targets_python3_12
-# required by dev-python/aiohttp-3.11.18::gentoo
-# required by dev-python/aiohttp-socks-0.10.1::gentoo
-# required by net-misc/electrum-4.5.8-r2::gentoo
-# required by @selected
-# required by @world (argument)
->=dev-python/aiodns-3.3.0 python_targets_python3_12
-
-sci-ml/ollama rocm
-
-# required by dev-python/setuptools-80.4.0::gentoo
-# required by dev-python/urwid-3.0.2::gentoo
-# required by app-admin/s-tui-1.1.6::guru
-# required by @selected
-# required by @world (argument)
->=dev-python/more-itertools-10.7.0 python_targets_python3_12
-# required by dev-python/hatchling-1.27.0::gentoo
-# required by dev-python/soupsieve-2.7::gentoo
-# required by dev-python/beautifulsoup4-4.13.4::gentoo
-# required by app-misc/anki-24.11::gentoo
-# required by @selected
-# required by @world (argument)
->=dev-python/packaging-25.0 python_targets_python3_12
-# required by dev-python/setuptools-80.4.0::gentoo
-# required by dev-python/urwid-3.0.2::gentoo
-# required by app-admin/s-tui-1.1.6::guru
-# required by @selected
-# required by @world (argument)
->=dev-python/platformdirs-4.3.8 python_targets_python3_12
-# required by dev-python/sip-6.10.0::gentoo
-# required by dev-python/pyqt6-6.8.1::gentoo
-# required by dev-python/pyqt6-webengine-6.8.0::gentoo[widgets]
-# required by app-misc/anki-24.11::gentoo
-# required by @selected
-# required by @world (argument)
->=dev-python/setuptools-scm-8.3.1 python_targets_python3_12
-# required by dev-python/referencing-0.36.2-r1::gentoo[-python_targets_python3_11,python_targets_python3_12]
-# required by dev-python/jsonschema-specifications-2025.4.1::gentoo
-# required by dev-python/jsonschema-4.23.0::gentoo
-# required by app-misc/anki-24.11::gentoo
-# required by @selected
-# required by @world (argument)
->=dev-python/typing-extensions-4.13.2-r2 python_targets_python3_12
-# required by net-misc/electrum-4.5.8-r2::gentoo
-# required by @selected
-# required by @world (argument)
->=dev-python/protobuf-6.30.2-r1 python_targets_python3_12
-
-# required by dev-python/pytest-8.3.5::gentoo
-# required by dev-python/pytest-asyncio-0.26.0::gentoo
-# required by dev-python/aiodns-3.4.0::gentoo
-# required by dev-python/aiohttp-3.11.18::gentoo
-# required by dev-python/aiohttp-socks-0.10.1::gentoo
-# required by net-misc/electrum-4.5.8-r2::gentoo
-# required by @selected
-# required by @world (argument)
->=dev-python/pluggy-1.6.0 python_targets_python3_12
-# required by dev-python/aiodns-3.4.0::gentoo
-# required by dev-python/aiohttp-3.11.18::gentoo
-# required by dev-python/aiohttp-socks-0.10.1::gentoo
-# required by net-misc/electrum-4.5.8-r2::gentoo
-# required by @selected
-# required by @world (argument)
->=dev-python/pytest-asyncio-0.26.0 python_targets_python3_12
-# required by dev-python/pytest-asyncio-0.26.0::gentoo
-# required by dev-python/aiodns-3.4.0::gentoo
-# required by dev-python/aiohttp-3.11.18::gentoo
-# required by dev-python/aiohttp-socks-0.10.1::gentoo
-# required by net-misc/electrum-4.5.8-r2::gentoo
-# required by @selected
-# required by @world (argument)
->=dev-python/pytest-8.3.5 python_targets_python3_12
-# required by dev-python/pytest-8.3.5::gentoo
-# required by dev-python/pytest-asyncio-0.26.0::gentoo
-# required by dev-python/aiodns-3.4.0::gentoo
-# required by dev-python/aiohttp-3.11.18::gentoo
-# required by dev-python/aiohttp-socks-0.10.1::gentoo
-# required by net-misc/electrum-4.5.8-r2::gentoo
-# required by @selected
-# required by @world (argument)
->=dev-python/iniconfig-2.1.0 python_targets_python3_12
-# required by net-misc/electrum-4.5.8-r2::gentoo
-# required by @selected
-# required by @world (argument)
->=dev-python/cryptography-44.0.3 python_targets_python3_12
-# required by net-misc/electrum-4.5.8-r2::gentoo
-# required by @selected
-# required by @world (argument)
->=dev-python/qrcode-8.2 python_targets_python3_12
-# required by dev-python/requests-2.32.3::gentoo
-# required by dev-python/pip-25.1.1::gentoo
-# required by @selected
-# required by @world (argument)
->=dev-python/charset-normalizer-3.4.2 python_targets_python3_12
-# required by dev-python/qrcode-8.2::gentoo
-# required by net-misc/electrum-4.5.8-r2::gentoo
-# required by @selected
-# required by @world (argument)
->=dev-python/poetry-core-2.1.3 python_targets_python3_12
-# required by dev-python/cryptography-44.0.3::gentoo
-# required by app-crypt/yubikey-manager-5.6.1-r1::gentoo
-# required by @selected
-# required by @world (argument)
->=dev-util/maturin-1.8.6 python_targets_python3_12
-# required by dev-python/flask-cors-5.0.1::gentoo
-# required by app-misc/anki-24.11::gentoo
-# required by @selected
-# required by @world (argument)
->=dev-python/flask-3.1.1 python_targets_python3_12
-
-# required by dev-python/jsonschema-4.23.0::gentoo
-# required by app-misc/anki-24.11::gentoo
-# required by @selected
-# required by @world (argument)
->=dev-python/rpds-py-0.25.1 python_targets_python3_12
-# required by net-misc/electrum-4.5.8-r2::gentoo
-# required by @selected
-# required by @world (argument)
->=dev-python/requests-2.32.4 python_targets_python3_12
-# required by dev-python/flask-3.1.1::gentoo
-# required by dev-python/flask-cors-6.0.0::gentoo
-# required by app-misc/anki-24.11::gentoo
-# required by @selected
-# required by @world (argument)
->=dev-python/click-8.2.1 python_targets_python3_12
-# required by app-misc/anki-24.11::gentoo
-# required by @selected
-# required by @world (argument)
->=dev-python/flask-cors-6.0.0 python_targets_python3_12
-
-# required by media-gfx/img2pdf-0.5.1::gentoo
-# required by @selected
-# required by @world (argument)
->=dev-python/pikepdf-9.8.1 python_targets_python3_12
-
-# required by dev-python/frozenlist-1.6.2::gentoo[python_targets_python3_12,-python_targets_python3_11,python_targets_python3_13,native-extensions]
-# required by dev-python/aiosignal-1.3.2::gentoo
-# required by dev-python/aiohttp-3.11.18::gentoo
-# required by dev-python/aiohttp-socks-0.10.1::gentoo
-# required by net-misc/electrum-4.5.8-r2::gentoo
-# required by @selected
-# required by @world (argument)
->=dev-python/cython-3.1.2 python_targets_python3_12
-# required by dev-python/pyqt6-webengine-6.9.0::gentoo
-# required by app-misc/anki-24.11::gentoo
-# required by @selected
-# required by @world (argument)
->=dev-python/pyqt6-6.9.1 python_targets_python3_12
-# required by dev-python/pyqt6-6.9.1::gentoo
-# required by dev-python/pyqt6-webengine-6.9.0::gentoo
-# required by app-misc/anki-24.11::gentoo
-# required by @selected
-# required by @world (argument)
->=dev-python/pyqt6-sip-13.10.2 python_targets_python3_12
-# required by app-misc/anki-24.11::gentoo
-# required by @selected
-# required by @world (argument)
->=dev-python/pyqt6-webengine-6.9.0 python_targets_python3_12
-# required by dev-python/pyqt6-webengine-6.9.0::gentoo
-# required by app-misc/anki-24.11::gentoo
-# required by @selected
-# required by @world (argument)
->=dev-python/pyqt-builder-1.18.2 python_targets_python3_12
-# required by dev-python/pyqt6-6.9.1::gentoo
-# required by dev-python/pyqt6-webengine-6.9.0::gentoo
-# required by app-misc/anki-24.11::gentoo
-# required by @selected
-# required by @world (argument)
->=dev-python/sip-6.12.0 python_targets_python3_12
-

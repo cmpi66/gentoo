@@ -41,3 +41,5 @@ net-analyzer/nmap NPSL-0.94
 >=gui-apps/packettracer-8.2.0 Cisco
 # required by app-emulation/virtualbox-extpack-oracle (argument)
 =app-emulation/virtualbox-extpack-oracle-7.0.18 PUEL-11
+=app-emulation/virtualbox-extpack-oracle-7.1.8 PUEL-12
+

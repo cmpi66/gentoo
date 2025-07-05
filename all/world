@@ -17,6 +17,7 @@ app-admin/sudo
 app-admin/syslog-ng
 app-arch/lz4
 app-arch/p7zip
+app-arch/unrar
 app-benchmarks/kdiskmark
 app-benchmarks/stress
 app-containers/docker
@@ -32,10 +33,11 @@ app-emulation/virt-manager
 app-emulation/virt-viewer
 app-emulation/virtualbox
 app-emulation/virtualbox-additions
+app-emulation/virtualbox-extpack-oracle
 app-eselect/eselect-repository
 app-misc/abook
 app-misc/ani-cli
-app-misc/anki-bin
+app-misc/anki
 app-misc/asciinema
 app-misc/broot
 app-misc/cmatrix
@@ -54,7 +56,6 @@ app-misc/rlwrap
 app-misc/task
 app-misc/timew
 app-misc/tmux
-app-misc/vit
 app-misc/yazi
 app-office/libreoffice
 app-office/sc-im
@@ -119,6 +120,7 @@ dev-util/shfmt
 dev-vcs/git
 gnome-extra/gnome-calculator
 gnome-extra/gnome-clocks
+gui-apps/espanso
 gui-apps/foot
 gui-apps/grim
 gui-apps/hyprpicker
@@ -164,9 +166,9 @@ media-libs/exiftool
 media-libs/harfbuzz
 media-libs/libsdl2
 media-libs/libva
+media-libs/mesa
 media-libs/mutagen
 media-libs/openal
-media-libs/portaudio
 media-sound/easyeffects
 media-sound/jack2
 media-sound/mpc
@@ -183,6 +185,7 @@ media-video/mpv
 media-video/pipewire
 media-video/v4l2loopback
 net-analyzer/arp-scan
+net-analyzer/iftop
 net-analyzer/mtr
 net-analyzer/nmap
 net-analyzer/tcpdump
@@ -194,6 +197,7 @@ net-fs/cifs-utils
 net-fs/nfs-utils
 net-fs/sshfs
 net-im/discord
+net-libs/nodejs
 net-mail/mpop
 net-mail/urlscan
 net-misc/axel
@@ -223,9 +227,11 @@ net-vpn/openvpn
 net-vpn/tor
 net-vpn/wireguard-tools
 sci-libs/fftw
+sci-ml/ollama
 sys-apps/arch-chroot
 sys-apps/bat
 sys-apps/dog
+sys-apps/ethtool
 sys-apps/eza
 sys-apps/fd
 sys-apps/lm-sensors
@@ -244,8 +250,8 @@ sys-apps/xdg-desktop-portal
 sys-auth/pam-gnupg
 sys-auth/pam_u2f
 sys-block/io-scheduler-udev-rules
+sys-block/open-iscsi
 sys-boot/grub
-sys-boot/rpi-imager
 sys-cluster/kubectl
 sys-devel/gcc
 sys-devel/gcc:11
@@ -318,4 +324,5 @@ x11-misc/xsel
 x11-misc/xwallpaper
 x11-terms/alacritty
 x11-terms/kitty
+x11-themes/catppuccin-cursors
 x11-themes/papirus-icon-theme
