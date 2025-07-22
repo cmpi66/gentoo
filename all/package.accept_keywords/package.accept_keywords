@@ -695,3 +695,9 @@ app-emulation/virtualbox-guest-modules ~amd64
 # required by espanso (argument)
 =gui-apps/espanso-2.2.3 ~amd64
 
+# required by wayvnc (argument)
+=gui-apps/wayvnc-0.9.1-r1 ~amd64
+
+# required by wlr-randr (argument)
+=gui-apps/wlr-randr-0.4.1 ~amd64
+

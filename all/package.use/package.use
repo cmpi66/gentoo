@@ -159,7 +159,7 @@ www-client/librewolf pulseaudio
 
 net-firewall/iptables netlink
 
-net-misc/remmina rdp
+net-misc/remmina rdp vnc gvnc
 
 # required by app-emulation/libvirt-8.7.0-r1::gentoo[virt-network]
 # required by app-emulation/libvirt-glib-4.0.0::gentoo
@@ -199,7 +199,7 @@ x11-libs/gtk+ wayland
 >=media-libs/mesa-22.2.5 wayland
 
 ## Now im able to get the gpg password prompt no matter what, i just needed gtk flag, the ncurses only flag couldnt give me the popup since it needed an open terminal. And it also didnt give me the password promtp with ncurses when i ran 'mailsync', now i get the popup for all the commands.
-app-crypt/pinentry gtk -ncurses
+app-crypt/pinentry gtk -ncurses qt6
 
 #required by kde-frameworks/kded-5.102.0-r1::gentoo
 # required by kde-frameworks/kio-5.102.0-r1::gentoo
@@ -1606,4 +1606,61 @@ sci-ml/ollama rocm
 # required by @selected
 # required by @world (argument)
 >=dev-python/sip-6.12.0 python_targets_python3_12
+
+# required by dev-python/requests-2.32.4::gentoo
+# required by dev-python/pip-25.1.1::gentoo
+# required by @selected
+# required by @world (argument)
+>=dev-python/urllib3-2.5.0 python_targets_python3_12
+# required by dev-python/attrs-25.3.0::gentoo
+# required by net-misc/electrum-4.5.8-r2::gentoo
+# required by @selected
+# required by @world (argument)
+>=dev-python/hatch-vcs-0.5.0 python_targets_python3_12
+# required by dev-python/yarl-1.20.1::gentoo
+# required by dev-python/aiohttp-3.11.18::gentoo
+# required by dev-python/aiohttp-socks-0.10.1::gentoo
+# required by net-misc/electrum-4.5.8-r2::gentoo
+# required by @selected
+# required by @world (argument)
+>=dev-python/propcache-0.3.2 python_targets_python3_12
+# required by dev-python/pytest-8.4.1::gentoo
+# required by dev-python/pytest-asyncio-0.26.0::gentoo
+# required by dev-python/aiodns-3.5.0::gentoo
+# required by dev-python/aiohttp-3.11.18::gentoo
+# required by dev-python/aiohttp-socks-0.10.1::gentoo
+# required by net-misc/electrum-4.5.8-r2::gentoo
+# required by @selected
+# required by @world (argument)
+>=dev-python/pygments-2.19.1 python_targets_python3_12
+
+# required by dev-python/setuptools-80.9.0::gentoo
+# required by dev-python/resolvelib-1.2.0::gentoo
+# required by dev-python/pip-25.1.1::gentoo
+# required by @selected
+# required by @world (argument)
+>=dev-python/jaraco-collections-5.2.1 python_targets_python3_12
+# required by dev-python/setuptools-80.9.0::gentoo
+# required by dev-python/resolvelib-1.2.0::gentoo
+# required by dev-python/pip-25.1.1::gentoo
+# required by @selected
+# required by @world (argument)
+>=dev-python/jaraco-functools-4.2.1 python_targets_python3_12
+# required by net-misc/gns3-gui-2.2.47::gentoo
+# required by @selected
+# required by @world (argument)
+>=dev-python/jsonschema-4.24.0 python_targets_python3_12
+# required by dev-python/attrs-25.3.0::gentoo
+# required by dev-python/aiohttp-3.12.13::gentoo
+# required by dev-python/aiohttp-socks-0.10.1::gentoo
+# required by net-misc/electrum-4.5.8-r2::gentoo
+# required by @selected
+# required by @world (argument)
+>=dev-python/hatch-fancy-pypi-readme-25.1.0 python_targets_python3_12
+# required by dev-python/aiohttp-3.12.13::gentoo[native-extensions]
+# required by dev-python/aiohttp-socks-0.10.1::gentoo
+# required by net-misc/electrum-4.5.8-r2::gentoo
+# required by @selected
+# required by @world (argument)
+>=dev-python/pkgconfig-1.5.5-r1 python_targets_python3_12
 
