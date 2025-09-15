@@ -79,6 +79,8 @@ dev-libs/bemenu
 dev-libs/date
 dev-libs/libfido2
 dev-libs/libusb
+dev-libs/rocm-device-libs
+dev-libs/rocm-opencl-runtime
 dev-libs/spdlog
 dev-libs/stfl
 dev-libs/wayland-protocols
@@ -96,6 +98,7 @@ dev-util/ccache
 dev-util/codespell
 dev-util/ctags
 dev-util/git-delta
+dev-util/hip
 dev-util/pkgcheck
 dev-util/pkgdev
 dev-util/rocm-smi
@@ -108,7 +111,9 @@ gui-apps/espanso
 gui-apps/foot
 gui-apps/grim
 gui-apps/hyprpicker
+gui-apps/satty
 gui-apps/slurp
+gui-apps/swappy
 gui-apps/swaybg
 gui-apps/swayidle
 gui-apps/swaylock
@@ -141,6 +146,7 @@ media-gfx/gifsicle
 media-gfx/gimp
 media-gfx/imagemagick
 media-gfx/img2pdf
+media-gfx/imv
 media-gfx/maim
 media-gfx/potrace
 media-gfx/sxiv
@@ -206,7 +212,6 @@ net-vpn/openvpn
 net-vpn/tor
 net-vpn/wireguard-tools
 sci-libs/fftw
-sci-ml/ollama
 sys-apps/arch-chroot
 sys-apps/bat
 sys-apps/dog
@@ -262,6 +267,7 @@ www-client/lynx
 www-client/ungoogled-chromium-bin
 www-client/w3m
 x11-apps/mesa-progs
+x11-apps/xhost
 x11-apps/xinit
 x11-apps/xrandr
 x11-apps/xrdb
@@ -296,5 +302,6 @@ x11-misc/xkeycaps
 x11-misc/xsel
 x11-misc/xwallpaper
 x11-terms/alacritty
+x11-terms/kitty
 x11-themes/catppuccin-cursors
 x11-themes/papirus-icon-theme
