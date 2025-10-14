@@ -1,45 +1,23 @@
-#required for nvidia drivers
-
-x11-drivers/nvidia-drivers NVIDIA-r2
 dev-util/nvidia-cuda-toolkit NVIDIA CUDA
 sys-kernel/linux-firmware @BINARY-REDISTRIBUTABLE
-# required by x11-base/xorg-x11-7.4-r3::gentoo[fonts]
-# required by x11-base/xorg-x11 (argument)
->=media-fonts/font-bh-ttf-1.0.3-r2 bh-luxi
-# required by x11-base/xorg-x11-7.4-r3::gentoo[fonts]
-# required by x11-base/xorg-x11 (argument)
->=media-fonts/font-bh-type1-1.0.3-r2 bh-luxi
-# required by upwork (argument)
+media-fonts/font-bh-ttf bh-luxi
+media-fonts/font-bh-type1 bh-luxi
 app-office/upwork ODESK
-# required by media-fonts/joypixels (argument)
-=media-fonts/joypixels-6.5.0-r1 JoyPixels
-
-# required by media-fonts/corefonts (argument)
->=media-fonts/corefonts-1-r7 MSttfEULA
-# required by media-fonts/freefonts (argument)
->=media-fonts/freefonts-0.10-r4 all-rights-reserved free-noncomm freedist
-# required by sys-firmware/intel-microcode (argument)
->=sys-firmware/intel-microcode-20220510_p20220508 intel-ucode
-
-# required by games-emulation/desmume-0.9.13::gentoo
-# required by games-emulation/desmume (argument)
->=x11-libs/agg-2.5-r3 free-noncomm
-
+media-fonts/joypixels JoyPixels
+media-fonts/corefonts MSttfEULA
+media-fonts/freefonts all-rights-reserved free-noncomm freedist
 sys-apps/man-pages-posix freedist
 net-analyzer/nmap NPSL-0.94
-#
+net-im/discord all-rights-reserved
+app-emulation/virtualbox-extpack-oracle PUEL-12
+# x11-drivers/nvidia-drivers NVIDIA-r2
+# sys-firmware/intel-microcode intel-ucode
+# required by games-emulation/desmume-0.9.13::gentoo
+# required by games-emulation/desmume (argument)
+# x11-libs/agg free-noncomm
 # required by net-im/discord (argument)
->=net-im/discord-0.0.24 all-rights-reserved
-
-# required by media-fonts/joypixels (argument)
-=media-fonts/joypixels-6.6.0 JoyPixels
-
 # required by games-emulation/vgba (argument)
->=games-emulation/vgba-4.8-r1 VGBA
+# games-emulation/vgba VGBA
 # required by packettracer (argument)
-
->=gui-apps/packettracer-8.2.0 Cisco
-# required by app-emulation/virtualbox-extpack-oracle (argument)
-=app-emulation/virtualbox-extpack-oracle-7.0.18 PUEL-11
-=app-emulation/virtualbox-extpack-oracle-7.1.8 PUEL-12
+# gui-apps/packettracer Cisco
 

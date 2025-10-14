@@ -1712,3 +1712,125 @@ media-gfx/imv png svg
 # required by @world (argument)
 >=dev-python/regex-2025.7.31 python_targets_python3_12
 
+# required by dev-python/poetry-core-2.1.3::gentoo[-test]
+# required by dev-python/fido2-2.0.0::gentoo
+# required by app-crypt/yubikey-manager-5.7.2::gentoo
+# required by @selected
+# required by @world (argument)
+>=dev-python/fastjsonschema-2.21.2 python_targets_python3_12
+# required by dev-python/aiohttp-socks-0.10.1::gentoo
+# required by dev-python/electrum-aionostr-0.0.11::gentoo
+# required by net-misc/electrum-4.6.0-r1::gentoo
+# required by @selected
+# required by @world (argument)
+>=dev-python/python-socks-2.7.2 python_targets_python3_12
+# required by dev-python/deprecated-1.2.18-r1::gentoo
+# required by dev-python/pikepdf-9.10.2::gentoo
+# required by media-gfx/img2pdf-0.5.1::gentoo
+# required by @selected
+# required by @world (argument)
+>=dev-python/wrapt-1.17.3 python_targets_python3_12
+
+
+# required by net-misc/electrum-4.6.2::gentoo[qt6]
+# required by @selected
+# required by @world (argument)
+>=dev-python/pyqt6-6.9.1 multimedia
+# required by dev-qt/qtmultimedia-6.9.3::gentoo
+# required by dev-python/pyqt6-6.9.1::gentoo[multimedia]
+# required by net-misc/electrum-4.6.2::gentoo[qt6]
+# required by @selected
+# required by @world (argument)
+#
+
+# required by dev-qt/qtdeclarative-6.9.3-r1::gentoo
+# required by dev-qt/qtwebchannel-6.9.3::gentoo[qml]
+# required by dev-python/pyqt6-6.9.1::gentoo[webchannel]
+# required by net-misc/electrum-4.6.2::gentoo[qt6]
+# required by @selected
+# required by @world (argument)
+>=dev-qt/qtbase-6.9.3 opengl
+# required by dev-python/pyqt6-6.9.1::gentoo[multimedia]
+# required by net-misc/electrum-4.6.2::gentoo[qt6]
+# required by @selected
+# required by @world (argument)
+>=dev-qt/qtmultimedia-6.9.3 opengl
+
+
+# required by dev-python/jsonschema-specifications-2025.4.1::gentoo
+# required by dev-python/jsonschema-4.25.1::gentoo
+# required by app-misc/anki-25.09.2::gentoo[gui,python_single_target_python3_13]
+# required by anki (argument)
+>=dev-python/referencing-0.36.2-r1 python_targets_python3_12
+# required by dev-python/jsonschema-4.25.1::gentoo
+# required by app-misc/anki-25.09.2::gentoo[gui,python_single_target_python3_13]
+# required by anki (argument)
+>=dev-python/fqdn-1.5.1-r2 python_targets_python3_12
+# required by dev-python/jsonschema-4.25.1::gentoo
+# required by app-misc/anki-25.09.2::gentoo[gui,python_single_target_python3_13]
+# required by anki (argument)
+>=dev-python/isoduration-20.11.0-r1 python_targets_python3_12
+# required by dev-python/jsonschema-4.25.1::gentoo
+# required by app-misc/anki-25.09.2::gentoo[gui,python_single_target_python3_13]
+# required by anki (argument)
+>=dev-python/rfc3339-validator-0.1.4-r1 python_targets_python3_12
+# required by dev-python/jsonschema-4.25.1::gentoo
+# required by app-misc/anki-25.09.2::gentoo[gui,python_single_target_python3_13]
+# required by anki (argument)
+>=dev-python/rfc3986-validator-0.1.1-r2 python_targets_python3_12
+# required by dev-python/jsonschema-4.25.1::gentoo
+# required by app-misc/anki-25.09.2::gentoo[gui,python_single_target_python3_13]
+# required by anki (argument)
+>=dev-python/rfc3987-1.3.8-r3 python_targets_python3_12
+# required by dev-python/jsonschema-4.25.1::gentoo
+# required by app-misc/anki-25.09.2::gentoo[gui,python_single_target_python3_13]
+# required by anki (argument)
+>=dev-python/uri-template-1.3.0 python_targets_python3_12
+# required by dev-python/jsonschema-4.25.1::gentoo
+# required by app-misc/anki-25.09.2::gentoo[gui,python_single_target_python3_13]
+# required by anki (argument)
+>=dev-python/webcolors-24.11.1 python_targets_python3_12
+# required by dev-python/webcolors-24.11.1::gentoo
+# required by dev-python/jsonschema-4.25.1::gentoo
+# required by app-misc/anki-25.09.2::gentoo[gui,python_single_target_python3_13]
+# required by anki (argument)
+>=dev-python/pdm-backend-2.4.5 python_targets_python3_12
+# required by dev-python/pdm-backend-2.4.5::gentoo[-test]
+# required by dev-python/webcolors-24.11.1::gentoo
+# required by dev-python/jsonschema-4.25.1::gentoo
+# required by app-misc/anki-25.09.2::gentoo[gui,python_single_target_python3_13]
+# required by anki (argument)
+>=dev-python/tomli-w-1.2.0 python_targets_python3_12
+# required by dev-python/rfc3339-validator-0.1.4-r1::gentoo
+# required by dev-python/jsonschema-4.25.1::gentoo
+# required by app-misc/anki-25.09.2::gentoo[gui,python_single_target_python3_13]
+# required by anki (argument)
+>=dev-python/strict-rfc3339-0.7-r2 python_targets_python3_12
+# required by dev-python/isoduration-20.11.0-r1::gentoo
+# required by dev-python/jsonschema-4.25.1::gentoo
+# required by app-misc/anki-25.09.2::gentoo[gui,python_single_target_python3_13]
+# required by anki (argument)
+>=dev-python/arrow-1.3.0 python_targets_python3_12
+# required by dev-python/arrow-1.3.0::gentoo
+# required by dev-python/isoduration-20.11.0-r1::gentoo
+# required by dev-python/jsonschema-4.25.1::gentoo
+# required by app-misc/anki-25.09.2::gentoo[gui,python_single_target_python3_13]
+# required by anki (argument)
+>=dev-python/python-dateutil-2.9.0_p0 python_targets_python3_12
+# required by dev-python/flask-3.1.2::gentoo
+# required by dev-python/flask-cors-6.0.1::gentoo
+# required by app-misc/anki-25.09.2::gentoo[gui,python_single_target_python3_13]
+# required by anki (argument)
+>=dev-python/werkzeug-3.1.3 python_targets_python3_12
+# required by dev-python/flask-3.1.2::gentoo
+# required by dev-python/flask-cors-6.0.1::gentoo
+# required by app-misc/anki-25.09.2::gentoo[gui,python_single_target_python3_13]
+# required by anki (argument)
+>=dev-python/blinker-1.9.0 python_targets_python3_12
+# required by dev-python/flask-3.1.2::gentoo
+# required by dev-python/flask-cors-6.0.1::gentoo
+# required by app-misc/anki-25.09.2::gentoo[gui,python_single_target_python3_13]
+# required by anki (argument)
+>=dev-python/itsdangerous-2.2.0 python_targets_python3_12
+
+sys-kernel/linux-firmware savedconfig
