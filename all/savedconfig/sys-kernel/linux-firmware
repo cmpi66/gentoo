@@ -1,0 +1,32 @@
+# Remove files that shall not be installed from this list.
+# AMD GPU firmware
+amdgpu/psp_13_0_0_sos.bin
+amdgpu/psp_13_0_0_ta.bin
+amdgpu/smu_13_0_0.bin
+amdgpu/dcn_3_2_0_dmcub.bin
+amdgpu/gc_11_0_0_pfp.bin
+amdgpu/gc_11_0_0_me.bin
+amdgpu/gc_11_0_0_rlc.bin
+amdgpu/gc_11_0_0_mec.bin
+amdgpu/gc_11_0_0_imu.bin
+amdgpu/sdma_6_0_0.bin
+amdgpu/vcn_4_0_0.bin
+amdgpu/gc_11_0_0_mes_2.bin
+amdgpu/gc_11_0_0_mes1.bin
+
+# Also loaded from alternate PSP/GC versions
+amdgpu/psp_13_0_5_toc.bin
+amdgpu/psp_13_0_5_ta.bin
+amdgpu/dcn_3_1_5_dmcub.bin
+amdgpu/gc_10_3_6_pfp.bin
+amdgpu/gc_10_3_6_me.bin
+amdgpu/gc_10_3_6_ce.bin
+amdgpu/gc_10_3_6_rlc.bin
+amdgpu/gc_10_3_6_mec.bin
+amdgpu/gc_10_3_6_mec2.bin
+amdgpu/sdma_5_2_6.bin
+amdgpu/vcn_3_1_2.bin
+
+# Network firmware (Realtek NIC)
+rtl_nic/rtl8168h-2.fw
+rtl_nic/rtl8125b-2.fw
