@@ -23,9 +23,6 @@ app-crypt/pinentry
 app-crypt/yubikey-manager
 app-dicts/aspell-en
 app-editors/vim
-app-emulation/virtualbox
-app-emulation/virtualbox-additions
-app-emulation/virtualbox-extpack-oracle
 app-eselect/eselect-repository
 app-misc/abook
 app-misc/ani-cli
