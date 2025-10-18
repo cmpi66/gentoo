@@ -624,18 +624,14 @@ dev-cpp/cairomm X
 # required by @world (argument)
 >=net-libs/gnutls-3.8.0 tools pkcs11
 
-games-emulation/vbam ffmpeg wxwidgets
 
 
 media-libs/openal pipewire sdl
 
-games-emulation/mgba gui lua_single_target_lua5-4 
-
-games-emulation/desmume openal
 
 
 
-games-emulation/RetroArch xmb 
+
 
 # required by dev-python/aiohttp-3.8.5::gentoo
 # required by dev-python/aiohttp-cors-0.7.0-r2::gentoo
@@ -644,7 +640,7 @@ games-emulation/RetroArch xmb
 # required by @world (argument)
 >=dev-python/multidict-6.0.4-r1 python_targets_python3_10
 
-app-office/libreoffice pdfimport
+app-office/libreoffice pdfimport -gtk3 qt6
 
 # required by dev-python/setuptools-68.0.0-r1::gentoo
 # required by dev-util/scons-4.5.2::gentoo
@@ -1834,3 +1830,8 @@ media-gfx/imv png svg
 >=dev-python/itsdangerous-2.2.0 python_targets_python3_12
 
 sys-kernel/linux-firmware savedconfig
+
+media-libs/libcanberra alsa
+
+# it broke so adding nls flag here
+app-shells/fish nls

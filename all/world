@@ -177,6 +177,7 @@ net-firewall/ufw
 net-fs/cifs-utils
 net-fs/nfs-utils
 net-fs/sshfs
+net-libs/libnsl
 net-libs/nodejs
 net-mail/mpop
 net-mail/urlscan
