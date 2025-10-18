@@ -16,8 +16,6 @@ app-admin/syslog-ng
 app-arch/lz4
 app-arch/p7zip
 app-arch/unrar
-app-containers/docker
-app-containers/docker-compose
 app-crypt/gnupg
 app-crypt/pinentry
 app-crypt/yubikey-manager
@@ -26,7 +24,6 @@ app-editors/vim
 app-eselect/eselect-repository
 app-misc/abook
 app-misc/ani-cli
-app-misc/anki
 app-misc/asciinema
 app-misc/broot
 app-misc/cmatrix
@@ -36,8 +33,6 @@ app-misc/fdupes
 app-misc/geoclue
 app-misc/glow
 app-misc/jq
-app-misc/lf
-app-misc/navi
 app-misc/nwg-look
 app-misc/resolve-march-native
 app-misc/rlwrap
@@ -62,15 +57,14 @@ app-text/languagetool
 app-text/mythes
 app-text/odt2txt
 app-text/pandoc-bin
-app-text/sdcv
 app-text/texlive
 app-text/zathura-pdf-mupdf
 app-xemacs/emerge
 dev-cpp/catch
-dev-lang/R
 dev-lang/python
 dev-lang/ruby
 dev-lang/rust
+dev-lang/rust-bin
 dev-lang/tk
 dev-libs/bemenu
 dev-libs/date
@@ -124,7 +118,6 @@ gui-libs/xdg-desktop-portal-hyprland
 gui-libs/xdg-desktop-portal-lxqt
 gui-wm/hyprland
 kde-apps/kdialog
-lxde-base/lxappearance
 mail-client/mutt-wizard
 media-fonts/artwiz-aleczapka-en
 media-fonts/dejavu
@@ -157,7 +150,6 @@ media-libs/libva
 media-libs/mesa
 media-libs/mutagen
 media-libs/openal
-media-sound/easyeffects
 media-sound/jack2
 media-sound/mpc
 media-sound/mpd
@@ -185,7 +177,6 @@ net-firewall/ufw
 net-fs/cifs-utils
 net-fs/nfs-utils
 net-fs/sshfs
-net-im/discord
 net-libs/nodejs
 net-mail/mpop
 net-mail/urlscan
@@ -236,7 +227,6 @@ sys-block/open-iscsi
 sys-boot/grub
 sys-boot/rpi-imager
 sys-devel/gcc
-sys-devel/gcc:11
 sys-fs/archivemount
 sys-fs/btrfs-progs
 sys-fs/cryptsetup
@@ -288,7 +278,6 @@ x11-misc/pcmanfm
 x11-misc/qt5ct
 x11-misc/redshift
 x11-misc/rofi
-x11-misc/rofi-calc
 x11-misc/screenkey
 x11-misc/unclutter-xfixes
 x11-misc/wmctrl

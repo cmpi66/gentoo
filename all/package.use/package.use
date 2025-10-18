@@ -385,7 +385,7 @@ gui-libs/wlroots hwdata tinywl
 sys-auth/seatd server
 dev-qt/qtgui egl eglfs dbus jpeg libinput png X
 media-libs/mesa gles2
-media-libs/libsdl2 X video opengl gles2
+media-libs/libsdl2 X video opengl gles2 -haptic
 x11-libs/cairo glib X
 # sys-auth/polkit daemon
 gui-wm/hyprland -system-wlroots

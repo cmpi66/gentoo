@@ -19,5 +19,7 @@
 #
 #>x11-terms/alacritty-0.12.1
 
-=perl-core/Math-BigInt-1.999.842
+perl-core/Math-BigInt
 
+
+dev-qt/qtwebengine
