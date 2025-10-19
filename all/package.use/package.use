@@ -2076,3 +2076,11 @@ app-shells/fish nls
 >=dev-libs/libxml2-2.14.6 python
 
 sys-devel/gettext nls
+
+# required by dev-python/urllib3-2.5.0::gentoo[zstd]
+# required by dev-python/requests-2.32.5::gentoo
+# required by app-portage/mirrorselect-2.5.0::gentoo
+# required by @selected
+# required by @world (argument)
+>=dev-python/zstandard-0.24.0 python_targets_python3_12
+

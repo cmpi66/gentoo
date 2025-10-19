@@ -173,7 +173,6 @@ net-analyzer/tcpdump
 net-analyzer/traceroute
 net-dns/bind-tools
 net-firewall/iptables
-net-firewall/ufw
 net-fs/cifs-utils
 net-fs/nfs-utils
 net-fs/sshfs
