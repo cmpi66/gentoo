@@ -1,0 +1,3 @@
+llvm-core/clang nolto.conf
+llvm-core/llvm nolto.conf
+dev-libs/rocm-opencl-runtime nolto.conf

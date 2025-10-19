@@ -1,7 +1,7 @@
 ## dont update neovim
 
 #>app-editors/neovim-0.8.3
->sys-apps/pcsc-lite-2.0.1-r1 # as of 3-2-25 version 2.3.0 messes up the yubikey, not sure whats the fix yet but I neglected this for over two months and now tested by downgrading. Eventually I'll dig deeper and research why the new version fucks up.
+#>sys-apps/pcsc-lite-2.0.1-r1 # as of 3-2-25 version 2.3.0 messes up the yubikey, not sure whats the fix yet but I neglected this for over two months and now tested by downgrading. Eventually I'll dig deeper and research why the new version fucks up.
 
 
 #>gui-wm/hyprland-0.29.1
@@ -23,3 +23,6 @@ perl-core/Math-BigInt
 
 
 dev-qt/qtwebengine
+# required by sys-apps/pcsc-lite (argument)
+=sys-apps/pcsc-lite-2.3.3
+

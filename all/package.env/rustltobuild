@@ -1,0 +1,3 @@
+app-misc/broot llvm-lto.conf
+app-shells/atuin llvm-lto.conf
+app-misc/yazi llvm-lto.conf

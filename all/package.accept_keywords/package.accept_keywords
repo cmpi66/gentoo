@@ -722,65 +722,68 @@ gui-apps/wf-recorder **
 # required by satty (argument)
 =gui-apps/satty-0.14.0-r1 ~amd64
 
-# required by cherrytree (argument)
-=app-text/cherrytree-1.4.0-r1 ~amd64
-# required by app-emulation/vagrant-2.4.1::gentoo[ruby_targets_ruby33]
-# required by vagrant (argument)
-=dev-ruby/ipaddr-1.2.7 ~amd64
-# required by app-emulation/vagrant-2.4.1::gentoo[ruby_targets_ruby32]
-# required by vagrant (argument)
-=dev-ruby/vagrant_cloud-3.1.3 ~amd64
-# required by dev-ruby/vagrant_cloud-3.1.3::gentoo[ruby_targets_ruby33]
-# required by app-emulation/vagrant-2.4.1::gentoo[ruby_targets_ruby32]
-# required by vagrant (argument)
-=dev-ruby/oauth2-2.0.12 ~amd64
-# required by dev-ruby/grpc-1.72.0::gentoo[ruby_targets_ruby33]
-# required by app-emulation/vagrant-2.4.1::gentoo[ruby_targets_ruby33]
-# required by vagrant (argument)
-=dev-ruby/googleapis-common-protos-types-1.20.0 ~amd64
-# required by app-emulation/vagrant-2.4.1::gentoo[ruby_targets_ruby32]
-# required by vagrant (argument)
-=dev-ruby/hashicorp-checkpoint-0.1.6 ~amd64
-# required by vagrant (argument)
-=app-emulation/vagrant-2.4.1 ~amd64
-# required by dev-ruby/googleapis-common-protos-types-1.20.0::gentoo[ruby_targets_ruby32]
-# required by dev-ruby/grpc-1.72.0::gentoo[ruby_targets_ruby33]
-# required by app-emulation/vagrant-2.4.1::gentoo[ruby_targets_ruby33]
-# required by vagrant (argument)
-=dev-ruby/google-protobuf-4.31.1 ~amd64
-# required by dev-ruby/oauth2-2.0.12::gentoo[ruby_targets_ruby33]
-# required by dev-ruby/vagrant_cloud-3.1.3::gentoo[ruby_targets_ruby33]
-# required by app-emulation/vagrant-2.4.1::gentoo[ruby_targets_ruby32]
-# required by vagrant (argument)
-=dev-ruby/snaky_hash-2.0.3 ~amd64
-# required by dev-ruby/oauth2-2.0.12::gentoo[ruby_targets_ruby32]
-# required by dev-ruby/vagrant_cloud-3.1.3::gentoo[ruby_targets_ruby33]
-# required by app-emulation/vagrant-2.4.1::gentoo[ruby_targets_ruby32]
-# required by vagrant (argument)
-=dev-ruby/version_gem-1.1.9 ~amd64
-# required by dev-ruby/rgl-0.6.6::gentoo[ruby_targets_ruby32]
-# required by app-emulation/vagrant-2.4.1::gentoo[ruby_targets_ruby33]
-# required by vagrant (argument)
-=dev-ruby/stream-0.5.5 ~amd64
-# required by app-emulation/vagrant-2.4.1::gentoo[ruby_targets_ruby33]
-# required by vagrant (argument)
-=dev-ruby/grpc-1.72.0 ~amd64
-# required by dev-ruby/rgl-0.6.6::gentoo[ruby_targets_ruby32]
-# required by app-emulation/vagrant-2.4.1::gentoo[ruby_targets_ruby33]
-# required by vagrant (argument)
-=dev-ruby/pairing_heap-3.1.0 ~amd64
-# required by dev-ruby/oauth2-2.0.12::gentoo[ruby_targets_ruby32]
-# required by dev-ruby/vagrant_cloud-3.1.3::gentoo[ruby_targets_ruby33]
-# required by app-emulation/vagrant-2.4.1::gentoo[ruby_targets_ruby32]
-# required by vagrant (argument)
-=dev-ruby/jwt-2.10.1 ~amd64
-# required by app-emulation/vagrant-2.4.1::gentoo[ruby_targets_ruby33]
-# required by vagrant (argument)
-=dev-ruby/rgl-0.6.6 ~amd64
 
+# required by gui-apps/espanso (argument)
+=gui-apps/espanso-2.2.7 ~amd64
+# required by sys-auth/pam-gnupg (argument)
+=sys-auth/pam-gnupg-0.4-r1 ~amd64
+# required by app-misc/nwg-look (argument)
+=app-misc/nwg-look-1.0.6 ~amd64
+# required by app-misc/ani-cli (argument)
+=app-misc/ani-cli-4.10 ~amd64
+# required by gui-apps/satty (argument)
+=gui-apps/satty-0.19.0 ~amd64
+# required by dev-libs/rocm-opencl-runtime-6.4.3::gentoo
+# required by @selected
+# required by @world (argument)
+=dev-libs/rocr-runtime-6.4.3 ~amd64
+# required by dev-util/hip-6.4.3-r1::gentoo[video_cards_amdgpu]
+# required by @selected
+# required by @world (argument)
+=dev-libs/rocm-device-libs-6.4.3 ~amd64
+# required by gui-apps/hyprpicker (argument)
+=gui-apps/hyprpicker-0.4.5 ~amd64
+# required by net-p2p/monero (argument)
+=net-p2p/monero-0.18.4.3 ~amd64
+# required by app-text/languagetool (argument)
+=app-text/languagetool-6.3-r2 ~amd64
+# required by dev-util/hip-6.4.3-r1::gentoo[video_cards_amdgpu]
+# required by @selected
+# required by @world (argument)
+=dev-util/rocminfo-6.4.3 ~amd64
+# required by dev-util/hip (argument)
+=dev-util/hip-6.4.3-r1 ~amd64
+# required by dev-util/rustup (argument)
+=dev-util/rustup-1.28.2-r1 ~amd64
+# required by app-misc/yazi (argument)
+=app-misc/yazi-25.5.31 ~amd64
+# required by app-shells/zoxide (argument)
+=app-shells/zoxide-0.9.8 ~amd64
+# required by gui-libs/xdg-desktop-portal-hyprland (argument)
+=gui-libs/xdg-desktop-portal-hyprland-1.3.9-r1 ~amd64
+# required by net-misc/ubridge (argument)
+=net-misc/ubridge-0.9.19-r1 ~amd64
+# required by dev-util/rocm-smi (argument)
+=dev-util/rocm-smi-6.4.3-r1 ~amd64
+# required by net-mail/urlscan (argument)
+=net-mail/urlscan-1.0.7 ~amd64
+# required by net-mail/mpop (argument)
+=net-mail/mpop-1.4.21 ~amd64
+# required by dev-python/pipx-1.8.0::gentoo
+# required by @selected
+# required by @world (argument)
+=dev-python/userpath-1.9.2 ~amd64
+# required by x11-misc/pcmanfm (argument)
+=x11-misc/pcmanfm-1.3.2-r2 ~amd64
+# required by dev-python/pipx (argument)
+=dev-python/pipx-1.8.0 ~amd64
+# required by gui-libs/xdg-desktop-portal-hyprland-1.3.9-r1::guru
+# required by @selected
+# required by @world (argument)
+=dev-cpp/sdbus-c++-2.1.0 ~amd64
+# required by dev-libs/rocm-opencl-runtime (argument)
 
-# required by dev-util/packer (argument)
-=dev-util/packer-1.14.1 ~amd64
+# required by dev-libs/rocm-opencl-runtime (argument)
+=dev-libs/rocm-opencl-runtime-6.4.3 ~amd64
 
-# required by anki (argument)
-app-misc/anki ~amd64
+app-shells/fish ~amd64

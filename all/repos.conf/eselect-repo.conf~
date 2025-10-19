@@ -15,25 +15,10 @@ location = /var/db/repos/holgersson-overlay
 sync-type = git
 sync-uri = https://github.com/gentoo-mirror/holgersson-overlay.git
 
-[nitratesky]
-location = /var/db/repos/nitratesky
-sync-type = git
-sync-uri = https://github.com/gentoo-mirror/nitratesky.git
-
 [tezeta]
 location = /var/db/repos/tezeta
 sync-type = git
 sync-uri = https://github.com/gentoo-mirror/tezeta.git
-
-[nest]
-location = /var/db/repos/nest
-sync-type = git
-sync-uri = https://github.com/gentoo-mirror/nest.git
-
-[haskell]
-location = /var/db/repos/haskell
-sync-type = git
-sync-uri = https://github.com/gentoo-mirror/haskell.git
 
 [pf4public]
 location = /var/db/repos/pf4public
@@ -55,21 +40,6 @@ sync-uri = https://github.com/gentoo-mirror/ppfeufer-gentoo-overlay.git
 location = /var/db/repos/SwordArMor
 sync-type = git
 sync-uri = https://github.com/gentoo-mirror/SwordArMor.git
-
-[amano-kenji]
-location = /var/db/repos/amano-kenji
-sync-type = git
-sync-uri = https://github.com/gentoo-mirror/amano-kenji.git
-
-[oxen-overlay]
-location = /var/db/repos/oxen-overlay
-sync-type = git
-sync-uri = https://github.com/gentoo-mirror/oxen-overlay.git
-
-[stefantalpalaru]
-location = /var/db/repos/stefantalpalaru
-sync-type = git
-sync-uri = https://github.com/gentoo-mirror/stefantalpalaru.git
 
 [dinolay]
 location = /var/db/repos/dinolay
