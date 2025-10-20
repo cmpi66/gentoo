@@ -266,5 +266,6 @@ x11-misc/xdotool
 x11-terms/alacritty
 x11-terms/kitty
 x11-themes/catppuccin-cursors
+x11-themes/catppuccin-gtk
 x11-themes/papirus-icon-theme
 xfce-base/thunar

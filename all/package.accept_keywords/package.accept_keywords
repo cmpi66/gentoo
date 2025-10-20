@@ -788,8 +788,11 @@ gui-apps/wf-recorder **
 
 app-shells/fish ~amd64
 app-misc/zellij ~amd64
-x11-terms/wezterm ~amd64
+x11-themes/catppuccin-gtk ~amd64
 
+# needed for wayland support
 media-gfx/gimp **
 media-libs/babl ~amd64
 media-libs/gegl ~amd64
+x11-misc/rofi **
+
