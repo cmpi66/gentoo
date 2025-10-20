@@ -176,24 +176,13 @@ app-emulation/virt-manager gui
 # required by @world (argument)
 >=net-misc/spice-gtk-0.41 usbredir
 
-net-misc/networkmanager wext wifi
 
-# required by net-misc/networkmanager-1.40.6::gentoo[ppp]
-# required by net-misc/networkmanager (argument)
->=net-dialup/ppp-2.4.9-r8 ipv6
-# required by net-misc/networkmanager-1.40.6::gentoo[-iwd,wifi]
-# required by net-misc/networkmanager (argument)
->=net-wireless/wpa_supplicant-2.10-r1 dbus
 
 kde-apps/okular epub
 
 dev-libs/libusb udev
 virtual/libusb udev
 
-## THIS IS FOR TOR: gives an error without wayland flag
-x11-libs/gtk+ wayland
-# required by x11-libs/gtk+-3.24.35::mv[wayland]
-# required by x11-libs/gtk+ (argument)
 >=media-libs/mesa-22.2.5 wayland
 
 ## Now im able to get the gpg password prompt no matter what, i just needed gtk flag, the ncurses only flag couldnt give me the popup since it needed an open terminal. And it also didnt give me the password promtp with ncurses when i ran 'mailsync', now i get the popup for all the commands.
@@ -2085,13 +2074,17 @@ sys-devel/gettext nls
 >=dev-python/zstandard-0.24.0 python_targets_python3_12
 
 # x11-libs/cairo -X
-media-gfx/gimp wayland
 
 x11-libs/wxGTK X
 
-x11-libs/gtk+ X
+x11-libs/gtk+ X wayland
 dev-cpp/gtkmm X
 x11-libs/cairo X aqua
 dev-python/pycairo X
 dev-qt/qtbase X
 dev-qt/qtmultimedia X
+
+
+# gimp
+media-libs/babl introspection lcms
+media-libs/gegl introspection lcms

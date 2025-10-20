@@ -789,3 +789,7 @@ gui-apps/wf-recorder **
 app-shells/fish ~amd64
 app-misc/zellij ~amd64
 x11-terms/wezterm ~amd64
+
+media-gfx/gimp **
+media-libs/babl ~amd64
+media-libs/gegl ~amd64
