@@ -42,11 +42,6 @@ location = /var/db/repos/gentoo
 sync-type = git
 sync-uri = https://github.com/gentoo-mirror/gentoo.git
 
-[thegreatmcpain]
-location = /var/db/repos/thegreatmcpain
-sync-type = git
-sync-uri = https://github.com/gentoo-mirror/thegreatmcpain.git
-
 [librewolf]
 location = /var/db/repos/librewolf
 sync-type = git

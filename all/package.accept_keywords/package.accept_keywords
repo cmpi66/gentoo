@@ -787,3 +787,5 @@ gui-apps/wf-recorder **
 =dev-libs/rocm-opencl-runtime-6.4.3 ~amd64
 
 app-shells/fish ~amd64
+app-misc/zellij ~amd64
+x11-terms/wezterm ~amd64
