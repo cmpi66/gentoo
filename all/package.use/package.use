@@ -209,7 +209,7 @@ x11-misc/picom opengl
 # required by @world (argument)
 >=net-dns/avahi-0.8-r7 mdnsresponder-compat
 
-app-admin/keepassxc yubikey autotype
+app-admin/keepassxc autotype
 
 # required by net-p2p/monero-0.18.2.2::guru
 # required by monero (argument)
@@ -960,7 +960,6 @@ sys-boot/grub device-mapper
 >=dev-python/semantic-version-2.10.0 python_targets_python3_10
 dev-python/appdirs python_targets_python2_7
 
-gui-apps/waybar experimental
 gui-apps/waypipe lz4
 
 app-crypt/gnupg usb
@@ -1128,7 +1127,7 @@ app-office/sc-im plots xls xlsx
 # required by @world (argument)
 >=dev-python/more-itertools-10.3.0 python_targets_python3_11
 
-gui-apps/waybar mpd tray sndio
+gui-apps/waybar mpd tray sndio experimental -logind
 # required by dev-python/setuptools-70.0.0::gentoo
 # required by dev-python/pycairo-1.26.1::gentoo
 # required by dev-python/pygobject-3.46.0-r1::gentoo[cairo]
@@ -2073,10 +2072,10 @@ sys-devel/gettext nls
 # required by @world (argument)
 >=dev-python/zstandard-0.24.0 python_targets_python3_12
 
-# x11-libs/cairo -X
+xfce-base/thunar -trash-panel-plugin
+
 
 x11-libs/wxGTK X
-
 x11-libs/gtk+ X wayland
 dev-cpp/gtkmm X
 x11-libs/cairo X aqua

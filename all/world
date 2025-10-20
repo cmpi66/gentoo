@@ -118,7 +118,6 @@ gui-libs/wlroots
 gui-libs/xdg-desktop-portal-hyprland
 gui-libs/xdg-desktop-portal-lxqt
 gui-wm/hyprland
-kde-apps/kdialog
 mail-client/mutt-wizard
 media-fonts/artwiz-aleczapka-en
 media-fonts/dejavu
@@ -216,6 +215,7 @@ sys-apps/systemd-utils
 sys-apps/the_silver_searcher
 sys-apps/usbutils
 sys-apps/xdg-desktop-portal
+sys-auth/elogind
 sys-auth/pam-gnupg
 sys-auth/pam_u2f
 sys-block/io-scheduler-udev-rules
@@ -238,7 +238,6 @@ sys-kernel/installkernel
 sys-kernel/linux-firmware
 sys-libs/libstdc++-v3
 sys-process/at
-sys-process/audit
 sys-process/cronie
 sys-process/htop-vim
 sys-process/parallel
