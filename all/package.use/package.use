@@ -1127,7 +1127,7 @@ app-office/sc-im plots xls xlsx
 # required by @world (argument)
 >=dev-python/more-itertools-10.3.0 python_targets_python3_11
 
-gui-apps/waybar mpd tray sndio experimental -logind
+gui-apps/waybar mpd tray sndio experimental
 # required by dev-python/setuptools-70.0.0::gentoo
 # required by dev-python/pycairo-1.26.1::gentoo
 # required by dev-python/pygobject-3.46.0-r1::gentoo[cairo]
@@ -2087,3 +2087,6 @@ dev-qt/qtmultimedia X
 # gimp
 media-libs/babl introspection lcms
 media-libs/gegl introspection lcms
+
+media-libs/libepoxy X
+media-libs/vulkan-loader X

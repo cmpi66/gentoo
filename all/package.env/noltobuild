@@ -1,3 +1,8 @@
-llvm-core/clang nolto.conf
-llvm-core/llvm nolto.conf
-dev-libs/rocm-opencl-runtime nolto.conf
+# LTO is fundamentally unsafe for these:
+llvm-core/llvm               nolto.conf
+llvm-core/clang              nolto.conf
+llvm-core/lld                nolto.conf
+
+# Conditional cases (safe to disable for now):
+
+
