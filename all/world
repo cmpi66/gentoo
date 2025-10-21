@@ -239,7 +239,6 @@ sys-libs/libstdc++-v3
 sys-process/at
 sys-process/btop
 sys-process/cronie
-sys-process/htop-vim
 sys-process/parallel
 sys-process/task-spooler
 virtual/libusb
