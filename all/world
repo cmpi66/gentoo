@@ -58,7 +58,6 @@ app-text/languagetool
 app-text/mythes
 app-text/odt2txt
 app-text/pandoc-bin
-app-text/texlive
 app-text/zathura-pdf-mupdf
 dev-cpp/catch
 dev-lang/python
@@ -82,7 +81,6 @@ dev-python/python-lsp-black
 dev-python/tomli-w
 dev-qt/qtbase
 dev-ruby/asciidoctor
-dev-texlive/texlive-latexextra
 dev-util/android-udev-rules
 dev-util/ccache
 dev-util/codespell
