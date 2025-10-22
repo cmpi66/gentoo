@@ -1,7 +1,9 @@
 # LTO is fundamentally unsafe for these:
-llvm-core/llvm               nolto.conf
-llvm-core/clang              nolto.conf
-llvm-core/lld                nolto.conf
+# llvm-core/llvm               nolto.conf
+# llvm-core/clang              nolto.conf
+# llvm-core/lld                nolto.conf
+
+# well the above failed (llvm) becasue i was using the flag new use instead of jsut -e by itself. YOu cant mix them.
 
 # Conditional cases (safe to disable for now):
 

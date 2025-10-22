@@ -70,8 +70,6 @@ dev-libs/bemenu
 dev-libs/date
 dev-libs/libfido2
 dev-libs/libusb
-dev-libs/rocm-device-libs
-dev-libs/rocm-opencl-runtime
 dev-libs/spdlog
 dev-libs/stfl
 dev-libs/wayland-protocols
@@ -90,11 +88,8 @@ dev-util/ccache
 dev-util/codespell
 dev-util/ctags
 dev-util/git-delta
-dev-util/hip
 dev-util/pkgcheck
 dev-util/pkgdev
-dev-util/rocm-smi
-dev-util/rocminfo
 dev-util/rustup
 dev-util/shellcheck-bin
 dev-util/shfmt
@@ -118,6 +113,7 @@ gui-libs/wlroots
 gui-libs/xdg-desktop-portal-hyprland
 gui-libs/xdg-desktop-portal-lxqt
 gui-wm/hyprland
+llvm-core/llvm
 mail-client/mutt-wizard
 media-fonts/artwiz-aleczapka-en
 media-fonts/dejavu
