@@ -2096,3 +2096,4 @@ x11-themes/catppuccin-gtk macchiato mocha
 www-client/firefox dbus hwaccel -telemetry
 www-client/librewolf dbus hwaccel -telemetry
 
+sys-libs/ncurses -minimal

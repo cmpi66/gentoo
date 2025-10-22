@@ -800,3 +800,6 @@ x11-misc/rofi **
 www-client/librewolf ~amd64
 dev-libs/nss ~amd64
 
+x11-terms/ghostty ~amd64
+x11-terms/ghostty-terminfo ~amd64
+gui-libs/gtk4-layer-shell ~amd64
