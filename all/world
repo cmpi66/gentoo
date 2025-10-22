@@ -242,10 +242,9 @@ sys-process/cronie
 sys-process/parallel
 sys-process/task-spooler
 virtual/libusb
-www-client/firefox-bin
-www-client/librewolf-bin
+www-client/firefox
+www-client/librewolf
 www-client/lynx
-www-client/ungoogled-chromium-bin
 www-client/w3m
 x11-apps/mesa-progs
 x11-apps/xset

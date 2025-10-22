@@ -797,3 +797,6 @@ media-libs/babl ~amd64
 media-libs/gegl ~amd64
 x11-misc/rofi **
 
+www-client/librewolf ~amd64
+dev-libs/nss ~amd64
+

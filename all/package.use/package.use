@@ -2090,3 +2090,9 @@ media-libs/gegl introspection lcms
 
 media-libs/libepoxy X
 media-libs/vulkan-loader X
+
+x11-themes/catppuccin-gtk macchiato mocha
+
+www-client/firefox dbus hwaccel -telemetry
+www-client/librewolf dbus hwaccel -telemetry
+
