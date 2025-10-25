@@ -2097,3 +2097,8 @@ www-client/firefox dbus hwaccel -telemetry
 www-client/librewolf dbus hwaccel -telemetry
 
 sys-libs/ncurses -minimal
+
+gui-apps/waybar pulseaudio
+net-libs/nodejs inspector
+
+media-sound/mpd opus flac

@@ -73,6 +73,7 @@ dev-util/android-udev-rules
 dev-util/ccache
 dev-util/codespell
 dev-util/ctags
+dev-util/debugedit
 dev-util/git-delta
 dev-util/pkgcheck
 dev-util/pkgdev
@@ -84,6 +85,7 @@ gui-apps/espanso
 gui-apps/foot
 gui-apps/grim
 gui-apps/hyprpicker
+gui-apps/hyprshot
 gui-apps/mako
 gui-apps/satty
 gui-apps/slurp
@@ -130,6 +132,7 @@ media-sound/ncmpcpp
 media-sound/pavucontrol
 media-sound/playerctl
 media-sound/pulsemixer
+media-sound/rmpc
 media-sound/sndio
 media-video/ffmpeg
 media-video/ffmpegthumbnailer
@@ -212,6 +215,7 @@ sys-process/btop
 sys-process/cronie
 sys-process/parallel
 sys-process/task-spooler
+www-client/brave-browser
 www-client/firefox
 www-client/librewolf
 www-client/lynx
