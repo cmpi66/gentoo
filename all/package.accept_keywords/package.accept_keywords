@@ -807,3 +807,4 @@ gui-apps/hyprshot ~amd64
 gui-apps/hyprlock ~amd64
 
 media-sound/rmpc ~amd64
+gui-apps/hypridle ~amd64
