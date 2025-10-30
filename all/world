@@ -18,6 +18,7 @@ app-crypt/gnupg
 app-crypt/pinentry
 app-crypt/yubikey-manager
 app-dicts/aspell-en
+app-editors/neovim
 app-editors/vim
 app-eselect/eselect-repository
 app-misc/abook
@@ -86,12 +87,12 @@ gui-apps/foot
 gui-apps/grim
 gui-apps/hypridle
 gui-apps/hyprlock
+gui-apps/hyprpaper
 gui-apps/hyprpicker
 gui-apps/hyprshot
 gui-apps/mako
 gui-apps/satty
 gui-apps/slurp
-gui-apps/swappy
 gui-apps/swaybg
 gui-apps/swayidle
 gui-apps/swaylock
@@ -122,7 +123,6 @@ media-gfx/gimp
 media-gfx/imagemagick
 media-gfx/img2pdf
 media-gfx/imv
-media-gfx/maim
 media-gfx/potrace
 media-gfx/ueberzugpp
 media-gfx/zbar
@@ -131,11 +131,10 @@ media-libs/harfbuzz
 media-sound/mpc
 media-sound/mpd
 media-sound/ncmpcpp
-media-sound/pavucontrol
 media-sound/playerctl
-media-sound/pulsemixer
 media-sound/rmpc
 media-sound/sndio
+media-sound/wiremix
 media-video/ffmpeg
 media-video/ffmpegthumbnailer
 media-video/mediainfo
@@ -168,7 +167,6 @@ net-misc/remmina
 net-misc/socat
 net-misc/ubridge
 net-misc/yt-dlp
-net-p2p/monero
 net-p2p/syncthing
 net-p2p/transmission
 net-print/cups-meta

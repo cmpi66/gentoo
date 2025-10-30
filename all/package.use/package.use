@@ -193,7 +193,7 @@ app-crypt/pinentry gtk -ncurses qt6
 # required by kde-frameworks/kinit-5.102.0::gentoo
 >=kde-frameworks/kconfig-5.102.0 dbus
 ## REMOVING XCLIP FROM THSESE AND SEE IF THEY STILL WORK: NEOVIM GIVES ME PROBLEMS WITH XCLIP
-app-office/sc-im tmux -X
+app-office/sc-im -tmux -X # 2025 update since im on wayland now im deciding to remove tmux and see if i can get copy paste with wl-copy
 app-admin/pass -X
 
 # required by www-servers/nginx-1.23.3::gentoo
@@ -2102,3 +2102,5 @@ gui-apps/waybar pulseaudio
 net-libs/nodejs inspector
 
 media-sound/mpd opus flac
+
+gui-apps/swaylock-effects fish-completion zsh-completion
