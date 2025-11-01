@@ -795,7 +795,6 @@ sys-auth/hyprpolkitagent ~amd64
 media-gfx/gimp **
 media-libs/babl ~amd64
 media-libs/gegl ~amd64
-x11-misc/rofi **
 www-client/librewolf ~amd64
 dev-libs/nss ~amd64
 x11-terms/ghostty ~amd64
@@ -808,4 +807,4 @@ gui-apps/hypridle ~amd64
 app-editors/neovim ~amd64
 gui-apps/hyprpaper ~amd64
 media-sound/wiremix ~amd64
-
+gui-apps/tofi ~amd64

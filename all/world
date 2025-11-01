@@ -18,7 +18,6 @@ app-crypt/gnupg
 app-crypt/pinentry
 app-crypt/yubikey-manager
 app-dicts/aspell-en
-app-editors/neovim
 app-editors/vim
 app-eselect/eselect-repository
 app-misc/abook
@@ -96,6 +95,7 @@ gui-apps/slurp
 gui-apps/swaybg
 gui-apps/swayidle
 gui-apps/swaylock
+gui-apps/tofi
 gui-apps/waybar
 gui-apps/wf-recorder
 gui-apps/wlr-randr
@@ -232,7 +232,7 @@ x11-libs/libxkbfile
 x11-libs/libxshmfence
 x11-misc/clipnotify
 x11-misc/gammastep
-x11-misc/rofi
+x11-misc/pywal16
 x11-misc/wmctrl
 x11-misc/xcompmgr
 x11-misc/xdotool
@@ -240,5 +240,6 @@ x11-terms/ghostty
 x11-terms/kitty
 x11-themes/catppuccin-cursors
 x11-themes/catppuccin-gtk
+x11-themes/gnome-themes-standard
 x11-themes/papirus-icon-theme
 xfce-base/thunar

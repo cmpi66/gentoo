@@ -2103,4 +2103,7 @@ net-libs/nodejs inspector
 
 media-sound/mpd opus flac
 
-gui-apps/swaylock-effects fish-completion zsh-completion
+# /etc/portage/package.use/tofi-performance this is to increase tofi performance since its slow to launch with newt tmux script
+gui-libs/gtk introspection
+gui-libs/libadwaita introspection
+media-libs/graphene introspection

@@ -1,5 +1,4 @@
 # Remove files that shall not be installed from this list.
-amd-ucode/microcode_amd_fam19h.bin
 amdgpu/gc_10_3_6_ce.bin
 amdgpu/gc_10_3_6_me.bin
 amdgpu/gc_10_3_6_mec.bin
