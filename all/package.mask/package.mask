@@ -21,8 +21,8 @@
 
 perl-core/Math-BigInt
 
-
-dev-qt/qtwebengine
+# im going to install qutebrowser systemwide instead of virtual env to test something
+#dev-qt/qtwebengine
 # required by sys-apps/pcsc-lite (argument)
 =sys-apps/pcsc-lite-2.3.3
 

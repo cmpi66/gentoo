@@ -2107,3 +2107,7 @@ media-sound/mpd opus flac
 gui-libs/gtk introspection
 gui-libs/libadwaita introspection
 media-libs/graphene introspection
+
+>=dev-python/dbus-python-1.4.0 python_targets_python3_12
+
+www-client/qutebrowser widevine

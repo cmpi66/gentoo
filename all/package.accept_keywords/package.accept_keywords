@@ -808,3 +808,7 @@ app-editors/neovim ~amd64
 gui-apps/hyprpaper ~amd64
 media-sound/wiremix ~amd64
 gui-apps/tofi ~amd64
+
+www-client/qutebrowser ~amd64
+x11-misc/rofi **
+app-text/tldr ~amd64
