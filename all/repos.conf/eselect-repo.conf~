@@ -5,11 +5,6 @@ location = /var/db/repos/guru
 sync-type = git
 sync-uri = https://github.com/gentoo-mirror/guru.git
 
-[pf4public]
-location = /var/db/repos/pf4public
-sync-type = git
-sync-uri = https://github.com/gentoo-mirror/pf4public.git
-
 
 
 [gentoo]
@@ -22,3 +17,33 @@ location = /var/db/repos/librewolf
 sync-type = git
 sync-uri = https://codeberg.org/librewolf/gentoo.git
 
+
+[pf4public]
+location = /var/db/repos/pf4public
+sync-type = git
+sync-uri = https://github.com/PF4Public/gentoo-overlay.git
+
+[mv]
+location = /var/db/repos/mv
+sync-type = git
+sync-uri = https://anongit.gentoo.org/git/user/mv.git
+
+[holgersson-overlay]
+location = /var/db/repos/holgersson-overlay
+sync-type = git
+sync-uri = https://git.holgersson.xyz/gentoo-related/holgersson-overlay
+
+[dinolay]
+location = /var/db/repos/dinolay
+sync-type = git
+sync-uri = https://git.ari.lt/ari/dinolay.git
+
+[another-brave-overlay]
+location = /var/db/repos/another-brave-overlay
+sync-type = git
+sync-uri = https://github.com/falbrechtskirchinger/another-brave-overlay.git
+
+[goduck777]
+location = /var/db/repos/goduck777
+sync-type = git
+sync-uri = https://github.com/goduck777/gentoo-overlay.git

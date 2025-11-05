@@ -1,8 +1,6 @@
-dev-util/nvidia-cuda-toolkit NVIDIA CUDA
 sys-kernel/linux-firmware @BINARY-REDISTRIBUTABLE
 media-fonts/font-bh-ttf bh-luxi
 media-fonts/font-bh-type1 bh-luxi
-app-office/upwork ODESK
 media-fonts/joypixels JoyPixels
 media-fonts/corefonts MSttfEULA
 media-fonts/freefonts all-rights-reserved free-noncomm freedist
@@ -10,14 +8,4 @@ sys-apps/man-pages-posix freedist
 net-analyzer/nmap NPSL-0.94
 net-im/discord all-rights-reserved
 app-emulation/virtualbox-extpack-oracle PUEL-12
-# x11-drivers/nvidia-drivers NVIDIA-r2
-# sys-firmware/intel-microcode intel-ucode
-# required by games-emulation/desmume-0.9.13::gentoo
-# required by games-emulation/desmume (argument)
-# x11-libs/agg free-noncomm
-# required by net-im/discord (argument)
-# required by games-emulation/vgba (argument)
-# games-emulation/vgba VGBA
-# required by packettracer (argument)
-# gui-apps/packettracer Cisco
 
