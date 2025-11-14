@@ -4,7 +4,7 @@ dev-libs/libpcre2 pcre32
 app-text/xmlto text
 media-video/vlc dbus ogg
 sys-libs/zlib minizip
-media-video/pipewire -aac -aptx -bluetooth sound-server pipewire-alsa v4l
+media-video/pipewire -aac -aptx -bluetooth sound-server pipewire-alsa v4l dbus
 mail-client/neomutt notmuch sasl
 media-sound/mpd opus flac
 app-crypt/gcr gtk
@@ -12,7 +12,7 @@ dev-libs/xmlsec nss
 media-gfx/qrencode png
 dev-libs/libdbusmenu gtk3
 media-libs/libv4l jpeg qt5 opengl
-media-video/ffmpeg libv4l v4l pulseaudio encode x264 sdl opus
+media-video/ffmpeg libv5l v4l pulseaudio encode x264 sdl opus vaapi x265 vdpau alsa openh264
 app-arch/brotli python
 app-emulation/qemu usb spice gtk usbredir
 app-admin/keepassxc browser autotype X
@@ -25,8 +25,7 @@ www-client/librewolf pulseaudio
 media-libs/libvpx postproc
 net-dns/dnsmasq ipv6 script
 app-emulation/libvirt pcap virt-network numa fuse macvtap vepa qemu
-app-emulation/virt-manager gui
-dev-libs/libusb udev
+app-emulation/virt-manager gui dev-libs/libusb udev
 virtual/libusb udev
 app-crypt/pinentry gtk -ncurses qt6
 net-misc/spice-gtk usbredir
@@ -43,7 +42,7 @@ app-crypt/gnupg usb
 media-gfx/ueberzugpp pango wayland
 app-office/sc-im plots xls xlsx
 dev-python/pillow webp lcms
-gui-apps/waybar mpd tray sndio experimental pulseaudio
+gui-apps/waybar mpd tray sndio experimental pulseaudio -logind
 sci-ml/ollama rocm
 media-gfx/imv png svg
 sys-kernel/linux-firmware savedconfig
@@ -74,6 +73,8 @@ x11-libs/wxGTK X
 x11-libs/gtk+ X wayland introspection
 dev-cpp/gtkmm X
 dev-python/pycairo X
+media-video/obs-studio lua v4l speex 
+
 
 # qt
 dev-qt/qtbase X libproxy
@@ -107,7 +108,9 @@ media-libs/gst-plugins-base opengl
 # required by x11-drivers/xf86-video-amdgpu-22.0.0::gentoo
 x11-libs/libdrm video_cards_radeon
 net-libs/gnutls tools pkcs11
-sys-auth/elogind policykit
+
+# not necessary anymore
+# sys-auth/elogind policykit
 virtual/libcrypt static-libs
 kde-frameworks/sonnet qml
 # investigate
@@ -116,7 +119,7 @@ kde-frameworks/sonnet qml
 ## WAYLAND
 gui-libs/wlroots hwdata tinywl
 sys-auth/seatd server
-media-libs/mesa gles2 wayland
+media-libs/mesa gles2 wayland vaapi vdpau X
 media-libs/libsdl2 X video opengl gles2 sound -haptic
 x11-libs/cairo glib X aqua
 gui-wm/hyprland -system-wlroots

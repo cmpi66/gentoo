@@ -31,8 +31,12 @@ gui-apps/hypridle ~amd64
 gui-apps/hyprpaper ~amd64
 media-sound/wiremix ~amd64
 gui-apps/tofi ~amd64
-app-text/tldr ~amd64
 www-client/qutebrowser ~amd64
+net-p2p/stig ~amd64
+media-plugins/obs-pipewire-audio-capture ~amd64
+app-misc/tealdeer ~amd64
+
+sys-apps/drm_info ~amd64
 
 #WAYLAND 
 gui-libs/wlroots **

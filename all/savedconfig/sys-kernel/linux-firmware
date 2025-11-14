@@ -31,3 +31,5 @@ amdgpu/vcn_3_1_2.bin
 # Network firmware (Realtek NIC)
 rtl_nic/rtl8168h-2.fw
 rtl_nic/rtl8125b-2.fw
+
+amd-ucode/microcode_amd_fam19h.bin
