@@ -77,7 +77,7 @@ media-video/obs-studio lua v4l speex
 
 
 # qt
-dev-qt/qtbase X libproxy
+dev-qt/qtbase X libproxy opengl
 dev-qt/qtwebengine opengl widgets
 dev-qt/qtmultimedia X opengl
 dev-python/pyqt6 webchannel quick opengl qml multimedia svg

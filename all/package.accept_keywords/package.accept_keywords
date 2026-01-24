@@ -35,8 +35,12 @@ www-client/qutebrowser ~amd64
 net-p2p/stig ~amd64
 media-plugins/obs-pipewire-audio-capture ~amd64
 app-misc/tealdeer ~amd64
+app-admin/bitwarden-cli-bin ~amd64
+dev-libs/nspr ~amd64
+app-admin/s-tui ~amd64
 
 sys-apps/drm_info ~amd64
+app-misc/ani-cli ~amd64
 
 #WAYLAND 
 gui-libs/wlroots **

@@ -22,6 +22,7 @@ app-dicts/aspell-en
 app-editors/vim
 app-eselect/eselect-repository
 app-misc/abook
+app-misc/ani-cli
 app-misc/asciinema
 app-misc/fastfetch
 app-misc/glow
@@ -41,7 +42,6 @@ app-portage/gentoolkit
 app-portage/mirrorselect
 app-portage/portage-utils
 app-shells/atuin
-app-shells/fish
 app-shells/fzf
 app-shells/gentoo-zsh-completions
 app-shells/zoxide
@@ -61,6 +61,7 @@ dev-python/krb5
 dev-python/pip
 dev-python/pynvim
 dev-python/python-lsp-black
+dev-python/tldextract
 dev-util/ccache
 dev-util/codespell
 dev-util/ctags
@@ -94,7 +95,6 @@ media-gfx/gimp
 media-gfx/imagemagick
 media-gfx/img2pdf
 media-gfx/imv
-media-gfx/potrace
 media-gfx/zbar
 media-libs/exiftool
 media-libs/mesa
@@ -120,7 +120,6 @@ net-firewall/iptables
 net-fs/nfs-utils
 net-libs/libnsl
 net-libs/nodejs
-net-mail/mpop
 net-mail/urlscan
 net-misc/aria2
 net-misc/chrony
@@ -171,8 +170,11 @@ sys-power/cpupower
 sys-process/at
 sys-process/btop
 sys-process/cronie
+sys-process/lsof
 sys-process/parallel
 sys-process/task-spooler
+www-apps/hugo
+www-client/brave-browser
 www-client/librewolf
 www-client/lynx
 www-client/qutebrowser
