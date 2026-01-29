@@ -128,3 +128,7 @@ x11-libs/pango X
 x11-libs/libxkbcommon X
 media-libs/libva opengl
 gui-apps/swaybg gdk-pixbuf 
+
+## X since now i need X back for certain apps (python) 1-27-26
+x11-base/xorg-server xvfb -minimal
+x11-misc/clipmenu -dmenu rofi
