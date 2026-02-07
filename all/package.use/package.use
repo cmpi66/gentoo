@@ -74,6 +74,7 @@ x11-libs/gtk+ X wayland introspection
 dev-cpp/gtkmm X
 dev-python/pycairo X
 media-video/obs-studio lua v4l speex 
+sys-apps/iproute2 -minimal
 
 
 # qt
@@ -93,6 +94,8 @@ media-libs/babl introspection lcms
 media-libs/gegl introspection lcms cairo
 media-libs/libepoxy X
 media-libs/vulkan-loader X
+media-libs/gexiv2 introspection
+
 
 # it broke so adding nls flag here
 app-shells/fish nls
