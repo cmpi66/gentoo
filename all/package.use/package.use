@@ -63,7 +63,7 @@ xfce-base/thunar -trash-panel-plugin
 x11-themes/catppuccin-gtk macchiato latte
 www-client/firefox dbus hwaccel -telemetry
 www-client/librewolf dbus hwaccel -telemetry
-sys-libs/ncurses -minimal
+# sys-libs/ncurses
 net-libs/nodejs inspector npm
 www-client/qutebrowser widevine
 gui-libs/gtk introspection
@@ -75,6 +75,7 @@ dev-cpp/gtkmm X
 dev-python/pycairo X
 media-video/obs-studio lua v4l speex 
 sys-apps/iproute2 -minimal
+media-libs/libsixel png
 
 
 # qt

@@ -55,6 +55,7 @@ dev-util/ccache
 dev-util/ctags
 dev-vcs/git
 gui-apps/espanso
+gui-apps/foot
 gui-apps/hypridle
 gui-apps/hyprlock
 gui-apps/hyprpaper
@@ -78,6 +79,7 @@ media-gfx/img2pdf
 media-gfx/imv
 media-gfx/zbar
 media-libs/exiftool
+media-libs/libsixel
 media-libs/mesa
 media-sound/mpc
 media-sound/mpd
@@ -111,7 +113,6 @@ net-vpn/openvpn
 net-vpn/wireguard-tools
 sys-apps/arch-chroot
 sys-apps/bat
-sys-apps/bleachbit
 sys-apps/drm_info
 sys-apps/eza
 sys-apps/fd
@@ -155,7 +156,6 @@ x11-libs/libxshmfence
 x11-misc/dotool
 x11-misc/gammastep
 x11-misc/rofi
-x11-terms/ghostty
 x11-terms/kitty
 x11-themes/catppuccin-gtk
 x11-themes/papirus-icon-theme
