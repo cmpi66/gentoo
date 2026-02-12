@@ -24,11 +24,7 @@ dev-libs/nss ~amd64
 x11-terms/ghostty ~amd64
 x11-terms/ghostty-terminfo ~amd64
 gui-libs/gtk4-layer-shell ~amd64
-gui-apps/hyprshot ~amd64
-gui-apps/hyprlock ~amd64
 media-sound/rmpc ~amd64
-gui-apps/hypridle ~amd64
-gui-apps/hyprpaper ~amd64
 media-sound/wiremix ~amd64
 gui-apps/tofi ~amd64
 www-client/qutebrowser ~amd64
@@ -43,11 +39,34 @@ x11-misc/dotool ~amd64
 sys-apps/drm_info ~amd64
 app-misc/ani-cli ~amd64
 
-#WAYLAND 
-gui-libs/wlroots **
-dev-libs/wayland **
-dev-util/wayland-scanner **
-#dev-libs/wayland-protocols ** media-libs/mesa ** gui-wm/hyprland ** # (Right now you can't build hyprland 9999 because of an update. But normally I advise using 9999. Check again later. I normally update daily as it's a very frequntly developing software)
+#WAYLAND: UPDATE on new changes for feb 2026 and dedicated overlay.
+# gui-libs/wlroots **
+# dev-libs/wayland **
+# dev-util/wayland-scanner **
+gui-libs/wlroots ~amd64
+dev-libs/wayland ~amd64
+dev-util/wayland-scanner ~amd64
+gui-wm/hyprland ~amd64
+gui-libs/hyprland-guiutils ~amd64
+dev-util/hyprwayland-scanner ~amd64
+gui-libs/aquamarine ~amd64
+gui-libs/hyprutils ~amd64
+dev-cpp/glaze ~amd64
+gui-libs/hyprwire ~amd64
+dev-libs/hyprlang ~amd64
+gui-libs/hyprtoolkit ~amd64
+dev-libs/hyprgraphics ~amd64
+dev-libs/hyprland-protocols ~amd64
+gui-libs/hyprcursor ~amd64
+gui-apps/hyprshot ~amd64
+gui-apps/hyprlock ~amd64
+gui-apps/hypridle ~amd64
+gui-apps/hyprpaper ~amd64
+gui-apps/hyprshade ~amd64
+dev-python/chevron ~amd64
+
+
+
 #x11-libs/libdrm **
 x11-libs/libdrm ~amd64
 gui-libs/xdg-desktop-portal-hyprland ~amd64
