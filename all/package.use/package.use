@@ -76,6 +76,8 @@ dev-python/pycairo X
 media-video/obs-studio lua v4l speex 
 sys-apps/iproute2 -minimal
 media-libs/libsixel png
+app-arch/p7zip rar
+
 
 
 # qt
