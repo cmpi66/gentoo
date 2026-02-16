@@ -37,9 +37,7 @@ app-text/pandoc-bin
 app-text/zathura-pdf-mupdf
 dev-lang/rust
 dev-python/krb5
-dev-python/pip
 dev-python/weasyprint
-dev-util/ccache
 dev-util/ctags
 dev-vcs/git
 gui-apps/espanso
