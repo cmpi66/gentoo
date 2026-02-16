@@ -64,6 +64,7 @@ gui-apps/hypridle ~amd64
 gui-apps/hyprpaper ~amd64
 gui-apps/hyprshade ~amd64
 dev-python/chevron ~amd64
+ gui-apps/hyprsunset ~amd64
 
 
 

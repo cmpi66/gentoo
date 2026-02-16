@@ -77,6 +77,8 @@ media-video/obs-studio lua v4l speex
 sys-apps/iproute2 -minimal
 media-libs/libsixel png
 app-arch/p7zip rar
+media-gfx/chafa webp svg jpegxl
+dev-python/pillow jpeg2k
 
 
 
