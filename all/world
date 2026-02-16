@@ -1,10 +1,8 @@
-app-admin/ansible
 app-admin/doas
 app-admin/eclean-kernel
 app-admin/entr
 app-admin/logrotate
 app-admin/pass
-app-admin/pass-otp
 app-admin/pwgen
 app-admin/pydf
 app-admin/stow
