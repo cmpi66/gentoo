@@ -79,6 +79,7 @@ media-libs/libsixel png
 app-arch/p7zip rar
 media-gfx/chafa webp svg jpegxl
 dev-python/pillow jpeg2k
+media-gfx/swayimg png webp sixel
 
 
 

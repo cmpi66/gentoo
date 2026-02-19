@@ -35,6 +35,7 @@ app-admin/bitwarden-cli-bin ~amd64
 dev-libs/nspr ~amd64
 app-admin/s-tui ~amd64
 x11-misc/dotool ~amd64
+media-gfx/swayimg ~amd64
 
 sys-apps/drm_info ~amd64
 app-misc/ani-cli ~amd64
