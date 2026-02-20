@@ -74,10 +74,10 @@ x11-libs/libdrm ~amd64
 gui-libs/xdg-desktop-portal-hyprland ~amd64
 # wf too old if not 9999
 gui-apps/wf-recorder **
-# wayland support rofi version
-x11-misc/rofi **
-# gimp needed for wayland support
-media-gfx/gimp **
+# wayland support rofi version no longer necessary
+# x11-misc/rofi **
+# gimp needed for wayland support no longer necessary
+# media-gfx/gimp **
 media-libs/babl ~amd64
 media-libs/gegl ~amd64
 
