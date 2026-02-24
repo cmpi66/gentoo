@@ -87,6 +87,7 @@ net-mail/urlscan
 net-misc/chrony
 net-misc/dhcpcd
 net-misc/rclone
+net-misc/socat
 net-misc/yt-dlp
 net-news/newsboat
 net-p2p/stig
@@ -131,4 +132,5 @@ www-client/qutebrowser
 x11-misc/dotool
 x11-misc/gammastep
 x11-misc/rofi
+x11-misc/rofi-calc
 x11-terms/kitty
