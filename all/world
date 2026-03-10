@@ -35,6 +35,7 @@ app-shells/gentoo-zsh-completions
 app-shells/zoxide
 app-shells/zsh
 app-text/pandoc-bin
+app-text/typst
 app-text/zathura-pdf-mupdf
 dev-lang/rust
 dev-python/krb5
@@ -50,6 +51,7 @@ gui-apps/hyprpaper
 gui-apps/hyprpicker
 gui-apps/hyprshot
 gui-apps/mako
+gui-apps/noctalia-shell
 gui-apps/satty
 gui-apps/waybar
 gui-apps/wf-recorder
@@ -135,3 +137,4 @@ x11-misc/gammastep
 x11-misc/rofi
 x11-misc/rofi-calc
 x11-terms/kitty
+x11-themes/papirus-icon-theme

@@ -35,13 +35,20 @@ app-admin/bitwarden-cli-bin ~amd64
 dev-libs/nspr ~amd64
 app-admin/s-tui ~amd64
 x11-misc/dotool ~amd64
-media-gfx/swayimg ~amd64
+media-gfx/swayimg ~amd65
 x11-misc/rofi-calc ~amd64
 x11-misc/rofi-emoji ~amd64
 
-
 sys-apps/drm_info ~amd64
 app-misc/ani-cli ~amd64
+app-text/typst ~amd64
+
+gui-apps/noctalia-qs ~amd64
+gui-apps/noctalia-shell ~amd64
+app-misc/brightnessctl ~amd64
+dev-util/breakpad ~amd64
+dev-embedded/libdisasm ~amd64
+dev-libs/linux-syscall-support ~amd64
 
 #WAYLAND: UPDATE on new changes for feb 2026 and dedicated overlay.
 # gui-libs/wlroots **

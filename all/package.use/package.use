@@ -82,18 +82,20 @@ dev-python/pillow jpeg2k
 media-gfx/swayimg png webp sixel
 
 
+gui-apps/noctalia-qs X bluetooth # without x or bluetooth this breaks, no way around it for now
+app-misc/ddcutil user-permissions
 
-# qt
-dev-qt/qtbase X libproxy opengl
+
+# qt # vulkan is needed for noctalia-qs
+dev-qt/qtbase X libproxy opengl vulkan
 dev-qt/qtwebengine opengl widgets
-dev-qt/qtmultimedia X opengl
+dev-qt/qtmultimedia X opengl vulkan
 dev-python/pyqt6 webchannel quick opengl qml multimedia svg
 dev-qt/qt5compat qml
 dev-qt/qttools opengl
-dev-qt/qtdeclarative opengl
+dev-qt/qtdeclarative opengl vulkan
 dev-qt/qtgui egl eglfs dbus jpeg libinput png X
 dev-qt/qtwebchannel qml
-
 
 # gimp
 media-libs/babl introspection lcms

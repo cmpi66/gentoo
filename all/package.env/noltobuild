@@ -9,3 +9,6 @@
 
 # app-office/sc-im nolto.conf
 
+# these are fialing to build lets see if its and LTO issue, well they still fail even with nolto.conf
+# gui-apps/noctalia-shell nolto.conf
+# gui-apps/noctalia-qs nolto.conf
