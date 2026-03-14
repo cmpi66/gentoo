@@ -82,8 +82,7 @@ dev-python/pillow jpeg2k
 media-gfx/swayimg png webp sixel
 
 
-gui-apps/noctalia-qs X bluetooth # without x or bluetooth this breaks, no way around it for now
-app-misc/ddcutil user-permissions
+gui-apps/noctalia-qs X bluetooth -network -greetd upower # without x, bluetooth or upower this breaks, no way around it for now
 
 
 # qt # vulkan is needed for noctalia-qs
