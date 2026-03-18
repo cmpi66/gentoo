@@ -53,7 +53,6 @@ gui-apps/hyprshot
 gui-apps/mako
 gui-apps/noctalia-shell
 gui-apps/satty
-gui-apps/waybar
 gui-apps/wf-recorder
 gui-libs/xdg-desktop-portal-hyprland
 gui-wm/hyprland
@@ -121,6 +120,7 @@ sys-kernel/dracut
 sys-kernel/gentoo-sources
 sys-kernel/installkernel
 sys-kernel/linux-firmware
+sys-libs/ncurses
 sys-power/cpupower
 sys-process/at
 sys-process/btop

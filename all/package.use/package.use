@@ -63,7 +63,7 @@ xfce-base/thunar -trash-panel-plugin
 x11-themes/catppuccin-gtk macchiato latte
 www-client/firefox dbus hwaccel -telemetry
 www-client/librewolf dbus hwaccel -telemetry
-# sys-libs/ncurses
+sys-libs/ncurses -minimal
 net-libs/nodejs inspector npm
 www-client/qutebrowser widevine
 gui-libs/gtk introspection
@@ -80,6 +80,7 @@ app-arch/p7zip rar
 media-gfx/chafa webp svg jpegxl
 dev-python/pillow jpeg2k
 media-gfx/swayimg png webp sixel
+app-misc/tmux sixel
 
 
 gui-apps/noctalia-qs X bluetooth -network -greetd upower # without x, bluetooth or upower this breaks, no way around it for now

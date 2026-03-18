@@ -3,52 +3,34 @@ sys-process/task-spooler ~amd64
 media-sound/mpd ~amd64
 net-mail/urlscan ~amd64
 app-text/languagetool ~amd64
-dev-util/shfmt ~amd64
-net-mail/mpop ~amd64
 app-misc/yazi ~amd64
 app-shells/zoxide ~amd64
-app-misc/glow ~amd64
-app-misc/nwg-look ~amd64
-x11-apps/xcur2png ~amd64
 dev-qt/qtwayland ~amd64
-gui-apps/hyprpicker ~amd64
 dev-cpp/sdbus-c++ ~amd64
 sys-kernel/linux-firmware ~amd64
-media-video/obs-studio ~amd64
 gui-apps/satty ~amd64
 gui-apps/espanso ~amd64
-app-shells/fish ~amd64
-x11-themes/catppuccin-gtk ~amd64
 www-client/librewolf ~amd64
 dev-libs/nss ~amd64
-x11-terms/ghostty ~amd64
-x11-terms/ghostty-terminfo ~amd64
 gui-libs/gtk4-layer-shell ~amd64
-media-sound/rmpc ~amd64
 media-sound/wiremix ~amd64
-gui-apps/tofi ~amd64
 www-client/qutebrowser ~amd64
 net-p2p/stig ~amd64
 media-plugins/obs-pipewire-audio-capture ~amd64
+media-video/obs-studio ~amd64
 app-misc/tealdeer ~amd64
-app-admin/bitwarden-cli-bin ~amd64
 dev-libs/nspr ~amd64
 app-admin/s-tui ~amd64
 x11-misc/dotool ~amd64
 media-gfx/swayimg ~amd65
 x11-misc/rofi-calc ~amd64
-x11-misc/rofi-emoji ~amd64
-
 sys-apps/drm_info ~amd64
-app-misc/ani-cli ~amd64
 app-text/typst ~amd64
 
+# noctalia
 gui-apps/noctalia-qs ~amd64
 gui-apps/noctalia-shell ~amd64
 app-misc/brightnessctl ~amd64
-dev-util/breakpad ~amd64
-dev-embedded/libdisasm ~amd64
-dev-libs/linux-syscall-support ~amd64
 
 #WAYLAND: UPDATE on new changes for feb 2026 and dedicated overlay.
 # gui-libs/wlroots **
@@ -74,8 +56,7 @@ gui-apps/hyprlock ~amd64
 gui-apps/hypridle ~amd64
 gui-apps/hyprpaper ~amd64
 gui-apps/hyprshade ~amd64
-dev-python/chevron ~amd64
- gui-apps/hyprsunset ~amd64
+gui-apps/hyprpicker ~amd64
 
 
 
