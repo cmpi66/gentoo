@@ -2,7 +2,6 @@
 sys-process/task-spooler ~amd64
 media-sound/mpd ~amd64
 net-mail/urlscan ~amd64
-app-text/languagetool ~amd64
 app-misc/yazi ~amd64
 app-shells/zoxide ~amd64
 dev-qt/qtwayland ~amd64
@@ -12,7 +11,6 @@ gui-apps/satty ~amd64
 gui-apps/espanso ~amd64
 www-client/librewolf ~amd64
 dev-libs/nss ~amd64
-gui-libs/gtk4-layer-shell ~amd64
 media-sound/wiremix ~amd64
 www-client/qutebrowser ~amd64
 net-p2p/stig ~amd64
@@ -26,6 +24,10 @@ media-gfx/swayimg ~amd65
 x11-misc/rofi-calc ~amd64
 sys-apps/drm_info ~amd64
 app-text/typst ~amd64
+gui-wm/niri ~amd64
+app-misc/presenterm ~amd64
+app-admin/chezmoi ~amd64
+
 
 # noctalia
 gui-apps/noctalia-qs ~amd64

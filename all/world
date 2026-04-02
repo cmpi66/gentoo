@@ -1,3 +1,4 @@
+app-admin/ansible
 app-admin/doas
 app-admin/eclean-kernel
 app-admin/entr
@@ -18,6 +19,7 @@ app-eselect/eselect-repository
 app-misc/abook
 app-misc/asciinema
 app-misc/jq
+app-misc/presenterm
 app-misc/resolve-march-native
 app-misc/tealdeer
 app-misc/tmux
@@ -32,6 +34,7 @@ app-portage/portage-utils
 app-shells/atuin
 app-shells/fzf
 app-shells/gentoo-zsh-completions
+app-shells/starship
 app-shells/zoxide
 app-shells/zsh
 app-text/pandoc-bin
@@ -42,6 +45,7 @@ dev-python/krb5
 dev-python/tldextract
 dev-python/weasyprint
 dev-util/ctags
+dev-util/tree-sitter-cli
 dev-vcs/git
 gui-apps/espanso
 gui-apps/foot
@@ -53,9 +57,11 @@ gui-apps/hyprshot
 gui-apps/mako
 gui-apps/noctalia-shell
 gui-apps/satty
+gui-apps/swaybg
 gui-apps/wf-recorder
 gui-libs/xdg-desktop-portal-hyprland
 gui-wm/hyprland
+gui-wm/niri
 mail-client/mutt-wizard
 media-fonts/joypixels
 media-fonts/libertine
@@ -120,7 +126,6 @@ sys-kernel/dracut
 sys-kernel/gentoo-sources
 sys-kernel/installkernel
 sys-kernel/linux-firmware
-sys-libs/ncurses
 sys-power/cpupower
 sys-process/at
 sys-process/btop

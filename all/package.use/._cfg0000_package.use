@@ -82,11 +82,10 @@ dev-python/pillow jpeg2k
 media-gfx/swayimg png webp sixel
 app-misc/tmux sixel
 gui-wm/niri screencast
-gnome-base/gsettings-desktop-schemas introspection
 
 
 
-gui-apps/noctalia-qs X bluetooth -networkmanager -greetd upower # without x, bluetooth or upower this breaks, no way around it for now
+gui-apps/noctalia-qs X bluetooth -network -greetd upower # without x, bluetooth or upower this breaks, no way around it for now
 
 
 # qt # vulkan is needed for noctalia-qs
@@ -146,3 +145,8 @@ gui-apps/swaybg gdk-pixbuf
 ## X since now i need X back for certain apps (python) 1-27-26
 x11-base/xorg-server xvfb -minimal
 x11-misc/clipmenu -dmenu rofi
+# required by gnome-base/gnome-desktop-44.4-r400::gentoo
+# required by sys-apps/xdg-desktop-portal-gnome-48.0::gentoo
+# required by gui-wm/niri-25.11-r1::guru[screencast]
+# required by gui-wm/niri (argument)
+>=gnome-base/gsettings-desktop-schemas-48.0 introspection
