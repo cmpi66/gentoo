@@ -27,7 +27,7 @@ app-text/typst ~amd64
 gui-wm/niri ~amd64
 app-misc/presenterm ~amd64
 app-admin/chezmoi ~amd64
-
+mail-client/aerc ~amd64
 
 # noctalia
 gui-apps/noctalia-qs ~amd64
