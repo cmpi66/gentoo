@@ -29,10 +29,15 @@ app-misc/presenterm ~amd64
 app-admin/chezmoi ~amd64
 mail-client/aerc ~amd64
 
+app-crypt/age-plugin-yubikey ~amd64
+app-admin/passage ~amd64
+
 # noctalia
 gui-apps/noctalia-qs ~amd64
 gui-apps/noctalia-shell ~amd64
 app-misc/brightnessctl ~amd64
+# apr 7 2026 qtbase needed amd 64 for version 6.10.3 but that doesnt fly for qt, they all need to be updated.
+dev-qt/* ~amd64
 
 #WAYLAND: UPDATE on new changes for feb 2026 and dedicated overlay.
 # gui-libs/wlroots **

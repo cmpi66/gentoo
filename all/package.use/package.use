@@ -83,7 +83,7 @@ media-gfx/swayimg png webp sixel
 app-misc/tmux sixel
 gui-wm/niri screencast
 gnome-base/gsettings-desktop-schemas introspection
-
+app-admin/passage git
 
 
 gui-apps/noctalia-qs X bluetooth -networkmanager -greetd upower # without x, bluetooth or upower this breaks, no way around it for now

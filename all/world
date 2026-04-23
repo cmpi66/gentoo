@@ -11,6 +11,8 @@ app-admin/syslog-ng
 app-arch/p7zip
 app-containers/docker
 app-containers/docker-cli
+app-crypt/age
+app-crypt/age-plugin-yubikey
 app-crypt/gnupg
 app-crypt/yubikey-manager
 app-editors/vim
@@ -87,6 +89,8 @@ net-libs/libnsl
 net-mail/urlscan
 net-misc/chrony
 net-misc/dhcpcd
+net-misc/iperf
+net-misc/openssh
 net-misc/rclone
 net-misc/socat
 net-misc/yt-dlp
