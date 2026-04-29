@@ -20,11 +20,11 @@ app-misc/tealdeer ~amd64
 dev-libs/nspr ~amd64
 app-admin/s-tui ~amd64
 x11-misc/dotool ~amd64
-media-gfx/swayimg ~amd65
+media-gfx/swayimg ~amd64
+gui-wm/niri ~amd64
 x11-misc/rofi-calc ~amd64
 sys-apps/drm_info ~amd64
 app-text/typst ~amd64
-gui-wm/niri ~amd64
 app-misc/presenterm ~amd64
 app-admin/chezmoi ~amd64
 mail-client/aerc ~amd64
@@ -32,12 +32,17 @@ mail-client/aerc ~amd64
 app-crypt/age-plugin-yubikey ~amd64
 app-admin/passage ~amd64
 
+
+
 # noctalia
 gui-apps/noctalia-qs ~amd64
 gui-apps/noctalia-shell ~amd64
 app-misc/brightnessctl ~amd64
 # apr 7 2026 qtbase needed amd 64 for version 6.10.3 but that doesnt fly for qt, they all need to be updated.
 dev-qt/* ~amd64
+dev-cpp/cpptrace ~amd64
+dev-libs/libdwarf ~amd64
+
 
 #WAYLAND: UPDATE on new changes for feb 2026 and dedicated overlay.
 # gui-libs/wlroots **

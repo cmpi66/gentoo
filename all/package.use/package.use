@@ -88,6 +88,8 @@ app-admin/passage git
 
 gui-apps/noctalia-qs X bluetooth -networkmanager -greetd upower # without x, bluetooth or upower this breaks, no way around it for now
 
+dev-cpp/cpptrace unwind
+
 
 # qt # vulkan is needed for noctalia-qs
 dev-qt/qtbase X libproxy opengl vulkan

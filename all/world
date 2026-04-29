@@ -40,7 +40,6 @@ dev-python/krb5
 dev-python/tldextract
 dev-python/weasyprint
 dev-util/ctags
-dev-util/tree-sitter-cli
 dev-vcs/git
 gui-apps/espanso
 gui-apps/foot
@@ -70,6 +69,7 @@ media-gfx/swayimg
 media-gfx/zbar
 media-libs/exiftool
 media-libs/libsixel
+media-libs/taglib
 media-sound/mpc
 media-sound/mpd
 media-sound/ncmpcpp
@@ -85,7 +85,6 @@ net-analyzer/tcpdump
 net-analyzer/traceroute
 net-dns/bind-tools
 net-fs/nfs-utils
-net-libs/libnsl
 net-mail/urlscan
 net-misc/chrony
 net-misc/dhcpcd
@@ -94,7 +93,6 @@ net-misc/openssh
 net-misc/rclone
 net-misc/socat
 net-misc/yt-dlp
-net-news/newsboat
 net-p2p/stig
 net-p2p/syncthing
 net-p2p/transmission
@@ -121,7 +119,6 @@ sys-kernel/installkernel
 sys-kernel/linux-firmware
 sys-power/cpupower
 sys-process/at
-sys-process/btop
 sys-process/cronie
 sys-process/lsof
 sys-process/parallel
