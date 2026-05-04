@@ -36,6 +36,7 @@ app-text/pandoc-bin
 app-text/typst
 app-text/zathura-pdf-mupdf
 dev-lang/rust
+dev-libs/date
 dev-python/krb5
 dev-python/tldextract
 dev-python/weasyprint
@@ -43,18 +44,13 @@ dev-util/ctags
 dev-vcs/git
 gui-apps/espanso
 gui-apps/foot
+gui-apps/grim
 gui-apps/hypridle
-gui-apps/hyprlock
-gui-apps/hyprpaper
 gui-apps/hyprpicker
-gui-apps/hyprshot
-gui-apps/mako
 gui-apps/noctalia-shell
 gui-apps/satty
-gui-apps/swaybg
+gui-apps/slurp
 gui-apps/wf-recorder
-gui-libs/xdg-desktop-portal-hyprland
-gui-wm/hyprland
 gui-wm/niri
 mail-client/aerc
 media-fonts/joypixels
@@ -85,7 +81,6 @@ net-analyzer/tcpdump
 net-analyzer/traceroute
 net-dns/bind-tools
 net-fs/nfs-utils
-net-mail/urlscan
 net-misc/chrony
 net-misc/dhcpcd
 net-misc/iperf
@@ -127,6 +122,7 @@ www-client/brave-browser
 www-client/librewolf
 www-client/qutebrowser
 www-client/w3m
+x11-libs/libnotify
 x11-misc/dotool
 x11-misc/gammastep
 x11-misc/rofi

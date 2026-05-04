@@ -93,7 +93,7 @@ dev-cpp/cpptrace unwind
 
 # qt # vulkan is needed for noctalia-qs
 dev-qt/qtbase X libproxy opengl vulkan
-dev-qt/qtwebengine opengl widgets
+dev-qt/qtwebengine opengl widgets vulkan vaapi screencast
 dev-qt/qtmultimedia X opengl vulkan
 dev-python/pyqt6 webchannel quick opengl qml multimedia svg
 dev-qt/qt5compat qml
@@ -101,6 +101,7 @@ dev-qt/qttools opengl
 dev-qt/qtdeclarative opengl vulkan
 dev-qt/qtgui egl eglfs dbus jpeg libinput png X
 dev-qt/qtwebchannel qml
+media-libs/libva X
 
 # gimp
 media-libs/babl introspection lcms
