@@ -102,6 +102,7 @@ sys-apps/smartmontools
 sys-apps/usbutils
 sys-apps/xdg-desktop-portal
 sys-auth/elogind
+sys-block/zram-init
 sys-boot/grub
 sys-fs/btrfs-progs
 sys-fs/cryptsetup

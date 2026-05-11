@@ -4,7 +4,7 @@ dev-libs/libpcre2 pcre32
 app-text/xmlto text
 media-video/vlc dbus ogg
 sys-libs/zlib minizip
-media-video/pipewire -aac -aptx -bluetooth sound-server pipewire-alsa v4l dbus
+media-video/pipewire -aac -aptx bluetooth sound-server pipewire-alsa v4l dbus
 mail-client/neomutt notmuch sasl
 media-sound/mpd opus flac
 app-crypt/gcr gtk
@@ -89,6 +89,7 @@ app-admin/passage git
 gui-apps/noctalia-qs X bluetooth -networkmanager -greetd upower # without x, bluetooth or upower this breaks, no way around it for now
 
 dev-cpp/cpptrace unwind
+sys-libs/libxcrypt static-libs
 
 
 # qt # vulkan is needed for noctalia-qs

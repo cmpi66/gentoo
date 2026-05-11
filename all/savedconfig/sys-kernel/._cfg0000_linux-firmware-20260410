@@ -25,6 +25,6 @@ amdgpu/sdma_6_0_0.bin
 amdgpu/smu_13_0_0.bin
 amdgpu/vcn_3_1_2.bin
 amdgpu/vcn_4_0_0.bin
+mediatek/BT_RAM_CODE_MT7922_1_1_hdr.bin
 rtl_nic/rtl8168h-2.fw
 rtl_nic/rtl8125b-2.fw
-mediatek/BT_RAM_CODE_MT7922_1_1_hdr.bin

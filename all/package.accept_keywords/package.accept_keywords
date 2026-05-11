@@ -28,6 +28,8 @@ app-text/typst ~amd64
 app-misc/presenterm ~amd64
 app-admin/chezmoi ~amd64
 mail-client/aerc ~amd64
+sys-kernel/zen-sources ~amd64
+gui-apps/xwayland-satellite ~amd64
 
 app-crypt/age-plugin-yubikey ~amd64
 app-admin/passage ~amd64
