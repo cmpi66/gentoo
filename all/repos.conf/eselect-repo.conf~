@@ -43,7 +43,8 @@ location = /var/db/repos/another-brave-overlay
 sync-type = git
 sync-uri = https://github.com/falbrechtskirchinger/another-brave-overlay.git
 
-[goduck777]
-location = /var/db/repos/goduck777
+
+[hyproverlay]
+location = /var/db/repos/hyproverlay
 sync-type = git
-sync-uri = https://github.com/goduck777/gentoo-overlay.git
+sync-uri = https://codeberg.org/hyproverlay/hyproverlay.git
