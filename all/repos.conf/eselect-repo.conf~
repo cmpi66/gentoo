@@ -18,11 +18,6 @@ sync-type = git
 sync-uri = https://codeberg.org/librewolf/gentoo.git
 
 
-[pf4public]
-location = /var/db/repos/pf4public
-sync-type = git
-sync-uri = https://github.com/PF4Public/gentoo-overlay.git
-
 [mv]
 location = /var/db/repos/mv
 sync-type = git
@@ -44,7 +39,3 @@ location = /var/db/repos/hyproverlay
 sync-type = git
 sync-uri = https://codeberg.org/hyproverlay/hyproverlay.git
 
-[holgersson-overlay]
-location = /var/db/repos/holgersson-overlay
-sync-type = git
-sync-uri = https://git.holgersson.xyz/gentoo-related/holgersson-overlay
