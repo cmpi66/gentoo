@@ -39,7 +39,8 @@ app-admin/passage ~amd64
 # noctalia
 gui-apps/noctalia ~amd64
 gui-apps/noctalia-qs ~amd64
-gui-apps/noctalia-shell ~amd64
+# move gui-apps/noctalia-shell gui-apps/noctalia
+gui-apps/noctalia ~amd64
 app-misc/brightnessctl ~amd64
 # apr 7 2026 qtbase needed amd 64 for version 6.10.3 but that doesnt fly for qt, they all need to be updated.
 dev-qt/* ~amd64
@@ -95,7 +96,7 @@ app-emulation/virtualbox-guest-additions ~amd64
 app-emulation/virtualbox-modules ~amd64
 app-emulation/virtualbox-guest-modules ~amd64
 
-# ai and hashcat
+# ai
 dev-util/hip ~amd64
 dev-libs/rocm-device-libs ~amd64
 dev-libs/rocm-comgr ~amd64
@@ -104,9 +105,5 @@ dev-libs/roct-thunk-interface ~amd64
 dev-util/hipcc ~amd64
 dev-util/rocminfo ~amd64
 dev-libs/rocm-opencl-runtime ~amd64
-dev-util/rocm-smi ~amd64
-dev-build/rocm-cmake ~amd64
-dev-libs/rocm-core ~amd64
 sci-ml/ollama ~amd64
-app-crypt/hashcat ~amd64
-app-crypt/hashcat-utils ~amd64
+dev-util/rocm-smi ~amd64
