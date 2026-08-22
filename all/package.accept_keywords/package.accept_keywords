@@ -37,7 +37,6 @@ app-admin/passage ~amd64
 
 
 # noctalia
-gui-apps/noctalia ~amd64
 gui-apps/noctalia-qs ~amd64
 gui-apps/noctalia-shell ~amd64
 app-misc/brightnessctl ~amd64
@@ -45,6 +44,7 @@ app-misc/brightnessctl ~amd64
 dev-qt/* ~amd64
 dev-cpp/cpptrace ~amd64
 dev-libs/libdwarf ~amd64
+gui-apps/noctalia **
 
 
 #WAYLAND: UPDATE on new changes for feb 2026 and dedicated overlay.

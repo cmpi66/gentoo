@@ -28,6 +28,7 @@ app-misc/presenterm
 app-misc/resolve-march-native
 app-misc/tealdeer
 app-misc/tmux
+app-office/libreoffice-bin
 app-office/sc-im
 app-portage/cpuid2cpuflags
 app-portage/eix
@@ -100,7 +101,6 @@ net-misc/dhcpcd
 net-misc/iperf
 net-misc/openssh
 net-misc/rclone
-net-misc/remmina
 net-misc/socat
 net-misc/yt-dlp
 net-p2p/stig
