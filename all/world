@@ -61,6 +61,7 @@ gui-apps/espanso
 gui-apps/foot
 gui-apps/grim
 gui-apps/hypridle
+gui-apps/hyprlock
 gui-apps/hyprpicker
 gui-apps/noctalia
 gui-apps/satty
@@ -101,6 +102,7 @@ net-misc/dhcpcd
 net-misc/iperf
 net-misc/openssh
 net-misc/rclone
+net-misc/remmina
 net-misc/socat
 net-misc/yt-dlp
 net-p2p/stig
